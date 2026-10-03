@@ -1,0 +1,187 @@
+# ============================================================
+# Island Survival Simulation - Global Config
+# All numbers are starting values; finalize after scarcity
+# calibration (see `calibration` at the bottom).
+# ============================================================
+
+# ---------- Run ----------
+run:
+  weeks: 8                  # 8 weeks total
+  action_days_per_week: 5   # 5 action days per week, 40 days total
+  season_length_weeks: 4    # a season = 4 weeks (settled at end of week 4 and 8)
+  seed: 42                  # groups A and B use the same random seed
+
+# ---------- LLM ----------
+llm:
+  model: "qwen3:14b"         # switch to qwen3:14b if quality is poor
+  num_ctx: 8192
+  think: false
+  max_retries: 3            # retry up to 3 times on invalid output
+  fallback_action: "rest"   # if still invalid, default to rest and log the error
+  temperature: 0.7
+  max_output_tokens: 1300   # hard cap on answer length (prevents endless generation)
+  timeout_seconds: 240      # give up on a single call after 4 minutes and retry
+  wait_if_down_minutes: 30  # if Ollama is unreachable, wait up to 30 min, then STOP (progress is saved)
+
+# ---------- Food ----------
+food:
+  unit_name: "ration unit"
+  spoil_rate_weekly:        # share of each food that rots at the end of every week
+    fish: 0.40              # spoils fastest
+    clam: 0.30
+    forage: 0.20
+    coconut: 0.10           # hard shell, keeps well
+    can: 0.0                # never spoils
+  eat_order: [fish, clam, forage, coconut, can]   # most perishable eaten first
+  protein_bonus:            # eating fish gives extra strength
+    min_fish: 0.5           # eat at least this much fish in a day...
+    stamina: 5              # ...to get +5 stamina that night
+  cans_spoil: false         # canned food does not spoil
+  family_shares_food: true  # a family is one household: whoever runs out eats from relatives' food
+
+# Ration level: chosen once per week in the Plan phase;
+# sets what fraction of daily need each agent eats every day.
+rations:
+  normal: 1.0               # eat full daily need
+  save: 0.5                 # eat half
+  skip: 0.0                 # eat nothing
+hunger_threshold: 0.5       # a day counts as "starving" if eaten < need * 0.5
+
+# ---------- Stamina ----------
+stamina:
+  initial: 70
+  max: 100
+  min: 0
+  labor_cost: 10            # default work cost; each action below may set its own stamina_cost
+  rest_gain: 15             # rest: +15
+  overnight_recovery: 5     # every night, an agent who ate at least half their need regains +5 (sleep)
+  underfed_penalty: 5       # ate less than full need (but not starving): -5
+  hunger_penalty: 10        # starving day (ate < need * hunger_threshold): -10
+  heavy_work_min: 30        # below 30, no heavy work allowed
+  collapse_below: 10        # below 10 at the start of a day: collapse, forced to rest
+  starving_cap:             # while starving several days in a row, stamina cannot exceed a falling cap
+    start: 60               # after the 1st starving day: at most 60
+    step: 10                # each further starving day in a row: 10 lower
+    floor: 30               # never below 30 (light work like clams stays possible: no absorbing trap)
+
+# Each character's yield is multiplied by their `productivity`
+# in characters.json (e.g. 0.5 = half yield).
+
+# ---------- Actions ----------
+# yield: [min, max], uniform random integer; heavy = counts as heavy work
+actions:
+  fish:
+    stamina_cost: 10
+    name: "Fish"
+    yield_with_gear: [3, 4]
+    yield_without_gear: [0, 2]
+    gear_item: "fishing line and hooks"
+    min_stamina: 40
+    heavy: true
+    food_type: "fish"
+  clam:
+    stamina_cost: 5  # light work
+    name: "Gather clams in tide pools"
+    yield: [1, 2]
+    crowd_limit: 2          # if more than 2 people gather clams the same day,
+    crowd_factor: 0.5       # everyone's yield is halved (crowded commons)
+    heavy: false
+    food_type: "clam"
+  coconut:
+    stamina_cost: 12  # climbing is hard
+    name: "Climb coconut trees"
+    yield: [2, 4]
+    max_age: 59             # must be under 60
+    min_stamina: 60
+    total_stock: 25         # 25 coconuts on the island, no regrowth
+    heavy: true
+    food_type: "coconut"
+  forage:
+    stamina_cost: 10
+    name: "Forage in the forest"
+    yield: [2, 4]
+    injury_prob: 0.20
+    injury_stamina: 20      # injury: stamina -20
+    heal_item: "first aid kit"  # holder of the kit can heal an injury (restores the 20)
+    heavy: true
+    food_type: "forage"
+  shelter:
+    stamina_cost: 12  # hauling wood
+    name: "Build shelter"
+    progress: 1             # shared shelter progress +1
+    heavy: true
+  coop_fish:
+    stamina_cost: 10
+    name: "Cooperative fishing"
+    multiplier: 1.5         # sum of both agents' fishing yields x 1.5
+    requires_contact: true  # must be arranged during the Contact phase
+    max_dialogue_turns: 6
+    heavy: true
+  rest:
+    name: "Rest"
+  give:
+    name: "Give"
+  trade:
+    name: "Trade"
+    requires_consent: true
+  steal:
+    name: "Steal"
+    amount: [1, 3]
+    detect_prob: 0.50       # if detected, the victim learns who did it
+
+# ---------- Loans ----------
+loans:
+  max_days: 10              # a loan must be repaid within at most 10 action days (2 weeks)
+  # Repayment is automatic at the end of the due day, AFTER the borrower has eaten: whatever they can pay
+  # goes to the lender. If not fully paid, everyone hears about the default and the borrower's leftover
+  # food is taken every evening until the debt is cleared.
+
+# ---------- Social ----------
+social:
+  contact_rounds: 3         # 3 rounds of private messages per week
+  messages_per_round: 2     # max 2 messages per agent per round
+  campfire_lines: 1         # 1 line per agent each evening (public or whisper)
+
+# ---------- Events ----------
+events:
+  typhoon:
+    week: 3
+    days: [1, 2, 3]
+    blocked_actions: ["fish", "coop_fish", "coconut", "forage", "shelter"]   # only clams (and rest) possible
+    forecast: true          # everyone is warned at the start of the typhoon week (before private messages)
+  radio:
+    week: 5
+    day: 1
+    message: "A radio broadcast says a rescue ship will arrive at the end of week 8, and there is room for everyone."
+  rescue:
+    week: 8                 # rescue ship arrives at end of week 8; simulation ends
+
+# ---------- Season-end persona update ----------
+persona_update:
+  max_shift_per_season: 10  # generosity and trust change by at most +/-10 per season
+
+# ---------- Life reward ----------
+reward:
+  social:
+    damping: 0.85           # PageRank damping factor
+    reciprocity_alpha: 2    # reciprocity bonus alpha
+  subjective:
+    starve_penalty: 5       # -5 points per starving day
+  groups:
+    A:
+      label: "Individualist incentive"
+      weights: {economic: 0.6, social: 0.2, subjective: 0.2}
+      prompt: "Your evaluation depends mainly on how much food you personally hold."
+    B:
+      label: "Reputation incentive"
+      weights: {economic: 0.2, social: 0.6, subjective: 0.2}
+      prompt: "Your evaluation depends mainly on how much the others trust and like you."
+
+# ---------- Scarcity calibration ----------
+calibration:
+  runs: 100
+  # Full-effort capacity is set ~15-20% ABOVE need: in trial runs the LLM agents worked only
+  # ~60% of days and fresh food spoils, so the food actually available ends up below need.
+  # (Measured 1.24 after adding per-action costs and the fish bonus; accepted because most of the
+  #  extra is Pete's fish, which loses 40% per week, so the food that can actually be eaten is lower.)
+  target_ratio: [1.10, 1.25]  # expected full-effort (greedy) output / total island need

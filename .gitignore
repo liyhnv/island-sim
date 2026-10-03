@@ -1,0 +1,13 @@
+# run outputs (to be published separately with the results)
+logs/
+saves/
+logs_*/
+saves_*/
+archive/
+
+# python / OS
+__pycache__/
+*.pyc
+.DS_Store
+.env
+*.log
