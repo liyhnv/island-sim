@@ -31,6 +31,9 @@
 - **Persona dominance.** Strongly written personas (Alice the moral voice, Pete the self-reliant
   provider, Lucky who agrees with the last adult) may outweigh a one-sentence change in the
   scoring rule, which would bias the study toward finding no effect.
+- **Persona and position are confounded.** Each persona is played by one agent, and the least
+  generous persona (Pete) is also the richest agent. The exploratory incentive-vs-persona question
+  can therefore only be answered at the level of cases.
 - **Stochasticity.** Sampling at temperature 0.7 means the same situation can produce different
   choices; replications address this only partially.
 

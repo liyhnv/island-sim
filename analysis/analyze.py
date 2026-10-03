@@ -9,6 +9,12 @@ For every run, restricted to the first --weeks weeks:
   the season life reward recomputed from the logs, and two text-based proxies:
   how often agents mention reputation-type reasons, and a rough say-do gap.
 
+Per agent (for the exploratory question on persona vs incentive): what each agent gave,
+offered and was asked for, how often it agreed to requests, how it was rated, and how often its
+own texts cite reputation-type vs self-security reasons. When an A run and a B run with the same
+suffix are given (A_r2 + B_r2, A_r2_fb + B_r2_fb), the per-agent B - A differences are printed
+next to each agent's starting generosity.
+
 Text measures are keyword-based and approximate; they are meant to point at passages
 worth reading, not to replace reading them.
 """
@@ -31,6 +37,10 @@ WEAK = ["Lucky", "Alice", "Bob"]
 
 REPUTATION_WORDS = re.compile(r"\b(trust|trusted|reputation|respect|liked|like me|think of me|see me|good name|"
                               r"goodwill|how others|the others see|the group sees|look bad|seen as)\b", re.I)
+SELF_WORDS = re.compile(r"\b(my own (food|supply|stock|needs|family)|my family|our family|my household|"
+                        r"self-reliant|rely on myself|can't afford|cannot afford|can't spare|cannot spare|"
+                        r"keep (my|our) (food|supply|stock)|secure (my|our)|stable supply|need it (myself|for)|"
+                        r"look after (my|our)|take care of (my|our))\b", re.I)
 PROMISE = re.compile(r"\b(i('ll| will| can| could)|maybe (we|i) (can|could)|let me)\b[^.?!]{0,60}\b(share|give|split|spare|help you with food|"
                      r"some of my|a little of my|portion)\b", re.I)
 
@@ -192,7 +202,65 @@ def analyse(d, weeks):
             if any(k in gift_days[m["speaker"]] for k in ((w, dd), (w, dd + 1), (w, max(1, dd)))):
                 kept += 1
     out["say_do"] = {"promise_like_lines": prom, "followed_by_a_gift": kept}
+
+    # per agent
+    own_texts = defaultdict(list)
+    for p in L["plans"]:
+        own_texts[p["agent"]].append(p.get("plan", ""))
+    for a in L["actions"]:
+        own_texts[a.get("agent")].append(a.get("thought", ""))
+    for m in L["dialogues"]:
+        own_texts[m.get("speaker")].append(m.get("text", ""))
+    props = L["trades"]
+
+    def asked_to_give(n, t):
+        # proposals in which n is asked to hand food over (or to fish together)
+        if t["to"] != n:
+            return False
+        return (t["type"] == "loan" and t.get("lender") == n) or t["type"] in ("trade", "coop_fish")
+
+    per = {}
+    for n in NAMES:
+        asked = [t for t in props if asked_to_give(n, t)]
+        texts_n = [x for x in own_texts[n] if x]
+        per[n] = {
+            "start_generosity": CHARS[n]["generosity"],
+            "gifts_given_units": round(sum(g["amount"] for g in cross if g["giver"] == n), 1),
+            "loan_offers_as_lender": sum(1 for t in props if t["type"] == "loan" and t["from"] == n
+                                         and t.get("lender") == n),
+            "asked_to_give": len(asked),
+            # agreed = accepted, or accepted but could not be carried out ("failed": e.g. food gone, already fishing that day)
+            "accepted_when_asked": sum(1 for t in asked if t["status"] in ("accepted", "failed")),
+            "plans_to_lend": sum(1 for p in L["plans"] if p["agent"] == n and p.get("credit_intent") == "lend"),
+            "like_received_mean": round(sum(x for _, x in received[n]) / max(1, len(received[n])), 1),
+            "food_end": out["food_end"][n],
+            "starving_days": starving[n],
+            "reputation_reason_per_100": round(100 * sum(1 for x in texts_n if REPUTATION_WORDS.search(x))
+                                               / max(1, len(texts_n)), 1),
+            "self_reason_per_100": round(100 * sum(1 for x in texts_n if SELF_WORDS.search(x))
+                                         / max(1, len(texts_n)), 1),
+        }
+    out["per_agent"] = per
     return out
+
+
+def paired_differences(res):
+    """Per-agent B - A differences for runs that differ only in the group letter."""
+    by = {r["run"]: r for r in res}
+    diffs = []
+    for name, ra in by.items():
+        if not name.startswith("A"):
+            continue
+        rb = by.get("B" + name[1:])
+        if not rb:
+            continue
+        table = {}
+        for n in NAMES:
+            a, b = ra["per_agent"][n], rb["per_agent"][n]
+            table[n] = {"start_generosity": a["start_generosity"],
+                        **{k: round(b[k] - a[k], 1) for k in a if k != "start_generosity"}}
+        diffs.append({"pair": f"{name} vs {rb['run']}", "B_minus_A": table})
+    return diffs
 
 
 def main():
@@ -201,6 +269,16 @@ def main():
     args = [a for a in args if a != str(weeks)]
     res = [analyse(d, weeks) for d in args]
     print(json.dumps(res, indent=1, ensure_ascii=False))
+    diffs = paired_differences(res)
+    if diffs:
+        print("\n# Per-agent B - A differences (agents sorted by starting generosity)")
+        cols = ["gifts_given_units", "loan_offers_as_lender", "asked_to_give", "accepted_when_asked",
+                "like_received_mean", "starving_days", "reputation_reason_per_100", "self_reason_per_100"]
+        for d in diffs:
+            print(f"\n{d['pair']}")
+            print(f"{'agent':8}{'gen':>5}" + "".join(f"{c[:14]:>16}" for c in cols))
+            for n, row in sorted(d["B_minus_A"].items(), key=lambda kv: kv[1]["start_generosity"]):
+                print(f"{n:8}{row['start_generosity']:>5}" + "".join(f"{row[c]:>16}" for c in cols))
 
 
 if __name__ == "__main__":

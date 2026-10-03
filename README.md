@@ -45,6 +45,13 @@ design from **Agentopia: Long-Term Life Simulation and Learning in Agent Societi
 | H2 | During the typhoon the food-rich agent (Pete) gains bargaining power: higher interest, better splits | loan interest by week, cooperative-fishing split shares, accepted/rejected requests |
 | H4 | Cross-family liking grows faster in B; A splits along family lines | secret like/respect ratings, within- vs between-family gap |
 
+**Exploratory question (added after the first no-feedback run):** when the scoring rule pulls
+against an agent's written persona (for example, the self-reliant Pete told that his score depends
+on how much the others like him), which one drives behaviour, and does seeing one's own score
+change that? This is studied per agent, by comparing each agent's B - A differences with its
+starting generosity and coding the reasons it gives. With one agent per persona, it is a case-level
+question, not a test.
+
 A hypothesis about an end-game effect after a rescue announcement (H3) was part of the original
 8-week plan and has been moved to future work (see [`docs/05-development-log.md`](docs/05-development-log.md), v7).
 See [`docs/04-experiment-design.md`](docs/04-experiment-design.md) for the full measures and the

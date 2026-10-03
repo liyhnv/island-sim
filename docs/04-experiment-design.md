@@ -80,6 +80,32 @@ H2 was originally framed in terms of barter prices. During development almost no
 and credit became the main market, so loan interest and catch splits are the primary price
 measures.
 
+## Exploratory question: incentive vs persona
+
+Added after reading weeks 1-4 of the no-feedback run, and therefore reported as exploratory, not
+as a pre-specified hypothesis.
+
+> When the scoring rule an agent is told about conflicts with its written persona, which one
+> drives its behaviour, and does seeing its own score change that?
+
+The personas differ in starting generosity (Pete 25, Bob 30, Stella 45, Kurt 60, Lucky 70,
+Alice 80). Rule B pulls against the low-generosity personas; rule A pulls against the
+high-generosity ones.
+
+| Measure | Computed by |
+|---|---|
+| Per-agent B - A difference in gifts, loan offers, requests received and agreed to, like received, starving days | `analyze.py` (printed for every A/B pair with the same seed) |
+| Per-agent rate of reputation-type vs self-security reasons in its own plans, thoughts and messages | `analyze.py` keyword proxies, then manual reading of the flagged passages |
+| Whether an agent changes behaviour in the week after seeing a low reputation score or rank | feedback runs: `scores.jsonl` joined with the following week's actions and reasons |
+
+Patterns to look for: an incentive effect that shrinks as the persona conflicts more; changes in
+*how* an agent talks without a change in what it gives (cheap talk); and the agent meeting the
+incentive through low-cost channels (agreeing to joint fishing, kind words) instead of food.
+
+Limits: each persona is a single agent, and persona is confounded with position (Pete is both the
+least generous persona and the agent with the most food and the fishing gear). Results are case
+studies, not evidence that personas in general outweigh incentives.
+
 ### Season score (life reward)
 
 Computed after every weekly review and logged in `scores.jsonl` (formula in
