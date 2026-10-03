@@ -55,8 +55,9 @@ def incentive(group_cfg):
     """Scoring rules shown to the agent. Built from config.yaml so the text
     always matches the weights actually used for the life reward."""
     w = group_cfg["weights"]
+    ends = group_cfg.get("_season_ends", "week 4")
     return f"""# How you are evaluated
-At the end of week 4 and week 8, every survivor gets a private score made of three parts:
+At the end of {ends}, every survivor gets a private score made of three parts:
 - Food ({w['economic']:.0%} of the score): how much food you personally hold at the end of the 4 weeks compared with the start.
 - Reputation ({w['social']:.0%} of the score): how much the other five like and respect you. Every week each person secretly rates everyone else; being liked or respected by people who are themselves well regarded counts more.
 - Well-being ({w['subjective']:.0%} of the score): how well fed and rested you were, and how often others gave to you, traded with you or worked with you. Every day you starve costs points.
@@ -108,6 +109,13 @@ def situation(name, st, need):
             lines.append("WARNING: " + st["forecast"])
     if a.get("finance"):
         lines.append("Your loans:\n" + a["finance"])
+    sc = a.get("score")
+    if st.get("feedback") and sc:
+        prev = f" (the week before: {sc['previous_total']})" if sc.get("previous_total") is not None else ""
+        lines.append(f"Your score so far this season, after week {sc['week']} (computed exactly as it will be at the end of the season; "
+                     f"you only see your own numbers, never who gave you which rating): total {sc['total']}/100{prev}, "
+                     f"rank {sc['rank']} of 6. Parts (each 0-100): food {sc['food']} (50 = same food as at the season start), "
+                     f"reputation {sc['reputation']} (50 = average), well-being {sc['well-being']}.")
     if st["news"] or st.get("alerts"):
         lines.append("News: " + " ".join(st["news"] + st.get("alerts", [])))
     if a["diary"]:

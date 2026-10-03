@@ -5,6 +5,7 @@ Entry point.
   python3 run.py --group A --weeks 8 --resume   # continue from the last save
   python3 run.py --group A --weeks 1 --mock     # test without Ollama (random answers)
   python3 run.py --group A --run 2              # repetition 2 of group A (logs/A_r2, seed 43)
+  python3 run.py --group A --run 2 --feedback   # same, agents see their own score each week (logs/A_r2_fb)
 
 Logs go to logs/<group>/, saves to saves/<group>/.
 Mock runs use logs_mock/ and saves_mock/ so they never mix with real data.
@@ -28,6 +29,8 @@ def main():
     ap.add_argument("--weeks", type=int, default=None, help="default: run.weeks in config.yaml")
     ap.add_argument("--resume", action="store_true")
     ap.add_argument("--mock", action="store_true")
+    ap.add_argument("--feedback", action="store_true",
+                    help="agents see their own season score after every weekly review (logs go to <group>_r<N>_fb)")
     ap.add_argument("--run", type=int, default=None,
                     help="repetition number (1, 2, 3...): logs go to logs/<group>_r<N>/, seed = base seed + N - 1 "
                          "(groups A and B of the same repetition share the seed)")
@@ -54,6 +57,11 @@ def main():
         cfg["llm"]["seed"] = cfg["run"]["seed"]
         name = f"{args.group}_r{args.run}"
         print(f"Repetition {args.run}: group {args.group}, seed {cfg['run']['seed']}")
+    if args.feedback:
+        cfg["reward"]["feedback"] = True
+        name += "_fb"
+        print("Score feedback ON: agents see their own season score every week")
+    cfg["run"]["weeks"] = weeks
     log_dir = os.path.join(f"logs{suffix}", name)
     save_dir = os.path.join(f"saves{suffix}", name)
 
@@ -81,7 +89,7 @@ def main():
     except OllamaDown:
         print(f"\nSTOPPED: Ollama was unreachable for {cfg['llm'].get('wait_if_down_minutes', 10)} minutes.")
         print(f"Progress is saved at week {eng.st['week']} ({eng.st['stage']}). Open the Ollama app, then run:")
-        flags = (" --test" if args.test else "") + (" --mock" if args.mock else "") + (f" --run {args.run}" if args.run else "")
+        flags = (" --test" if args.test else "") + (" --mock" if args.mock else "") + (f" --run {args.run}" if args.run else "") + (" --feedback" if args.feedback else "")
         print(f"  python3 run.py --group {args.group} --weeks {weeks}{flags} --resume")
         sys.exit(1)
     print(f"Finished. Logs in {log_dir}/")

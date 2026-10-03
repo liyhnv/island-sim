@@ -4,8 +4,9 @@
 
 Under resource scarcity, does the scoring rule that LLM agents are *told* they will be judged by
 change how their small economy behaves: sharing, lending, inequality, who goes hungry, and how
-they treat each other? And when it does, do the changes come about through the mechanism we
-would expect (for example, B agents giving *because* they care about reputation)?
+they treat each other? Does it matter whether agents can *see* how they are scoring? And when
+behaviour changes, does it change through the mechanism we would expect (for example, B agents
+giving *because* they care about reputation)?
 
 The claim this design can support is about **societies of LLM agents**, not about humans
 (see [`07-limitations.md`](07-limitations.md)). That is still a meaningful question: LLM agents are
@@ -13,79 +14,109 @@ increasingly placed in economic roles where their objectives are specified in na
 
 ## Conditions
 
+Two factors: the scoring rule (A vs B) and score feedback (off vs on).
+
 | | Group A: individualist | Group B: reputation |
 |---|---|---|
 | Weights (economic / social / subjective) | 0.6 / 0.2 / 0.2 | 0.2 / 0.6 / 0.2 |
 | Sentence added to the scoring rule | "Your evaluation depends mainly on how much food you personally hold." | "Your evaluation depends mainly on how much the others trust and like you." |
 
+| Feedback | What the agent sees |
+|---|---|
+| Off | The scoring rule only. Scores are still computed and logged every week. |
+| On (`--feedback`) | After every weekly review, in every prompt of the following week: its own season total, its rank among the six, the previous week's total, and the three parts (food, reputation, well-being). Never the individual ratings it received or anyone else's score. |
+
 Everything else is identical: world, personas, rules, prompts, model, and the random seed.
+
+Feedback was added because, without it, the reputation incentive had no visible consequence for
+the agents: an agent could be rated poorly week after week without ever knowing it (see
+[`05-development-log.md`](05-development-log.md), v7). Showing only the agent's own aggregate keeps
+the ratings secret, as in Agentopia, while letting the agent react to its standing.
+
+## Timeline of a run
+
+| Weeks | Role |
+|---|---|
+| 1-2 | Baseline |
+| 3 | Typhoon on days 1-3 (only clam gathering possible), forecast at the start of the week |
+| 4 | Recovery; the season is settled at the end of the week |
 
 ## Replications
 
 Each replication is a **pair** of runs (A and B) sharing one seed, so both groups face the same
-production luck, injuries and theft detection draws as long as they take the same actions.
+production luck, injuries and theft-detection draws as long as they take the same actions.
 Replication *n* uses seed 41 + *n* for the simulator and for the model's sampling.
 
-| Replication | Seed | Role |
-|---|---|---|
-| 1 | 42 | complete; supplementary because of the caveats in [`08-status-and-next-steps.md`](08-status-and-next-steps.md) |
-| 2 | 43 | main (running) |
-| 3 | 44 | main (planned) |
-| 4 | 45 | main, if time allows |
+| Condition | Replication | Seed | Status |
+|---|---|---|---|
+| Feedback on | 2 | 43 | main (running) |
+| Feedback on | 3 | 44 | main (planned) |
+| Feedback off | 2 | 43 | complete (weeks 1-4, see note) |
+| Feedback off | 3 | 44 | if time allows |
 
-With 2-3 main pairs, results will be reported as consistent directions across replications with
-effect sizes, not as significance tests. A difference that appears in only one replication will be
-treated as noise.
+Note on the feedback-off run: it was run on v6.2 as part of the earlier 8-week plan and stopped
+after week 5; weeks 1-4 are used. In weeks 1-4, v6.2 and v7 present the same world and prompts to
+agents without feedback (v7 removed only the week-5 radio event and added score logging), so this
+run serves as the no-feedback comparison for seed 43.
+
+With two pairs per main condition, results are reported as consistent directions across
+replications with effect sizes, not as significance tests. A difference that appears in only one
+replication is treated as noise.
 
 ## Hypotheses and measures
 
 | | Hypothesis | Measures |
 |---|---|---|
 | H1 | B shares more, ends less unequal, and its weakest members go hungry less | units given and lent across households per week; "who gives to whom" matrix; daily Gini coefficient of food holdings; starving days and average fullness of Lucky, Alice and Bob |
-| H2 | During the typhoon the food-rich agent gains bargaining power | interest rate of each loan by week; share of the cooperative-fishing catch each partner receives relative to what it caught; acceptance rate of requests made to Pete; any barter exchange ratios |
-| H3 | After the radio news (week 5), effort and cooperation fall, more in A | share of productive actions; transfers and cooperative trips; weeks 1-4 vs 5-8 |
-| H4 | Cross-family liking grows faster in B; A divides along families | weekly secret like/respect ratings: within-family minus between-family average; 6x6 heatmaps for week 1 and week 8 |
+| H2 | During the typhoon the food-rich agent gains bargaining power | interest rate of each loan by week; share of the cooperative-fishing catch each partner receives relative to what it caught; acceptance rate of requests made to Pete |
+| H4 | Cross-family liking grows faster in B; A divides along families | weekly secret like/respect ratings: within-family minus between-family average; 6x6 heatmaps for weeks 1 and 4 |
+| F | Seeing one's score strengthens the A/B difference, especially in transfers by agents whose reputation score is low | A-B differences in H1 and H4 measures with vs without feedback; change in behaviour in the week after a drop in an agent's score or rank |
 
-H2 was originally framed in terms of barter prices. During development, almost no barter
-happened and credit became the main market (see [`05-development-log.md`](05-development-log.md)),
-so loan interest and catch splits are now the primary price measures.
+H3 (an end-game effect after a rescue announcement) belonged to the original 8-week plan and is
+left to future work (see [`05-development-log.md`](05-development-log.md), v7). The numbering is
+kept so that H1, H2 and H4 match earlier notes.
 
-### Life reward (computed afterwards)
+H2 was originally framed in terms of barter prices. During development almost no barter happened
+and credit became the main market, so loan interest and catch splits are the primary price
+measures.
 
-At the end of each season the three reward components are computed from the logs, standardised
-and weighted as described to the agents: the social reward by PageRank on the like and respect
-ratings with a reciprocity bonus; the subjective reward from fullness, stamina and belonging minus
-5 points per starving day; the economic reward from the change in own food. This lets us check
-whether agents ended up doing well *on the rule they were given*, and compare that across groups.
+### Season score (life reward)
+
+Computed after every weekly review and logged in `scores.jsonl` (formula in
+[`03-world-and-rules.md`](03-world-and-rules.md)). It lets us check whether agents ended up doing
+well *on the rule they were given*, compare that across groups, and, in the feedback condition,
+relate each agent's behaviour to the score it had just seen.
 
 ### Persona drift
 
-Self-rated generosity and trust each week, the bounded season updates, and the rewritten mindset
-texts at weeks 0, 4 and 8, compared between groups and against how the others rated each agent.
+Self-rated generosity and trust each week, the bounded season update at the end of week 4, and
+the rewritten mindset texts, compared between groups and against how the others rated each agent.
 
 ## Checking the mechanism, not just the outcome
 
 An outcome that matches a hypothesis is not enough if it arose for a different reason. Every plan,
-action, message and gift carries the agent's own stated reason, so we will also:
+action, message and gift carries the agent's own stated reason, so we also:
 
 - **Code stated reasons.** For each gift, loan offer and refusal, classify the reason (own food
-  security, reputation/how others see me, family, fairness/morality, reciprocity, persona-specific
-  such as Pete's soft spot for Lucky). H1 is supported mechanistically only if B's extra transfers
-  are disproportionately justified by reputation-type reasons.
+  security, reputation / how others see me, my score, family, fairness / morality, reciprocity,
+  persona-specific such as Pete's soft spot for Lucky). H1 is supported mechanistically only if
+  B's extra transfers are disproportionately justified by reputation-type reasons.
 - **Measure the say-do gap.** Count commitments made in messages ("I'll share", "I'll lend you 2")
-  and check whether a matching transfer followed within the week; compare between groups.
+  and check whether a matching transfer followed; compare between groups and feedback conditions.
 - **Report behaviour quality as a control.** Share of loans consistent with the budget, fallback
-  rate per agent and group, and irrational patterns found during development (for example, lending
-  to the richest agent). If both groups are equally imperfect, imperfection cannot explain the
-  difference between them.
+  rate per agent and group, and irrational patterns found during development. If both groups are
+  equally imperfect, imperfection cannot explain the difference between them.
+
+`analysis/analyze.py` computes the quantitative measures and two keyword-based text proxies
+(reputation-type mentions, promise-like lines followed by a gift); the proxies only point at
+passages to read and do not replace reading them.
 
 ## Planned figures
 
-- Units shared per week, A vs B, per replication
-- Daily Gini coefficient, A vs B, with the typhoon and the radio marked
+- Units shared per week, A vs B, with and without feedback
+- Daily Gini coefficient, A vs B, typhoon marked
 - Loan interest and catch-split shares by week (typhoon marked)
-- 6x6 like/respect heatmaps for weeks 1 and 8, A and B
-- Weeks 1-4 vs 5-8: productive actions and transfers
-- Season life-reward table
+- 6x6 like/respect heatmaps for weeks 1 and 4, A and B
+- Weekly season score per agent (feedback runs), with the behaviour that followed
 - Generosity drift per agent, A and B side by side
 - 3-4 case studies quoted from the logs

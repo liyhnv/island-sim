@@ -7,10 +7,12 @@
   change in the scoring rule it is told about. Every comparison is within the same model, rules
   and seeds, so the A/B *difference* is interpretable even where individual behaviour is not
   human-like.
-- **Small samples.** 6 agents, 40 days, 2-3 main replications per group. Results are exploratory:
+- **Small samples.** 6 agents, 20 action days, two replications per group in the feedback
+  condition and one (possibly two) without feedback. Results are exploratory:
   consistent directions and effect sizes, not significance tests.
-- **The incentive is only described, never experienced.** Unlike Agentopia, no reward is fed back
-  and no model is trained. What is manipulated is a sentence in the prompt.
+- **No learning.** Unlike Agentopia, no model is trained on the reward. Without feedback the
+  incentive is only a sentence in the prompt; with feedback the agent also sees its own score, but
+  can react to it only through its context within one 4-week season.
 - **Outcome vs mechanism.** A result can match a hypothesis for the wrong reason. The analysis
   therefore codes the reasons agents give for each choice (see
   [`04-experiment-design.md`](04-experiment-design.md)); where outcome and stated reason disagree,
@@ -53,17 +55,24 @@
   to direct help or credit to whoever needs it, and it interacts with the hypotheses.
 - **Few transactions.** Barter almost never happens and credit is thin, so H2 rests on a small
   number of loans and cooperative trips per run.
-- **Scores computed after the fact.** The life reward is computed from the logs with the formula
-  described to the agents; an agent cannot know how well it is doing during the run.
+- **Score scales are a design choice.** The fixed 0-100 scales (for example, 5 points per unit of
+  food) decide how much each part can move. Other reasonable scales would weight the parts
+  differently in practice, and agents in the feedback condition react to these particular numbers.
+- **One shock, one season.** Four weeks with a single typhoon cannot show long-run dynamics
+  (reputation built over many seasons, end-game effects); H3 was dropped for this reason.
 
 ## The process
 
 - **Many iterations.** The rules changed substantially during development
-  ([`05-development-log.md`](05-development-log.md)). Only runs on the final version (v6.2) are
-  used as main evidence; earlier runs are kept for transparency.
-- **Replication 1 is not clean.** It ran on v6 with the duplicate-deal fix applied mid-run, and it
-  suffered from the borrower-request bug, which hit group B three times as often as group A. It is
-  reported as supplementary only.
+  ([`05-development-log.md`](05-development-log.md)). Only runs on v6.2 / v7 are used as evidence;
+  earlier runs were pilots.
+- **The design was revised after seeing data.** The switch to 4 weeks and the addition of score
+  feedback (v7) were decided after reading weeks 1-4 of replication 2. The reasons are documented,
+  and the feedback replications are run fresh, but the no-feedback comparison rests on that one
+  run.
+- **Persona drift may be scripted by persona.** In replication 2 every agent's generosity and
+  trust moved identically in A and B, which suggests that the season update follows the persona
+  and the events more than the incentive.
 - **Hardware and interruptions.** Runs were executed on a laptop, two groups in parallel against
   one model server, with pauses (sleep, network changes, other workloads). Progress is saved after
   every stage and resumed exactly, but server settings and load can differ between sessions.

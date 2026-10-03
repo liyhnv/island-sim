@@ -69,9 +69,9 @@ Group A completed 8 weeks; group B was stopped in week 7. Two bugs and a data ga
 
 v5 also added `--run N` (paired seeds per replication, separate log folders).
 
-## v5 -> v6: Design changes before the main experiment (`*_r1_v5_partial`)
+## v5 -> v6: Design changes before the main experiment (`*_v5_partial`)
 
-Replication 1 was started on v5 and stopped after 3-4 weeks to change the experimental
+A pilot run on v5 (seed 42) was stopped after 3-4 weeks to change the experimental
 conditions. These are design decisions, not bug fixes, and are documented as such:
 
 | Observation | Change (v6) |
@@ -82,33 +82,50 @@ conditions. These are design decisions, not bug fixes, and are documented as suc
 | Borrowers kept "repaying" through gifts after the debt was cleared | Borrowers are reminded that repayment is automatic and gifts do not count |
 | Agents could not tell who had the means to help: they saw that Pete went fishing but not his catch or his gear | **Tools carried and each person's daily catch are public**; food holdings stay private |
 
-## v6.1: Duplicate deals (applied during replication 1)
+## v6.1: Duplicate deals (found in the v6 pilot)
 
-- **Evidence:** in replication 1 (group B, week 3) Pete offered Alice a loan of 2 for 2.5; Alice
+A full pilot pair was then run on v6 (seed 42). It was used to find problems, not as data.
+
+- **Evidence:** in the v6 pilot (group B, week 3) Pete offered Alice a loan of 2 for 2.5; Alice
   accepted it *and* sent the same deal back as a new proposal; Pete re-sent his offer as well. All
   three were accepted: Alice received 6 units and owed 7.5, defaulting on all three during the
   typhoon, while Pete said in the next round "I've already lent you 2 units".
 - **Fix:** an identical open or accepted deal between the same two agents in the same week is not
   created again; the sender is told to answer the existing proposal instead.
-- Replication 1 was resumed with the fix from group A week 5 and group B week 4. The incident
-  occurred once (B, week 3) and is flagged in the analysis.
+- The pilot was resumed with the fix; the incident occurred once.
 
-## v6.2: Borrowers' requests silently discarded (applied after replication 1)
+## v6.2: Borrowers' requests silently discarded (found in the v6 pilot)
 
-- **Evidence:** across replication 1 there were 18 contact-phase fallbacks, 4 in group A and 14 in
+- **Evidence:** across the v6 pilot there were 18 contact-phase fallbacks, 4 in group A and 14 in
   group B, 11 of them by Alice, the agent most often in need. Nearly all had the same cause: a
   borrower filled the loan's `give_amount` (meaning *the food the lender hands over*) as 0,
   reading it as "what I give". After three invalid tries the *whole* round was replaced by an empty
   answer, so the agent's messages and its replies to others were lost too. In group B's last week
   Kurt and Stella, both starving, tried to borrow and failed this way.
 - **Why it matters:** it suppressed credit requests from exactly the agents who needed credit, and
-  more in B than in A, so it biases the A/B comparison of the credit market in replication 1.
+  more in B than in A, so it would have biased the A/B comparison of the credit market.
 - **Fix:** a proposal with no amounts at all is kept as a plain message; a half-filled one gets a
   role-specific correction with an example; if all tries fail, the broken proposal is dropped but
   the message text and valid replies are kept. The help text includes a worked borrowing example.
 - **Why it was missed for two check-ins:** see [`00-methodology.md`](00-methodology.md) and
   [`06-validation.md`](06-validation.md).
-- Replication 2 was restarted from the beginning on v6.2.
+- Replication 2 (seed 43) was started from the beginning on v6.2. It ran cleanly: no fallbacks
+  and all checks in [`06-validation.md`](06-validation.md) passed.
+
+## v7: Four weeks, one shock, and score feedback (design change)
+
+These are design decisions, made after reading weeks 1-4 of replication 2, not bug fixes.
+
+| Observation | Change (v7) |
+|---|---|
+| The original plan ran 8 weeks with two events: the typhoon (week 3) and a radio message announcing a rescue (week 5), to test an end-game effect (H3). In replication 2, the typhoon's after-effects (debts, depleted holdings, starving households) were still unfolding in weeks 4-5, so any change after the radio could not be separated from the typhoon's aftermath | **One season of 4 weeks with the typhoon only.** The radio event and H3 were removed and left to future work. This also halves the cost of a run (about 6 hours per A/B pair), allowing more replications in the time available |
+| The reputation incentive had no visible consequence. Pete in group B was rated low week after week, kept refusing every loan and gift request, and gave no sign of knowing how he was seen; his stated reasons were the same as in group A | **Score feedback** as a second factor (`--feedback`): after every weekly review each agent sees its own season total, rank and the three parts, but never who rated it how |
+| The life reward was only to be computed after the run | The season score is computed after every weekly review and logged in `scores.jsonl` in every run, with or without feedback |
+| A first version scaled each part relative to the other agents (min-max), which turned tiny differences into large swings | Fixed 0-100 scales: food 50 + 5 x change in own food; reputation scaled so that an average agent scores 50; well-being from fullness, stamina and belonging |
+
+Replication 2 without feedback was stopped after week 5; its weeks 1-4 are the no-feedback
+comparison for seed 43 (see [`04-experiment-design.md`](04-experiment-design.md)). The main runs
+with feedback (replications 2 and 3) use v7.
 
 ---
 

@@ -8,7 +8,7 @@ myself.
 ## What I did
 
 - **Research design.** Chose the question (does the scoring rule an agent is told about change
-  how a scarce economy behaves?), the A/B manipulation, the hypotheses H1-H4, and which parts of
+  how a scarce economy behaves?), the A/B manipulation, the hypotheses, and which parts of
   Agentopia to adopt (see [`02-borrowing-from-agentopia.md`](02-borrowing-from-agentopia.md)).
 - **Setting the world's parameters.** For example, the production coefficients (I asked for Kurt
   and Stella to be clearly more productive than the elderly couple, and for Pete's advantage to be
@@ -44,5 +44,5 @@ amounts, which silently discarded their whole message round, see
 [`05-development-log.md`](05-development-log.md), v6.2) was visible in the error counts for two
 check-ins before it was understood, because the checks looked at whether rules were *violated* and
 not at whether intended actions *failed to happen*. The check list was extended as a result
-([`06-validation.md`](06-validation.md)). I report this because it affects how much weight the
-first replication can carry.
+([`06-validation.md`](06-validation.md)). I report this because it is why the first full run on v6 was
+treated as a pilot.

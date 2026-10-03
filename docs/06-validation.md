@@ -2,7 +2,7 @@
 
 ## Before a change is used in an experiment
 
-1. **Mock runs.** A full 8-week run of both groups with random, schema-valid answers instead of an
+1. **Mock runs.** A full run of both groups with random, schema-valid answers instead of an
    LLM (`python3 run.py --group A --run 1 --mock`). This exercises every code path, including
    invalid answers, at no cost.
 2. **Scripted scenarios.** Small scripts that replay a specific situation with chosen answers and
@@ -39,7 +39,7 @@ violate any rule, it just leaves a gap in the data.
 
 ## Why the last two checks were added
 
-During replication 1, fallback counts were printed at every check-in (3, then 9, then 18), but they
+During the v6 pilot run, fallback counts were printed at every check-in (3, then 9, then 18), but they
 were only looked at as totals and judged small. Read per agent and per group, they showed that
 almost all of them were the same agent (Alice) failing to submit borrowing requests, and that they
 were three times as frequent in group B as in group A: a systematic bias, not noise (see

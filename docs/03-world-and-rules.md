@@ -1,4 +1,4 @@
-# The World and Its Rules (simulator v6)
+# The World and Its Rules (simulator v7)
 
 All numbers live in [`config.yaml`](../config.yaml) and [`characters.json`](../characters.json);
 this page describes them in words. The LLM never decides an outcome: it chooses actions and says
@@ -87,8 +87,9 @@ an absorbing trap.
 3. **Five days** as above.
 4. **Review.** A private diary entry; secret like and respect ratings (0-100) of each other agent
    with a short impression; self-ratings of generosity and trust.
-5. **Season** (after weeks 4 and 8). The agent rereads its last four diaries and rewrites its
-   current mindset; generosity and trust move at most +/-10.
+5. **Score.** The season's life reward so far is computed for every agent (see below).
+6. **Season** (end of week 4, the end of the run). The agent rereads its four diaries and rewrites
+   its current mindset; generosity and trust move at most +/-10.
 
 ### Weekly food budget (computed by the simulator, per household)
 
@@ -135,16 +136,31 @@ an absorbing trap.
 - **Public:** every person's tools; what everyone did yesterday and roughly how much each person
   brought back; who looks weak from hunger; defaults on loans; gifts made at the campfire.
 - **Private:** other agents' food holdings and the content of messages between other people.
-- Their own scoring rule (A or B), described in plain words. They never see their score.
+- Their own scoring rule (A or B), described in plain words.
+- In the **feedback** condition only: their own season score after each weekly review (see below).
 
 ## Events
 
 - **Typhoon**, week 3, days 1-3: only clam gathering (or rest) is possible. Everyone is warned at
   the start of the week; on each typhoon day the prompt says so, and from day 4 it states that the
   typhoon is over.
-- **Radio**, week 5, day 1: everyone hears that a rescue ship will arrive at the end of week 8 with
-  room for everyone.
-- The run ends after week 8.
+- The run ends after week 4. (Earlier 8-week versions also had a radio message in week 5
+  announcing a rescue; it was removed in v7, see the development log.)
+
+## The season score (life reward)
+
+Computed after every weekly review from the start of the season, with the group's weights
+(A: 0.6 / 0.2 / 0.2, B: 0.2 / 0.6 / 0.2). Each part is on a fixed 0-100 scale:
+
+| Part | Computation |
+|---|---|
+| Food (economic) | 50 + 5 x (food held now - food held at the season start), clipped to 0-100 |
+| Reputation (social) | weighted PageRank on the latest secret like ratings and, separately, respect ratings (damping 0.85, reciprocity bonus alpha = 2); the average of the two, scaled so that an average agent scores 50 |
+| Well-being (subjective) | mean of average fullness (%), average stamina and belonging (20 points per gift received, accepted deal or cooperative trip, max 100), minus 5 per starving day |
+
+Scores are logged in `scores.jsonl` in every run. With `--feedback`, each agent sees its own total,
+rank among the six, and the three parts in every prompt of the following week, but never the
+individual ratings it received.
 
 ## When the model fails
 

@@ -6,14 +6,14 @@
 
 # ---------- Run ----------
 run:
-  weeks: 8                  # 8 weeks total
-  action_days_per_week: 5   # 5 action days per week, 40 days total
-  season_length_weeks: 4    # a season = 4 weeks (settled at end of week 4 and 8)
+  weeks: 4                  # 4 weeks: 2 normal weeks, the typhoon in week 3, a recovery week
+  action_days_per_week: 5   # 5 action days per week, 20 days total
+  season_length_weeks: 4    # a season = 4 weeks (settled at the end of week 4)
   seed: 42                  # groups A and B use the same random seed
 
 # ---------- LLM ----------
 llm:
-  model: "qwen3:14b"         # switch to qwen3:14b if quality is poor
+  model: "qwen3:14b"
   num_ctx: 8192
   think: false
   max_retries: 3            # retry up to 3 times on invalid output
@@ -149,12 +149,9 @@ events:
     days: [1, 2, 3]
     blocked_actions: ["fish", "coop_fish", "coconut", "forage", "shelter"]   # only clams (and rest) possible
     forecast: true          # everyone is warned at the start of the typhoon week (before private messages)
-  radio:
-    week: 5
-    day: 1
-    message: "A radio broadcast says a rescue ship will arrive at the end of week 8, and there is room for everyone."
-  rescue:
-    week: 8                 # rescue ship arrives at end of week 8; simulation ends
+  # (Earlier 8-week versions also had a radio message in week 5 announcing rescue at the end of
+  #  week 8. It was removed: the typhoon's after-effects carried into weeks 5-8, so the two events
+  #  could not be separated. See docs/05-development-log.md, v7.)
 
 # ---------- Season-end persona update ----------
 persona_update:
@@ -167,6 +164,8 @@ reward:
     reciprocity_alpha: 2    # reciprocity bonus alpha
   subjective:
     starve_penalty: 5       # -5 points per starving day
+  feedback: false           # true (or run.py --feedback): after every weekly review each agent sees its own
+                            # season score so far (total, rank, and the three parts), never individual ratings
   groups:
     A:
       label: "Individualist incentive"

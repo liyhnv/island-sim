@@ -10,9 +10,11 @@ One week:
                 the split) -> rules resolve outcomes -> everyone eats
                 -> evening campfire (1 line each, public or whispered) -> save
   4. Review   - diary, secret like/respect ratings of the others, self-rating
-  5. Season   - after week 4 and 8: rewrite "current mindset" from the diaries;
+  5. Season   - every 4 weeks: rewrite "current mindset" from the diaries;
                 generosity/trust move at most +/-10
-  Week end: fresh food spoils 20%.
+  After each review the season score (life reward) is computed and logged;
+  with reward.feedback on, each agent sees its own score.
+  Week end: food spoils at type-specific rates.
 
 The LLM only decides and talks. All numbers (yields, injuries, theft) come
 from config.yaml rules and one seeded random generator.
@@ -126,7 +128,10 @@ class Engine:
         self.chars = chars
         self.names = list(chars)
         self.group = group
-        self.group_cfg = cfg["reward"]["groups"][group]
+        self.group_cfg = dict(cfg["reward"]["groups"][group])
+        season = cfg["run"]["season_length_weeks"]
+        ends = [w for w in range(season, cfg["run"]["weeks"] + 1, season)] or [cfg["run"]["weeks"]]
+        self.group_cfg["_season_ends"] = " and ".join(f"week {w}" for w in ends)
         self.llm = llm
         self.log_dir = log_dir
         self.save_dir = save_dir
@@ -136,6 +141,7 @@ class Engine:
         global EAT_ORDER
         EAT_ORDER = cfg["food"].get("eat_order", EAT_ORDER)
         self.st = self.initial_state()
+        self.st["feedback"] = bool(cfg["reward"].get("feedback"))
 
     def others(self, n):
         return [x for x in self.names if x != n]
@@ -159,6 +165,8 @@ class Engine:
                 "diary": [],         # one entry per week
                 "impressions": {},   # other -> short impression (from last review)
                 "starving_days": 0,
+                "season": {"start_food": float(c["food"]), "days": 0, "fullness": 0.0, "stamina": 0.0,
+                           "starving": 0, "belonging": 0},
             }
         return {
             "week": 1, "day": 1,
@@ -175,6 +183,7 @@ class Engine:
             "next_pid": 1,
             "loans": [],             # all loans ever made (active, repaid, overdue)
             "forecast": "",          # advance warning of this week's typhoon
+            "last_ratings": {},      # rater -> {target: {like, respect}} from the latest review
         }
 
     # ---------- save / resume
@@ -294,6 +303,66 @@ class Engine:
     def spend_allowance(self, n, amount):
         al = self.st.setdefault("allowance", {})
         al[self.hkey(n)] = round(max(0.0, al.get(self.hkey(n), 0.0) - amount), 2)
+
+    def belong(self, *names):
+        for n in names:
+            se = self.st["agents"][n].setdefault("season", {"start_food": 0.0, "days": 0, "fullness": 0.0,
+                                                              "stamina": 0.0, "starving": 0, "belonging": 0})
+            se["belonging"] += 1
+
+    def pagerank(self, kind):
+        """Weighted PageRank on the latest secret ratings, with a reciprocity bonus (Agentopia eq. 1)."""
+        R = self.st.get("last_ratings", {})
+        rc = self.cfg["reward"]["social"]
+        d, alpha, names = rc["damping"], rc["reciprocity_alpha"], self.names
+        w = {(i, j): R.get(i, {}).get(j, {}).get(kind, 50) / 100 for i in names for j in names if i != j}
+        # edge i -> j carries i's rating of j, boosted when j also rates i highly
+        e = {(i, j): w[(i, j)] * (1 + alpha * w[(j, i)]) for (i, j) in w}
+        out = {i: sum(e[(i, j)] for j in names if j != i) or 1.0 for i in names}
+        S = {i: 1 / len(names) for i in names}
+        for _ in range(100):
+            S = {j: (1 - d) / len(names) + d * sum(S[i] * e[(i, j)] / out[i] for i in names if i != j) for j in names}
+        return S
+
+    def compute_scores(self):
+        """Life reward so far this season, per agent, weighted with this group's weights. Each part is put on a
+        fixed 0-100 scale so that small differences are not blown up:
+          food        = 50 + 5 x (food held now - food held at the season start), i.e. +/-10 units -> 100 / 0
+          reputation  = 50 x 6 x average of the like- and respect-PageRank (an average agent scores 50)
+          well-being  = mean of (fullness %, stamina, belonging) minus 5 per starving day
+        Logged always (raw values too, for z-scoring in the analysis); shown to agents only if reward.feedback."""
+        def clip(v):
+            return max(0.0, min(100.0, v))
+        pen = self.cfg["reward"]["subjective"]["starve_penalty"]
+        like, resp = self.pagerank("like"), self.pagerank("respect")
+        econ = {n: self.total_food(n) - self.st["agents"][n]["season"]["start_food"] for n in self.names}
+        social = {n: (like[n] + resp[n]) / 2 for n in self.names}
+        subj = {}
+        for n in self.names:
+            se = self.st["agents"][n]["season"]
+            days = max(1, se["days"])
+            belonging = min(100.0, 20.0 * se["belonging"])
+            subj[n] = (se["fullness"] / days + se["stamina"] / days + belonging) / 3 - pen * se["starving"]
+        n_agents = len(self.names)
+        parts = {"food": {n: clip(50 + 5 * econ[n]) for n in self.names},
+                 "reputation": {n: clip(50 * n_agents * social[n]) for n in self.names},
+                 "well-being": {n: clip(subj[n]) for n in self.names}}
+        wts = self.group_cfg["weights"]
+        total = {n: wts["economic"] * parts["food"][n] + wts["social"] * parts["reputation"][n]
+                 + wts["subjective"] * parts["well-being"][n] for n in self.names}
+        order = sorted(self.names, key=lambda n: -total[n])
+        w = self.st["week"]
+        for n in self.names:
+            a = self.st["agents"][n]
+            prev = a.get("score")
+            a["score"] = {"week": w, "total": round(total[n]), "rank": order.index(n) + 1,
+                          "food": round(parts["food"][n]), "reputation": round(parts["reputation"][n]),
+                          "well-being": round(parts["well-being"][n]),
+                          "previous_total": prev["total"] if prev else None}
+            self.log("scores.jsonl", {"day": 6, "agent": n, **a["score"],
+                                      "raw": {"food_change": round(econ[n], 2), "pagerank_like": round(like[n], 4),
+                                              "pagerank_respect": round(resp[n], 4), "well_being": round(subj[n], 1)},
+                                      "shown_to_agent": bool(self.cfg["reward"].get("feedback"))})
 
     def household_borrowed(self, n):
         """Units the household borrowed in this week's private messages."""
@@ -691,6 +760,7 @@ class Engine:
         if amt <= 0:
             return 0
         self.add_food(receiver, parts)
+        self.belong(receiver)
         when = f"W{w}" if where == "private message" else f"W{w}D{day}"
         self.remember(receiver, f"{when}: {giver} gave you {amt:g} units of food ({where}).")
         self.remember(giver, f"{when}: you gave {receiver} {amt:g} units of food ({where}).")
@@ -714,6 +784,7 @@ class Engine:
             fb[p["get_type"]] = round(fb[p["get_type"]] - p["get_amount"], 2)
             fa[p["get_type"]] = round(fa[p["get_type"]] + p["get_amount"], 2)
             p["status"] = "accepted"
+            self.belong(a, b)
             self.remember(a, f"W{w}: {b} accepted your trade: {prompts.describe_proposal(p, viewer=a)}.")
             self.remember(b, f"W{w}: you accepted {a}'s trade: {prompts.describe_proposal(p, viewer=b)}.")
         elif p["type"] == "loan":
@@ -755,6 +826,7 @@ class Engine:
             self.st["loans"].append(loan)
             self.spend_allowance(lender, p["lend_amount"])
             p["status"] = "accepted"
+            self.belong(lender, borrower)
             self.log("loans.jsonl", {"day": 0, "event": "made", **loan})
             self.remember(lender, f"W{w}: you lent {borrower} {p['lend_amount']:g} units of {p['lend_type']} (already handed over); "
                                   f"{borrower} must repay {p['repay']:g} units by the end of {self.day_label(due)}.")
@@ -876,8 +948,8 @@ class Engine:
         A, S = self.cfg["actions"], self.cfg["stamina"]
 
         # news
-        radio = self.cfg["events"]["radio"]
-        if (w, day) == (radio["week"], radio["day"]):
+        radio = self.cfg["events"].get("radio")
+        if radio and (w, day) == (radio["week"], radio["day"]):
             self.st["news"].append(radio["message"])
         self.st["alerts"] = (["A typhoon is hitting the island today: no fishing, climbing, forest or building."]
                              if self.typhoon_today() else [])
@@ -957,6 +1029,7 @@ class Engine:
         for a_, b_ in pairs:  # cooperative fishing
             catch = {a_: self.fish_catch(a_), b_: self.fish_catch(b_)}
             split = self.coop_negotiation(a_, b_, catch)
+            self.belong(a_, b_)
             for x in (a_, b_):
                 self.st["agents"][x]["stamina"] = max(S["min"], self.st["agents"][x]["stamina"] - self.cost("coop_fish"))
                 if split[x]:
@@ -1092,6 +1165,15 @@ class Engine:
                 "got": r["got"], "injured": r["injured"], "note": r["note"],
                 "forced": d.get("forced", False),
                 **({"stolen": r["stolen"]} if "stolen" in r else {})})
+        for n in self.names:  # season-to-date well-being (for the life reward)
+            se = self.st["agents"][n].setdefault("season", {"start_food": 0.0, "days": 0, "fullness": 0.0,
+                                                              "stamina": 0.0, "starving": 0, "belonging": 0})
+            need = self.chars[n]["daily_need"]
+            se["days"] += 1
+            se["fullness"] += min(100.0, eaten[n] / need * 100)
+            se["stamina"] += self.st["agents"][n]["stamina"]
+            if eaten[n] < need * self.cfg["hunger_threshold"] - 1e-9:
+                se["starving"] += 1
         for n in self.names:
             a = self.st["agents"][n]
             self.log("states.jsonl", {
@@ -1226,9 +1308,12 @@ class Engine:
             a = self.st["agents"][n]
             a["diary"].append(d["diary"])
             a["impressions"] = {o: d["ratings"][o]["impression"] for o in others}
+            self.st.setdefault("last_ratings", {})[n] = {o: {"like": d["ratings"][o]["like"],
+                                                            "respect": d["ratings"][o]["respect"]} for o in others}
             self.log("ratings.jsonl", {"day": 6, "rater": n, "ratings": d["ratings"],
                                        "self_generosity": d["self_generosity"],
                                        "self_trust": d["self_trust"], "diary": d["diary"]})
+        self.compute_scores()
         season = self.cfg["run"]["season_length_weeks"]
         self.st["stage"] = "season" if w % season == 0 else "end"
         if self.st["stage"] == "end":
@@ -1276,6 +1361,10 @@ class Engine:
             food = self.st["agents"][n]["food"]
             for t, r in rates.items():
                 food[t] = round(food[t] * (1 - r), 2)
+        if self.st["week"] % self.cfg["run"]["season_length_weeks"] == 0:   # a new season starts: reset its tally
+            for n in self.names:
+                self.st["agents"][n]["season"] = {"start_food": round(self.total_food(n), 2), "days": 0, "fullness": 0.0,
+                                                  "stamina": 0.0, "starving": 0, "belonging": 0}
         self.st.update(week=self.st["week"] + 1, day=1, stage="plan", contact_round=1,
                        proposals=[], coops=[], forecast="")
 
