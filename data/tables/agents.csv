@@ -1,0 +1,7 @@
+agent,age,household,household_size,is_minor,is_weak,daily_need,productivity,start_generosity,start_trust,items
+Kurt,35,Kurt+Lucky+Stella,3,0,0,2,1.12,60,50,knife
+Stella,35,Kurt+Lucky+Stella,3,0,0,2,1.1,45,35,lighter
+Lucky,10,Kurt+Lucky+Stella,3,1,1,1,0.38,70,85,
+Alice,68,Alice+Bob,2,0,1,1.5,0.65,80,60,first aid kit
+Bob,70,Alice+Bob,2,0,1,1.5,0.65,30,25,blanket
+Pete,26,Pete,1,0,0,2,1.2,25,30,"fishing line and hooks, rope"

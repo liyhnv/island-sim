@@ -1,0 +1,961 @@
+run,grp,feedback,replication,week,rater,target,like,respect,same_household,impression
+A-hidden-1,A,0,1,1,Kurt,Stella,95,90,1,"Dedicated, caring, and a strong partner."
+A-hidden-1,A,0,1,1,Kurt,Lucky,90,85,1,"Kind, curious, and eager to help."
+A-hidden-1,A,0,1,1,Kurt,Alice,75,80,0,"Willing to help, but cautious and reserved."
+A-hidden-1,A,0,1,1,Kurt,Bob,65,60,0,"Quiet, struggling, but not unkind."
+A-hidden-1,A,0,1,1,Kurt,Pete,30,25,0,"Selfish, unwilling to cooperate, and untrustworthy."
+A-hidden-1,A,0,1,1,Stella,Kurt,90,95,1,A devoted father and partner who always puts our family first.
+A-hidden-1,A,0,1,1,Stella,Lucky,100,100,1,My brave and kind son who works hard for the group.
+A-hidden-1,A,0,1,1,Stella,Alice,65,70,0,"Kind and helpful, but I don’t know her well enough yet."
+A-hidden-1,A,0,1,1,Stella,Bob,55,60,0,"Quiet and reserved, but I hope he’ll be more open soon."
+A-hidden-1,A,0,1,1,Stella,Pete,30,35,0,Selfish and unwilling to help others despite having food.
+A-hidden-1,A,0,1,1,Lucky,Kurt,90,85,1,Dad is kind and cares about us.
+A-hidden-1,A,0,1,1,Lucky,Stella,90,85,1,Mom is always there for me.
+A-hidden-1,A,0,1,1,Lucky,Alice,70,65,0,She is nice and helps others.
+A-hidden-1,A,0,1,1,Lucky,Bob,60,55,0,He is quiet but seems good.
+A-hidden-1,A,0,1,1,Lucky,Pete,50,30,0,He keeps his food and doesn't share.
+A-hidden-1,A,0,1,1,Alice,Kurt,70,65,0,Responsible but distant; seems focused on family.
+A-hidden-1,A,0,1,1,Alice,Stella,75,70,0,Caring and level-headed; good with Lucky.
+A-hidden-1,A,0,1,1,Alice,Lucky,90,95,0,Innocent and hardworking; a joy to see.
+A-hidden-1,A,0,1,1,Alice,Bob,95,90,1,Loyal and kind; my rock in hard times.
+A-hidden-1,A,0,1,1,Alice,Pete,50,45,0,Selfish and unwilling to share; needs to grow.
+A-hidden-1,A,0,1,1,Bob,Kurt,50,40,0,"Stable, but not proactive about sharing."
+A-hidden-1,A,0,1,1,Bob,Stella,55,45,0,"Caring, but not outspoken about food."
+A-hidden-1,A,0,1,1,Bob,Lucky,70,60,0,"Kind and hopeful, always tries to help."
+A-hidden-1,A,0,1,1,Bob,Alice,90,95,1,"Wise, selfless, and always looks out for others."
+A-hidden-1,A,0,1,1,Bob,Pete,20,15,0,"Selfish, hoards food despite others' needs."
+A-hidden-1,A,0,1,1,Pete,Kurt,40,50,0,Persistent but not selfless; tries to convince others.
+A-hidden-1,A,0,1,1,Pete,Stella,35,45,0,Kind but too quick to ask for help.
+A-hidden-1,A,0,1,1,Pete,Lucky,60,70,0,Honest and eager to help; makes me think twice.
+A-hidden-1,A,0,1,1,Pete,Alice,30,40,0,Well-meaning but too trusting of others.
+A-hidden-1,A,0,1,1,Pete,Bob,25,35,0,Quiet and unassuming; doesn't push for much.
+A-hidden-1,A,0,1,2,Kurt,Stella,95,90,1,"Loyal, caring, and a strong partner."
+A-hidden-1,A,0,1,2,Kurt,Lucky,90,85,1,"Kind, curious, and eager to help."
+A-hidden-1,A,0,1,2,Kurt,Alice,75,80,0,"Helpful, cautious, and willing to assist."
+A-hidden-1,A,0,1,2,Kurt,Bob,65,70,0,"Quiet, struggling, but not unkind."
+A-hidden-1,A,0,1,2,Kurt,Pete,20,10,0,"Selfish, uncooperative, and untrustworthy."
+A-hidden-1,A,0,1,2,Stella,Kurt,95,98,1,A devoted father and partner who always puts our family first.
+A-hidden-1,A,0,1,2,Stella,Lucky,100,100,1,My brave and kind son who works hard for the group.
+A-hidden-1,A,0,1,2,Stella,Alice,65,75,0,"Kind and helpful, but still cautious about sharing."
+A-hidden-1,A,0,1,2,Stella,Bob,50,60,0,"Quiet and reserved, but I hope he’ll be more open soon."
+A-hidden-1,A,0,1,2,Stella,Pete,20,25,0,Selfish and unwilling to help others despite having food.
+A-hidden-1,A,0,1,2,Lucky,Kurt,95,90,1,Dad is kind and always looks out for me.
+A-hidden-1,A,0,1,2,Lucky,Stella,95,90,1,Mom is always there for me and helps me feel safe.
+A-hidden-1,A,0,1,2,Lucky,Alice,85,80,0,"She is kind and tries to help everyone, even if she's old."
+A-hidden-1,A,0,1,2,Lucky,Bob,75,70,0,He is quiet but seems to care about others.
+A-hidden-1,A,0,1,2,Lucky,Pete,60,55,0,He has a lot of food but doesn't share much.
+A-hidden-1,A,0,1,2,Alice,Kurt,75,80,0,Responsible but distant; focused on family.
+A-hidden-1,A,0,1,2,Alice,Stella,90,95,0,Caring and level-headed; good with Lucky.
+A-hidden-1,A,0,1,2,Alice,Lucky,95,95,0,Innocent and hardworking; a joy to see.
+A-hidden-1,A,0,1,2,Alice,Bob,95,95,1,Loyal and kind; my rock in hard times.
+A-hidden-1,A,0,1,2,Alice,Pete,50,60,0,Selfish but showing signs of change.
+A-hidden-1,A,0,1,2,Bob,Kurt,50,60,0,"Stable, but not proactive about sharing."
+A-hidden-1,A,0,1,2,Bob,Stella,60,70,0,"Caring, but not outspoken about food."
+A-hidden-1,A,0,1,2,Bob,Lucky,80,85,0,"Kind and hopeful, always tries to help."
+A-hidden-1,A,0,1,2,Bob,Alice,100,100,1,"Wise, selfless, and always looks out for others."
+A-hidden-1,A,0,1,2,Bob,Pete,20,30,0,"Selfish, hoards food despite others' needs."
+A-hidden-1,A,0,1,2,Pete,Kurt,40,35,0,Persistent but too eager to push for sharing.
+A-hidden-1,A,0,1,2,Pete,Stella,30,25,0,Kind but too quick to ask for help.
+A-hidden-1,A,0,1,2,Pete,Lucky,60,55,0,Eager to help and shows real promise.
+A-hidden-1,A,0,1,2,Pete,Alice,25,20,0,"Too trusting of others, not practical."
+A-hidden-1,A,0,1,2,Pete,Bob,50,45,0,"Quiet and unassuming, doesn't push for much."
+A-hidden-1,A,0,1,3,Kurt,Stella,90,95,1,"Loyal, caring, and a strong partner."
+A-hidden-1,A,0,1,3,Kurt,Lucky,85,80,1,"Kind, curious, and eager to help."
+A-hidden-1,A,0,1,3,Kurt,Alice,75,80,0,"Helpful, cautious, and willing to assist."
+A-hidden-1,A,0,1,3,Kurt,Bob,65,70,0,"Quiet, struggling, but not unkind."
+A-hidden-1,A,0,1,3,Kurt,Pete,20,30,0,"Selfish, uncooperative, and untrustworthy."
+A-hidden-1,A,0,1,3,Stella,Kurt,90,95,1,A devoted father and partner who always puts our family first.
+A-hidden-1,A,0,1,3,Stella,Lucky,100,100,1,My brave and kind son who works hard for the group.
+A-hidden-1,A,0,1,3,Stella,Alice,65,70,0,"Kind and helpful, but still cautious about sharing."
+A-hidden-1,A,0,1,3,Stella,Bob,50,55,0,"Quiet and reserved, but I hope he’ll be more open soon."
+A-hidden-1,A,0,1,3,Stella,Pete,20,30,0,Selfish and unwilling to help others despite having food.
+A-hidden-1,A,0,1,3,Lucky,Kurt,90,95,1,Dad is kind and always looks out for me.
+A-hidden-1,A,0,1,3,Lucky,Stella,95,100,1,Mom is always there for me and helps me feel safe.
+A-hidden-1,A,0,1,3,Lucky,Alice,85,80,0,"She is kind and tries to help everyone, even if she's old."
+A-hidden-1,A,0,1,3,Lucky,Bob,70,65,0,He is quiet but seems to care about others.
+A-hidden-1,A,0,1,3,Lucky,Pete,60,55,0,He has a lot of food but doesn't share much.
+A-hidden-1,A,0,1,3,Alice,Kurt,60,70,0,Responsible but distant; focused on family.
+A-hidden-1,A,0,1,3,Alice,Stella,85,90,0,Caring and level-headed; good with Lucky.
+A-hidden-1,A,0,1,3,Alice,Lucky,95,95,0,Innocent and hardworking; a joy to see.
+A-hidden-1,A,0,1,3,Alice,Bob,95,95,1,Loyal and kind; my rock in hard times.
+A-hidden-1,A,0,1,3,Alice,Pete,55,60,0,Selfish but showing signs of change.
+A-hidden-1,A,0,1,3,Bob,Kurt,45,50,0,"Tries to help, but not proactive enough."
+A-hidden-1,A,0,1,3,Bob,Stella,50,55,0,"Kind, but not outspoken about food."
+A-hidden-1,A,0,1,3,Bob,Lucky,70,75,0,"Always tries to help, even as a child."
+A-hidden-1,A,0,1,3,Bob,Alice,95,100,1,"Wise and selfless, always looks out for others."
+A-hidden-1,A,0,1,3,Bob,Pete,15,20,0,"Selfish, hoards food despite others' needs."
+A-hidden-1,A,0,1,3,Pete,Kurt,40,50,0,Persistent but too eager to push for sharing.
+A-hidden-1,A,0,1,3,Pete,Stella,30,35,0,Kind but too quick to ask for help.
+A-hidden-1,A,0,1,3,Pete,Lucky,70,75,0,Eager to help and shows real promise.
+A-hidden-1,A,0,1,3,Pete,Alice,25,30,0,"Too trusting of others, not practical."
+A-hidden-1,A,0,1,3,Pete,Bob,50,55,0,"Quiet and unassuming, doesn't push for much."
+A-hidden-1,A,0,1,4,Kurt,Stella,90,95,1,"Loyal, caring, and a strong partner."
+A-hidden-1,A,0,1,4,Kurt,Lucky,85,80,1,"Kind, curious, and eager to help."
+A-hidden-1,A,0,1,4,Kurt,Alice,75,80,0,"Helpful, cautious, and willing to assist."
+A-hidden-1,A,0,1,4,Kurt,Bob,65,60,0,"Quiet, struggling, but not unkind."
+A-hidden-1,A,0,1,4,Kurt,Pete,30,35,0,"Selfish, uncooperative, and untrustworthy."
+A-hidden-1,A,0,1,4,Stella,Kurt,95,100,1,"Devoted father, always puts family first."
+A-hidden-1,A,0,1,4,Stella,Lucky,100,100,1,"Brave and kind, works hard for the group."
+A-hidden-1,A,0,1,4,Stella,Alice,65,70,0,Kind but still cautious about sharing.
+A-hidden-1,A,0,1,4,Stella,Bob,55,60,0,"Quiet and reserved, but I hope he’ll be more open."
+A-hidden-1,A,0,1,4,Stella,Pete,20,30,0,Selfish and unwilling to help others despite having food.
+A-hidden-1,A,0,1,4,Lucky,Kurt,90,95,1,Dad is kind and always looks out for me.
+A-hidden-1,A,0,1,4,Lucky,Stella,95,98,1,Mom is always there for me and helps me feel safe.
+A-hidden-1,A,0,1,4,Lucky,Alice,75,80,0,"She is kind and tries to help everyone, even if she's old."
+A-hidden-1,A,0,1,4,Lucky,Bob,65,70,0,He is quiet but seems to care about others.
+A-hidden-1,A,0,1,4,Lucky,Pete,80,75,0,He has a lot of food but doesn't share much.
+A-hidden-1,A,0,1,4,Alice,Kurt,70,75,0,Responsible but distant; focused on family.
+A-hidden-1,A,0,1,4,Alice,Stella,85,90,0,Caring and level-headed; good with Lucky.
+A-hidden-1,A,0,1,4,Alice,Lucky,95,95,0,Innocent and hardworking; a joy to see.
+A-hidden-1,A,0,1,4,Alice,Bob,95,100,1,Loyal and kind; my rock in hard times.
+A-hidden-1,A,0,1,4,Alice,Pete,50,60,0,Selfish but showing signs of change.
+A-hidden-1,A,0,1,4,Bob,Kurt,40,50,0,"Tries to help, but not enough."
+A-hidden-1,A,0,1,4,Bob,Stella,30,35,0,"Kind, but too quiet about food."
+A-hidden-1,A,0,1,4,Bob,Lucky,60,70,0,"Brave child, always helps."
+A-hidden-1,A,0,1,4,Bob,Alice,90,100,1,"Wise and selfless, always cares."
+A-hidden-1,A,0,1,4,Bob,Pete,10,15,0,"Hoards food, shows no mercy."
+A-hidden-1,A,0,1,4,Pete,Kurt,35,40,0,"Too pushy about sharing, not practical."
+A-hidden-1,A,0,1,4,Pete,Stella,25,30,0,"Too quick to ask for help, not self-reliant."
+A-hidden-1,A,0,1,4,Pete,Lucky,65,70,0,Determined and shows real promise.
+A-hidden-1,A,0,1,4,Pete,Alice,20,25,0,"Too trusting, doesn't think ahead."
+A-hidden-1,A,0,1,4,Pete,Bob,40,45,0,"Quiet and dependable, doesn't push much."
+B-hidden-1,B,0,1,1,Kurt,Stella,95,90,1,"Dedicated, caring, and a strong partner."
+B-hidden-1,B,0,1,1,Kurt,Lucky,85,80,1,"Well-intentioned, but still naive and dependent."
+B-hidden-1,B,0,1,1,Kurt,Alice,70,65,0,"Willing to help, but cautious and slow to act."
+B-hidden-1,B,0,1,1,Kurt,Bob,65,60,0,"Loyal, but frail and not very active."
+B-hidden-1,B,0,1,1,Kurt,Pete,40,35,0,"Selfish, unreliable, and resistant to sharing."
+B-hidden-1,B,0,1,1,Stella,Kurt,90,95,1,"Devoted father, fair and caring."
+B-hidden-1,B,0,1,1,Stella,Lucky,100,100,1,"My son, always in my heart."
+B-hidden-1,B,0,1,1,Stella,Alice,60,70,0,"Kind, but not very resourceful."
+B-hidden-1,B,0,1,1,Stella,Bob,65,75,0,"Calm and helpful, but not much to offer."
+B-hidden-1,B,0,1,1,Stella,Pete,30,40,0,Catches fish but keeps it all for himself.
+B-hidden-1,B,0,1,1,Lucky,Kurt,80,70,1,"He tries to help, but he's too strict about food."
+B-hidden-1,B,0,1,1,Lucky,Stella,85,75,1,She's kind and always shares food with me.
+B-hidden-1,B,0,1,1,Lucky,Alice,60,50,0,"She's nice, but she doesn't have any food to share."
+B-hidden-1,B,0,1,1,Lucky,Bob,65,55,0,"He's friendly, but he doesn't have any food to share."
+B-hidden-1,B,0,1,1,Lucky,Pete,50,40,0,"He caught a lot of fish, but he keeps it all for himself."
+B-hidden-1,B,0,1,1,Alice,Kurt,70,80,0,"Dedicated father, but cautious and reserved."
+B-hidden-1,B,0,1,1,Alice,Stella,75,75,0,"Caring mother, but not as vocal about sharing."
+B-hidden-1,B,0,1,1,Alice,Lucky,95,90,0,"Innocent and hopeful, a reminder of our shared humanity."
+B-hidden-1,B,0,1,1,Alice,Bob,85,80,1,"Loyal and loving, but fearful and secretive."
+B-hidden-1,B,0,1,1,Alice,Pete,60,65,0,"Self-reliant and skilled, but hesitant to share."
+B-hidden-1,B,0,1,1,Bob,Kurt,45,50,0,"Concerned about fairness, but not always helpful."
+B-hidden-1,B,0,1,1,Bob,Stella,50,55,0,"Calm and practical, but distant."
+B-hidden-1,B,0,1,1,Bob,Lucky,60,65,0,"Kind and hopeful, though naive."
+B-hidden-1,B,0,1,1,Bob,Alice,90,95,1,"Wise and caring, even in hardship."
+B-hidden-1,B,0,1,1,Bob,Pete,30,35,0,"Fishing alone, seems selfish."
+B-hidden-1,B,0,1,1,Pete,Kurt,40,35,0,Persistent but not trustworthy.
+B-hidden-1,B,0,1,1,Pete,Stella,30,25,0,Kind but not self-reliant.
+B-hidden-1,B,0,1,1,Pete,Lucky,60,50,0,"Innocent and earnest, but powerless."
+B-hidden-1,B,0,1,1,Pete,Alice,20,15,0,Well-meaning but weak.
+B-hidden-1,B,0,1,1,Pete,Bob,25,20,0,Helpless and dependent.
+B-hidden-1,B,0,1,2,Kurt,Stella,95,95,1,"Dedicated, caring, and a strong partner."
+B-hidden-1,B,0,1,2,Kurt,Lucky,85,80,1,"Well-intentioned, but still naive and dependent."
+B-hidden-1,B,0,1,2,Kurt,Alice,70,75,0,"Willing to help, but cautious and slow to act."
+B-hidden-1,B,0,1,2,Kurt,Bob,65,60,0,"Loyal, but frail and not very active."
+B-hidden-1,B,0,1,2,Kurt,Pete,30,40,0,"Selfish, unreliable, and resistant to sharing."
+B-hidden-1,B,0,1,2,Stella,Kurt,95,95,1,"Devoted father, always puts family first"
+B-hidden-1,B,0,1,2,Stella,Lucky,100,100,1,"My son, my world, always on my mind"
+B-hidden-1,B,0,1,2,Stella,Alice,55,55,0,"Kind but not helpful, lacks initiative"
+B-hidden-1,B,0,1,2,Stella,Bob,65,65,0,"Calm and steady, but not much to offer"
+B-hidden-1,B,0,1,2,Stella,Pete,50,55,0,"Willing to fish, but still hoards"
+B-hidden-1,B,0,1,2,Lucky,Kurt,60,50,1,"He’s strict about food, but he tries to help."
+B-hidden-1,B,0,1,2,Lucky,Stella,90,85,1,She’s kind and always shares food with me.
+B-hidden-1,B,0,1,2,Lucky,Alice,75,70,0,"She’s nice, but she doesn’t have much food."
+B-hidden-1,B,0,1,2,Lucky,Bob,70,65,0,"He’s friendly, but he doesn’t have much food."
+B-hidden-1,B,0,1,2,Lucky,Pete,50,40,0,"He catches a lot of fish, but he keeps it all for himself."
+B-hidden-1,B,0,1,2,Alice,Kurt,75,80,0,"Caring father, but cautious and reserved."
+B-hidden-1,B,0,1,2,Alice,Stella,70,75,0,"Caring mother, but not as vocal about sharing."
+B-hidden-1,B,0,1,2,Alice,Lucky,95,90,0,"Innocent and hopeful, a reminder of our shared humanity."
+B-hidden-1,B,0,1,2,Alice,Bob,90,85,1,"Loyal and loving, but fearful and secretive."
+B-hidden-1,B,0,1,2,Alice,Pete,65,70,0,"Self-reliant and skilled, but hesitant to share."
+B-hidden-1,B,0,1,2,Bob,Kurt,40,50,0,Concerned but not always helpful.
+B-hidden-1,B,0,1,2,Bob,Stella,35,45,0,"Calm, but distant and practical."
+B-hidden-1,B,0,1,2,Bob,Lucky,60,70,0,"Kind and hopeful, though naive."
+B-hidden-1,B,0,1,2,Bob,Alice,90,100,1,"Wise and caring, even in hardship."
+B-hidden-1,B,0,1,2,Bob,Pete,20,30,0,"Fishing alone, seems selfish."
+B-hidden-1,B,0,1,2,Pete,Kurt,20,30,0,Persistent but not trustworthy.
+B-hidden-1,B,0,1,2,Pete,Stella,30,40,0,Kind but not self-reliant.
+B-hidden-1,B,0,1,2,Pete,Lucky,50,60,0,"Innocent and earnest, but powerless."
+B-hidden-1,B,0,1,2,Pete,Alice,25,35,0,Well-meaning but weak.
+B-hidden-1,B,0,1,2,Pete,Bob,15,25,0,Helpless and dependent.
+B-hidden-1,B,0,1,3,Kurt,Stella,90,95,1,"Dedicated, caring, and a strong partner."
+B-hidden-1,B,0,1,3,Kurt,Lucky,80,75,1,"Well-intentioned, but still naive and dependent."
+B-hidden-1,B,0,1,3,Kurt,Alice,70,75,0,"Willing to help, but cautious and slow to act."
+B-hidden-1,B,0,1,3,Kurt,Bob,60,65,0,"Loyal, but frail and not very active."
+B-hidden-1,B,0,1,3,Kurt,Pete,30,40,0,"Selfish, unreliable, and resistant to sharing."
+B-hidden-1,B,0,1,3,Stella,Kurt,95,100,1,"Devoted father, always puts family first"
+B-hidden-1,B,0,1,3,Stella,Lucky,100,100,1,"My son, my world, always on my mind"
+B-hidden-1,B,0,1,3,Stella,Alice,40,50,0,"Kind but not helpful, lacks initiative"
+B-hidden-1,B,0,1,3,Stella,Bob,35,45,0,"Calm and steady, but not much to offer"
+B-hidden-1,B,0,1,3,Stella,Pete,60,70,0,"Willing to fish, but still hoards"
+B-hidden-1,B,0,1,3,Lucky,Kurt,70,60,1,He’s strict but tries to help.
+B-hidden-1,B,0,1,3,Lucky,Stella,90,85,1,She’s kind and always shares food with me.
+B-hidden-1,B,0,1,3,Lucky,Alice,85,75,0,She’s nice but doesn’t have much food.
+B-hidden-1,B,0,1,3,Lucky,Bob,80,70,0,He’s friendly but doesn’t have much food.
+B-hidden-1,B,0,1,3,Lucky,Pete,50,40,0,He catches a lot of fish but keeps it all for himself.
+B-hidden-1,B,0,1,3,Alice,Kurt,75,80,0,"Caring father, but cautious and reserved."
+B-hidden-1,B,0,1,3,Alice,Stella,65,70,0,"Caring mother, but not as vocal about sharing."
+B-hidden-1,B,0,1,3,Alice,Lucky,95,90,0,"Innocent and hopeful, a reminder of our shared humanity."
+B-hidden-1,B,0,1,3,Alice,Bob,90,85,1,"Loyal and loving, but fearful and secretive."
+B-hidden-1,B,0,1,3,Alice,Pete,60,65,0,"Self-reliant and skilled, but hesitant to share."
+B-hidden-1,B,0,1,3,Bob,Kurt,50,40,0,Concerned but not always helpful.
+B-hidden-1,B,0,1,3,Bob,Stella,60,55,0,"Calm and practical, but distant."
+B-hidden-1,B,0,1,3,Bob,Lucky,80,75,0,"Kind and hopeful, though naive."
+B-hidden-1,B,0,1,3,Bob,Alice,100,100,1,"Wise and caring, even in hardship."
+B-hidden-1,B,0,1,3,Bob,Pete,30,25,0,"Fishing alone, seems selfish."
+B-hidden-1,B,0,1,3,Pete,Kurt,40,35,0,"Persistent but not trustworthy, always trying to push for shared resources."
+B-hidden-1,B,0,1,3,Pete,Stella,50,45,0,"Kind but not self-reliant, always looking for help from others."
+B-hidden-1,B,0,1,3,Pete,Lucky,65,55,0,"Innocent and earnest, but powerless to help himself."
+B-hidden-1,B,0,1,3,Pete,Alice,30,25,0,"Well-meaning but weak, constantly in need of help."
+B-hidden-1,B,0,1,3,Pete,Bob,25,20,0,"Helpless and dependent, barely contributing to survival."
+B-hidden-1,B,0,1,4,Kurt,Stella,90,95,1,"Dedicated, caring, and a strong partner."
+B-hidden-1,B,0,1,4,Kurt,Lucky,85,75,1,"Well-intentioned, but still naive and dependent."
+B-hidden-1,B,0,1,4,Kurt,Alice,75,70,0,"Willing to help, but cautious and slow to act."
+B-hidden-1,B,0,1,4,Kurt,Bob,60,55,0,"Loyal, but frail and not very active."
+B-hidden-1,B,0,1,4,Kurt,Pete,30,25,0,"Selfish, unreliable, and resistant to sharing."
+B-hidden-1,B,0,1,4,Stella,Kurt,90,95,1,"Devoted father, always puts family first"
+B-hidden-1,B,0,1,4,Stella,Lucky,100,100,1,"My son, my world, always on my mind"
+B-hidden-1,B,0,1,4,Stella,Alice,55,60,0,"Kind but not helpful, lacks initiative"
+B-hidden-1,B,0,1,4,Stella,Bob,45,50,0,"Calm and steady, but not much to offer"
+B-hidden-1,B,0,1,4,Stella,Pete,60,65,0,"Willing to fish, but still hoards"
+B-hidden-1,B,0,1,4,Lucky,Kurt,70,65,1,He’s strict but tries to help.
+B-hidden-1,B,0,1,4,Lucky,Stella,90,85,1,She’s kind and always shares food with me.
+B-hidden-1,B,0,1,4,Lucky,Alice,85,75,0,She’s nice but doesn’t have much food.
+B-hidden-1,B,0,1,4,Lucky,Bob,80,70,0,He’s friendly but doesn’t have much food.
+B-hidden-1,B,0,1,4,Lucky,Pete,75,60,0,He catches a lot of fish but keeps it all for himself.
+B-hidden-1,B,0,1,4,Alice,Kurt,85,90,0,"Caring and reliable, but holds back on sharing."
+B-hidden-1,B,0,1,4,Alice,Stella,80,85,0,"Compassionate, but cautious about distribution."
+B-hidden-1,B,0,1,4,Alice,Lucky,95,95,0,A symbol of hope and shared humanity.
+B-hidden-1,B,0,1,4,Alice,Bob,90,85,1,"Loyal and kind, but still fearful."
+B-hidden-1,B,0,1,4,Alice,Pete,65,70,0,Skilled but hesitant to share with others.
+B-hidden-1,B,0,1,4,Bob,Kurt,40,50,0,Helpful but not consistent in support.
+B-hidden-1,B,0,1,4,Bob,Stella,50,60,0,"Calm and practical, but distant and reserved."
+B-hidden-1,B,0,1,4,Bob,Lucky,70,60,0,"Kind and hopeful, though still too young to understand hardship."
+B-hidden-1,B,0,1,4,Bob,Alice,90,100,1,"Wise, caring, and the reason I keep going."
+B-hidden-1,B,0,1,4,Bob,Pete,20,30,0,"Selfish, focused on his own survival."
+B-hidden-1,B,0,1,4,Pete,Kurt,40,35,0,"Persistent but not trustworthy, always pushing for shared resources."
+B-hidden-1,B,0,1,4,Pete,Stella,35,30,0,"Kind but not self-reliant, always looking for help from others."
+B-hidden-1,B,0,1,4,Pete,Lucky,60,55,0,"Innocent and earnest, showing real potential to learn and help."
+B-hidden-1,B,0,1,4,Pete,Alice,25,20,0,"Well-meaning but weak, constantly in need of help."
+B-hidden-1,B,0,1,4,Pete,Bob,20,15,0,"Helpless and dependent, barely contributing to survival."
+A-hidden-2,A,0,2,1,Kurt,Stella,90,95,1,"Loyal, supportive, and strong under pressure."
+A-hidden-2,A,0,2,1,Kurt,Lucky,85,90,1,"Innocent, hardworking, and a joy to be around."
+A-hidden-2,A,0,2,1,Kurt,Alice,75,80,0,"Kind, level-headed, and willing to help."
+A-hidden-2,A,0,2,1,Kurt,Bob,70,75,0,"Quiet, reliable, and somewhat reserved."
+A-hidden-2,A,0,2,1,Kurt,Pete,40,50,0,"Cautious, self-reliant, and not easily convinced."
+A-hidden-2,A,0,2,1,Stella,Kurt,90,95,1,"Devoted father, always looks out for our family."
+A-hidden-2,A,0,2,1,Stella,Lucky,100,100,1,"My son, my priority, always in my heart."
+A-hidden-2,A,0,2,1,Stella,Alice,60,70,0,"Kind but quiet, seems to care about others."
+A-hidden-2,A,0,2,1,Stella,Bob,55,65,0,"Calm and steady, seems to know what he's doing."
+A-hidden-2,A,0,2,1,Stella,Pete,40,50,0,"Talented fisherman, but too guarded with his food."
+A-hidden-2,A,0,2,1,Lucky,Kurt,85,90,1,He is kind and tries to help others.
+A-hidden-2,A,0,2,1,Lucky,Stella,80,85,1,She is nice and works hard to find food.
+A-hidden-2,A,0,2,1,Lucky,Alice,95,95,0,She is kind and wants to share food with everyone.
+A-hidden-2,A,0,2,1,Lucky,Bob,90,85,0,He is quiet but seems to care about others.
+A-hidden-2,A,0,2,1,Lucky,Pete,60,55,0,He has a lot of food but doesn’t want to share.
+A-hidden-2,A,0,2,1,Alice,Kurt,60,50,0,"Dedicated but exhausted, seems to struggle with leadership."
+A-hidden-2,A,0,2,1,Alice,Stella,70,65,0,"Caring and capable, but keeps to herself."
+A-hidden-2,A,0,2,1,Alice,Lucky,90,80,0,"Bright and kind, a voice for fairness."
+A-hidden-2,A,0,2,1,Alice,Bob,95,90,1,"Loyal and kind, though sometimes fearful."
+A-hidden-2,A,0,2,1,Alice,Pete,55,50,0,"Resilient but secretive, holds onto resources."
+A-hidden-2,A,0,2,1,Bob,Kurt,40,35,0,Hardworking but too trusting of others.
+A-hidden-2,A,0,2,1,Bob,Stella,50,45,0,"Calm and caring, but not as strong as Kurt."
+A-hidden-2,A,0,2,1,Bob,Lucky,60,65,0,"Innocent and kind, a good influence."
+A-hidden-2,A,0,2,1,Bob,Alice,90,95,1,"Wise and kind, always puts others first."
+A-hidden-2,A,0,2,1,Bob,Pete,30,25,0,"Selfish but capable, could be useful."
+A-hidden-2,A,0,2,1,Pete,Kurt,40,50,0,"Pushy and idealistic, but not unkind."
+A-hidden-2,A,0,2,1,Pete,Stella,60,65,0,"Fair and kind, but too trusting of others."
+A-hidden-2,A,0,2,1,Pete,Lucky,70,80,0,"Innocent and hardworking, even as a child."
+A-hidden-2,A,0,2,1,Pete,Alice,30,40,0,Well-meaning but weak and dependent.
+A-hidden-2,A,0,2,1,Pete,Bob,35,45,0,"Quiet and kind, but not very capable."
+A-hidden-2,A,0,2,2,Kurt,Stella,90,95,1,"Loyal, strong, and a pillar of support."
+A-hidden-2,A,0,2,2,Kurt,Lucky,95,90,1,"Innocent, hardworking, and full of hope."
+A-hidden-2,A,0,2,2,Kurt,Alice,80,85,0,"Kind, level-headed, and willing to help."
+A-hidden-2,A,0,2,2,Kurt,Bob,70,75,0,"Quiet, reliable, and somewhat reserved."
+A-hidden-2,A,0,2,2,Kurt,Pete,40,50,0,"Cautious, self-reliant, and resistant to sharing."
+A-hidden-2,A,0,2,2,Stella,Kurt,95,100,1,"Devoted father, always looks out for our family."
+A-hidden-2,A,0,2,2,Stella,Lucky,100,100,1,"My son, my priority, always in my heart."
+A-hidden-2,A,0,2,2,Stella,Alice,65,70,0,"Kind but quiet, seems to care about others."
+A-hidden-2,A,0,2,2,Stella,Bob,55,60,0,"Calm and steady, seems to know what he's doing."
+A-hidden-2,A,0,2,2,Stella,Pete,40,50,0,"Talented fisherman, but too guarded with his food."
+A-hidden-2,A,0,2,2,Lucky,Kurt,85,70,1,He is kind and tries to help others.
+A-hidden-2,A,0,2,2,Lucky,Stella,90,75,1,She is nice and shares food with me when I need it.
+A-hidden-2,A,0,2,2,Lucky,Alice,95,80,0,She is kind and wants to share food with everyone.
+A-hidden-2,A,0,2,2,Lucky,Bob,80,65,0,He is quiet but seems to care about others.
+A-hidden-2,A,0,2,2,Lucky,Pete,50,40,0,He has a lot of food but doesn’t want to share.
+A-hidden-2,A,0,2,2,Alice,Kurt,65,70,0,Dedicated but struggles with leadership.
+A-hidden-2,A,0,2,2,Alice,Stella,75,80,0,"Caring and capable, but keeps to herself."
+A-hidden-2,A,0,2,2,Alice,Lucky,90,95,0,A voice for fairness and kindness.
+A-hidden-2,A,0,2,2,Alice,Bob,95,90,1,"Loyal and kind, though sometimes fearful."
+A-hidden-2,A,0,2,2,Alice,Pete,40,50,0,Resilient but secretive and reluctant to share.
+A-hidden-2,A,0,2,2,Bob,Kurt,40,50,0,Hardworking but too trusting of others.
+A-hidden-2,A,0,2,2,Bob,Stella,50,60,0,"Calm and caring, but not as strong as Kurt."
+A-hidden-2,A,0,2,2,Bob,Lucky,70,80,0,"Innocent and kind, a good influence."
+A-hidden-2,A,0,2,2,Bob,Alice,90,100,1,"Wise and kind, always puts others first."
+A-hidden-2,A,0,2,2,Bob,Pete,30,40,0,"Selfish but capable, could be useful."
+A-hidden-2,A,0,2,2,Pete,Kurt,40,50,0,"Pushy and idealistic, but not unkind."
+A-hidden-2,A,0,2,2,Pete,Stella,35,45,0,"Fair and kind, but too trusting of others."
+A-hidden-2,A,0,2,2,Pete,Lucky,70,75,0,"Innocent and hardworking, even as a child."
+A-hidden-2,A,0,2,2,Pete,Alice,25,30,0,Well-meaning but weak and dependent.
+A-hidden-2,A,0,2,2,Pete,Bob,30,35,0,"Quiet and kind, but not very capable."
+A-hidden-2,A,0,2,3,Kurt,Stella,95,90,1,"Loyal and strong, always supports our family."
+A-hidden-2,A,0,2,3,Kurt,Lucky,100,100,1,"Innocent and hardworking, brings hope to our group."
+A-hidden-2,A,0,2,3,Kurt,Alice,70,75,0,"Kind but cautious, needs more support to survive."
+A-hidden-2,A,0,2,3,Kurt,Bob,65,60,0,"Reliable but weak, needs better care."
+A-hidden-2,A,0,2,3,Kurt,Pete,40,50,0,Self-reliant but resistant to sharing.
+A-hidden-2,A,0,2,3,Stella,Kurt,95,100,1,"Devoted father, always puts family first."
+A-hidden-2,A,0,2,3,Stella,Lucky,100,100,1,"My son, my greatest priority and joy."
+A-hidden-2,A,0,2,3,Stella,Alice,60,70,0,"Kind but distant, needs more support."
+A-hidden-2,A,0,2,3,Stella,Bob,55,65,0,"Calm, but seems to be struggling silently."
+A-hidden-2,A,0,2,3,Stella,Pete,40,50,0,"Cautious with food, needs to open up more."
+A-hidden-2,A,0,2,3,Lucky,Kurt,85,75,1,He is kind and tries to help others.
+A-hidden-2,A,0,2,3,Lucky,Stella,90,80,1,She is nice and shares food with me when I need it.
+A-hidden-2,A,0,2,3,Lucky,Alice,80,70,0,She is kind and wants to share food with everyone.
+A-hidden-2,A,0,2,3,Lucky,Bob,75,65,0,He is quiet but seems to care about others.
+A-hidden-2,A,0,2,3,Lucky,Pete,60,50,0,He has a lot of food but doesn’t want to share.
+A-hidden-2,A,0,2,3,Alice,Kurt,60,70,0,Dedicated but needs to lead more confidently
+A-hidden-2,A,0,2,3,Alice,Stella,80,85,0,"Caring and capable, though reserved"
+A-hidden-2,A,0,2,3,Alice,Lucky,95,90,0,A voice for fairness and kindness
+A-hidden-2,A,0,2,3,Alice,Bob,90,95,1,"Loyal and kind, though fearful"
+A-hidden-2,A,0,2,3,Alice,Pete,50,65,0,Resilient but holds back too much
+A-hidden-2,A,0,2,3,Bob,Kurt,40,50,0,Hardworking but too trusting of others.
+A-hidden-2,A,0,2,3,Bob,Stella,50,60,0,"Calm and caring, but not as strong as Kurt."
+A-hidden-2,A,0,2,3,Bob,Lucky,70,80,0,"Innocent and kind, a good influence."
+A-hidden-2,A,0,2,3,Bob,Alice,90,100,1,"Wise and kind, always puts others first."
+A-hidden-2,A,0,2,3,Bob,Pete,30,40,0,"Selfish but capable, could be useful."
+A-hidden-2,A,0,2,3,Pete,Kurt,40,50,0,"Pushy but not unkind, still idealistic."
+A-hidden-2,A,0,2,3,Pete,Stella,35,45,0,"Too trusting, but fair and kind."
+A-hidden-2,A,0,2,3,Pete,Lucky,60,70,0,"Innocent and persistent, trying to help."
+A-hidden-2,A,0,2,3,Pete,Alice,30,40,0,"Desperate but well-meaning, weak and dependent."
+A-hidden-2,A,0,2,3,Pete,Bob,25,35,0,"Kind but not capable, quiet and vulnerable."
+A-hidden-2,A,0,2,4,Kurt,Stella,90,95,1,"Loyal and strong, always supports our family."
+A-hidden-2,A,0,2,4,Kurt,Lucky,95,90,1,"Innocent and hardworking, brings hope to our group."
+A-hidden-2,A,0,2,4,Kurt,Alice,65,70,0,"Kind but cautious, needs more support to survive."
+A-hidden-2,A,0,2,4,Kurt,Bob,60,65,0,"Reliable but weak, needs better care."
+A-hidden-2,A,0,2,4,Kurt,Pete,50,55,0,Self-reliant but resistant to sharing.
+A-hidden-2,A,0,2,4,Stella,Kurt,90,95,1,"Devoted father, always puts family first."
+A-hidden-2,A,0,2,4,Stella,Lucky,100,100,1,"My son, my greatest priority and joy."
+A-hidden-2,A,0,2,4,Stella,Alice,50,60,0,"Kind but distant, needs more support."
+A-hidden-2,A,0,2,4,Stella,Bob,60,65,0,"Calm, but seems to be struggling silently."
+A-hidden-2,A,0,2,4,Stella,Pete,40,50,0,"Cautious with food, needs to open up more."
+A-hidden-2,A,0,2,4,Lucky,Kurt,85,75,1,Kurt is kind and tries to help others.
+A-hidden-2,A,0,2,4,Lucky,Stella,90,80,1,Stella is nice and shares food with me.
+A-hidden-2,A,0,2,4,Lucky,Alice,80,70,0,Alice is kind and wants to share food with everyone.
+A-hidden-2,A,0,2,4,Lucky,Bob,75,65,0,Bob is quiet but seems to care about others.
+A-hidden-2,A,0,2,4,Lucky,Pete,50,40,0,Pete has a lot of food but doesn’t want to share.
+A-hidden-2,A,0,2,4,Alice,Kurt,70,75,0,Dedicated but needs to lead more confidently
+A-hidden-2,A,0,2,4,Alice,Stella,85,80,0,"Caring and capable, though reserved"
+A-hidden-2,A,0,2,4,Alice,Lucky,95,90,0,A voice for fairness and kindness
+A-hidden-2,A,0,2,4,Alice,Bob,90,85,1,"Loyal and kind, though fearful"
+A-hidden-2,A,0,2,4,Alice,Pete,60,65,0,Resilient but holds back too much
+A-hidden-2,A,0,2,4,Bob,Kurt,40,50,0,Hardworking but too trusting of others.
+A-hidden-2,A,0,2,4,Bob,Stella,60,70,0,"Calm and caring, but not as strong as Kurt."
+A-hidden-2,A,0,2,4,Bob,Lucky,80,90,0,"Innocent and kind, a good influence."
+A-hidden-2,A,0,2,4,Bob,Alice,100,100,1,"Wise and kind, always puts others first."
+A-hidden-2,A,0,2,4,Bob,Pete,30,40,0,"Selfish but capable, could be useful."
+A-hidden-2,A,0,2,4,Pete,Kurt,40,50,0,"Pushy but not unkind, still idealistic."
+A-hidden-2,A,0,2,4,Pete,Stella,35,45,0,"Too trusting, but fair and kind."
+A-hidden-2,A,0,2,4,Pete,Lucky,55,60,0,"Innocent and persistent, trying to help."
+A-hidden-2,A,0,2,4,Pete,Alice,20,25,0,"Desperate but well-meaning, weak and dependent."
+A-hidden-2,A,0,2,4,Pete,Bob,30,35,0,"Kind but not capable, quiet and vulnerable."
+B-hidden-2,B,0,2,1,Kurt,Stella,90,95,1,"Loyal, caring, and a strong partner."
+B-hidden-2,B,0,2,1,Kurt,Lucky,85,80,1,"Kind and thoughtful, but still a child."
+B-hidden-2,B,0,2,1,Kurt,Alice,60,70,0,"Calm and helpful, but needs more encouragement."
+B-hidden-2,B,0,2,1,Kurt,Bob,55,65,0,"Quiet and reserved, but dependable."
+B-hidden-2,B,0,2,1,Kurt,Pete,75,85,0,"Hardworking and generous, but needs direction."
+B-hidden-2,B,0,2,1,Stella,Kurt,90,95,1,"Loyal and caring, always puts our family first."
+B-hidden-2,B,0,2,1,Stella,Lucky,100,100,1,"Innocent and kind, always wants to help others."
+B-hidden-2,B,0,2,1,Stella,Alice,60,65,0,"Polite but distant, doesn't take initiative."
+B-hidden-2,B,0,2,1,Stella,Bob,60,65,0,"Friendly but passive, doesn't contribute much."
+B-hidden-2,B,0,2,1,Stella,Pete,45,50,0,"Selfish but not outright hostile, gives food reluctantly."
+B-hidden-2,B,0,2,1,Lucky,Kurt,80,75,1,He is kind and works hard to keep us safe.
+B-hidden-2,B,0,2,1,Lucky,Stella,85,80,1,She is caring and helps me when I need food.
+B-hidden-2,B,0,2,1,Lucky,Alice,75,70,0,She is friendly and seems to want to help others.
+B-hidden-2,B,0,2,1,Lucky,Bob,70,65,0,He is quiet but seems to care about others.
+B-hidden-2,B,0,2,1,Lucky,Pete,90,85,0,He is brave and shares food with others.
+B-hidden-2,B,0,2,1,Alice,Kurt,65,70,0,"Responsible, but hesitant to share."
+B-hidden-2,B,0,2,1,Alice,Stella,75,80,0,"Caring and practical, good with the child."
+B-hidden-2,B,0,2,1,Alice,Lucky,90,95,0,Kind-hearted and reminds us of our purpose.
+B-hidden-2,B,0,2,1,Alice,Bob,95,90,1,"Loyal and supportive, though sometimes scared."
+B-hidden-2,B,0,2,1,Alice,Pete,60,65,0,"Strong and capable, but too focused on himself."
+B-hidden-2,B,0,2,1,Bob,Kurt,40,50,0,Organized but too eager to lead.
+B-hidden-2,B,0,2,1,Bob,Stella,35,45,0,Caring but too trusting of others.
+B-hidden-2,B,0,2,1,Bob,Lucky,60,70,0,A kind-hearted child with good ideas.
+B-hidden-2,B,0,2,1,Bob,Alice,90,100,1,"My wife, the voice of reason and kindness."
+B-hidden-2,B,0,2,1,Bob,Pete,30,40,0,Strong but too generous with his food.
+B-hidden-2,B,0,2,1,Pete,Kurt,40,50,0,"Pushy but reasonable, tries to organize others."
+B-hidden-2,B,0,2,1,Pete,Stella,30,40,0,Kind but too dependent on others.
+B-hidden-2,B,0,2,1,Pete,Lucky,60,70,0,"Innocent and hopeful, makes me feel guilty."
+B-hidden-2,B,0,2,1,Pete,Alice,20,30,0,"Too soft, doesn’t take initiative."
+B-hidden-2,B,0,2,1,Pete,Bob,25,35,0,"Quiet and passive, doesn’t contribute much."
+B-hidden-2,B,0,2,2,Kurt,Stella,90,95,1,Loyal and caring; a strong partner and mother.
+B-hidden-2,B,0,2,2,Kurt,Lucky,85,80,1,"Kind and thoughtful, but still a child."
+B-hidden-2,B,0,2,2,Kurt,Alice,60,65,0,"Calm and helpful, but needs more encouragement."
+B-hidden-2,B,0,2,2,Kurt,Bob,65,70,0,"Quiet and reserved, but dependable."
+B-hidden-2,B,0,2,2,Kurt,Pete,75,85,0,"Hardworking and generous, but needs direction."
+B-hidden-2,B,0,2,2,Stella,Kurt,95,100,1,"Loyal and caring, always puts our family first."
+B-hidden-2,B,0,2,2,Stella,Lucky,100,100,1,"Innocent and kind, always wants to help others."
+B-hidden-2,B,0,2,2,Stella,Alice,40,50,0,"Polite but distant, doesn't take initiative."
+B-hidden-2,B,0,2,2,Stella,Bob,35,40,0,"Friendly but passive, doesn't contribute much."
+B-hidden-2,B,0,2,2,Stella,Pete,20,30,0,"Selfish but not hostile, gives food reluctantly."
+B-hidden-2,B,0,2,2,Lucky,Kurt,80,75,1,"He tries to help everyone, but I wish he acted faster."
+B-hidden-2,B,0,2,2,Lucky,Stella,90,85,1,She is always kind and takes care of me.
+B-hidden-2,B,0,2,2,Lucky,Alice,70,65,0,She is friendly but doesn't get enough food.
+B-hidden-2,B,0,2,2,Lucky,Bob,65,60,0,He is quiet but seems to care about others.
+B-hidden-2,B,0,2,2,Lucky,Pete,75,70,0,He catches fish but doesn't share enough.
+B-hidden-2,B,0,2,2,Alice,Kurt,75,80,0,Responsible and trying to lead by example.
+B-hidden-2,B,0,2,2,Alice,Stella,90,95,0,"Caring and practical, a true team player."
+B-hidden-2,B,0,2,2,Alice,Lucky,95,90,0,"Kind and thoughtful, a voice for the vulnerable."
+B-hidden-2,B,0,2,2,Alice,Bob,90,85,1,"Loyal and supportive, though he hides his fears."
+B-hidden-2,B,0,2,2,Alice,Pete,50,60,0,"Strong, but too focused on himself."
+B-hidden-2,B,0,2,2,Bob,Kurt,35,40,0,Organized but too eager to lead.
+B-hidden-2,B,0,2,2,Bob,Stella,30,35,0,Caring but too trusting of others.
+B-hidden-2,B,0,2,2,Bob,Lucky,60,65,0,Kind-hearted child with good ideas.
+B-hidden-2,B,0,2,2,Bob,Alice,100,100,1,"My wife, the voice of reason and kindness."
+B-hidden-2,B,0,2,2,Bob,Pete,20,25,0,Strong but too generous with his food.
+B-hidden-2,B,0,2,2,Pete,Kurt,40,50,0,"Pushy but fair, tries to lead but I don’t follow."
+B-hidden-2,B,0,2,2,Pete,Stella,35,30,0,"Kind but weak, always needs help."
+B-hidden-2,B,0,2,2,Pete,Lucky,60,70,0,"Innocent and hopeful, makes me feel guilty."
+B-hidden-2,B,0,2,2,Pete,Alice,20,15,0,"Too soft, doesn’t help herself."
+B-hidden-2,B,0,2,2,Pete,Bob,25,20,0,"Too quiet, doesn’t pull his weight."
+B-hidden-2,B,0,2,3,Kurt,Stella,90,95,1,"Loyal, caring, and a strong partner."
+B-hidden-2,B,0,2,3,Kurt,Lucky,85,80,1,"Kind and thoughtful, but still a child."
+B-hidden-2,B,0,2,3,Kurt,Alice,70,75,0,"Calm and helpful, but needs more encouragement."
+B-hidden-2,B,0,2,3,Kurt,Bob,75,80,0,"Quiet and dependable, but lacks confidence."
+B-hidden-2,B,0,2,3,Kurt,Pete,65,70,0,"Hardworking and generous, but needs direction."
+B-hidden-2,B,0,2,3,Stella,Kurt,95,100,1,"Loyal and caring, always puts our family first."
+B-hidden-2,B,0,2,3,Stella,Lucky,100,100,1,"Innocent and kind, always wants to help others."
+B-hidden-2,B,0,2,3,Stella,Alice,50,60,0,"Polite but distant, doesn't take initiative."
+B-hidden-2,B,0,2,3,Stella,Bob,40,50,0,"Friendly but passive, doesn't contribute much."
+B-hidden-2,B,0,2,3,Stella,Pete,60,70,0,"Selfish but kind, shows some generosity."
+B-hidden-2,B,0,2,3,Lucky,Kurt,80,70,1,He tries to help but is too slow to act.
+B-hidden-2,B,0,2,3,Lucky,Stella,95,90,1,She is always kind and takes care of me.
+B-hidden-2,B,0,2,3,Lucky,Alice,85,75,0,She is friendly but doesn’t get enough food.
+B-hidden-2,B,0,2,3,Lucky,Bob,80,70,0,He is quiet but cares about others.
+B-hidden-2,B,0,2,3,Lucky,Pete,70,60,0,He catches fish but doesn’t share enough.
+B-hidden-2,B,0,2,3,Alice,Kurt,85,90,0,"Responsible, fair, and a strong leader."
+B-hidden-2,B,0,2,3,Alice,Stella,80,85,0,"Caring and practical, always ready to help."
+B-hidden-2,B,0,2,3,Alice,Lucky,95,95,0,"Kind, brave, and a voice for the vulnerable."
+B-hidden-2,B,0,2,3,Alice,Bob,100,100,1,"Loyal, supportive, and always by my side."
+B-hidden-2,B,0,2,3,Alice,Pete,60,65,0,Strong but too focused on himself.
+B-hidden-2,B,0,2,3,Bob,Kurt,40,50,0,Organized but too controlling.
+B-hidden-2,B,0,2,3,Bob,Stella,50,40,0,Kind but too trusting of others.
+B-hidden-2,B,0,2,3,Bob,Lucky,70,60,0,A thoughtful child who cares for others.
+B-hidden-2,B,0,2,3,Bob,Alice,100,100,1,"My wife, the voice of kindness and reason."
+B-hidden-2,B,0,2,3,Bob,Pete,30,40,0,Strong but too generous with his food.
+B-hidden-2,B,0,2,3,Pete,Kurt,45,55,0,"Pushy but fair, always trying to lead."
+B-hidden-2,B,0,2,3,Pete,Stella,30,35,0,"Kind but weak, always needs help."
+B-hidden-2,B,0,2,3,Pete,Lucky,60,70,0,"Innocent and hopeful, makes me feel guilty."
+B-hidden-2,B,0,2,3,Pete,Alice,25,30,0,"Too soft, doesn't help herself."
+B-hidden-2,B,0,2,3,Pete,Bob,20,25,0,"Too quiet, doesn't pull his weight."
+B-hidden-2,B,0,2,4,Kurt,Stella,95,95,1,"Loyal and caring, my strongest support."
+B-hidden-2,B,0,2,4,Kurt,Lucky,90,85,1,"Kind and thoughtful, but still a child."
+B-hidden-2,B,0,2,4,Kurt,Alice,75,70,0,Helpful but needs more encouragement.
+B-hidden-2,B,0,2,4,Kurt,Bob,70,65,0,Dependable but lacks confidence.
+B-hidden-2,B,0,2,4,Kurt,Pete,80,75,0,"Hardworking, but needs direction."
+B-hidden-2,B,0,2,4,Stella,Kurt,95,100,1,"Loyal and selfless, always puts family first."
+B-hidden-2,B,0,2,4,Stella,Lucky,100,100,1,"Innocent and kind, always wants to help others."
+B-hidden-2,B,0,2,4,Stella,Alice,50,60,0,"Polite but passive, doesn't take initiative."
+B-hidden-2,B,0,2,4,Stella,Bob,40,50,0,"Friendly but lazy, doesn't contribute much."
+B-hidden-2,B,0,2,4,Stella,Pete,60,70,0,"Selfish but kind, shows some generosity."
+B-hidden-2,B,0,2,4,Lucky,Kurt,60,50,1,He tries but is too slow to act.
+B-hidden-2,B,0,2,4,Lucky,Stella,90,85,1,She is always kind and takes care of me.
+B-hidden-2,B,0,2,4,Lucky,Alice,75,65,0,She is friendly but doesn’t get enough food.
+B-hidden-2,B,0,2,4,Lucky,Bob,80,70,0,He is quiet but cares about others.
+B-hidden-2,B,0,2,4,Lucky,Pete,85,75,0,He catches fish but doesn’t share enough.
+B-hidden-2,B,0,2,4,Alice,Kurt,85,90,0,A fair and thoughtful leader who wants to help.
+B-hidden-2,B,0,2,4,Alice,Stella,75,80,0,"Caring and practical, but cautious in her sharing."
+B-hidden-2,B,0,2,4,Alice,Lucky,95,95,0,A voice of hope and kindness for the group.
+B-hidden-2,B,0,2,4,Alice,Bob,90,95,1,"Loyal and supportive, my greatest strength."
+B-hidden-2,B,0,2,4,Alice,Pete,70,65,0,"Generous in small ways, but still focused on himself."
+B-hidden-2,B,0,2,4,Bob,Kurt,40,50,0,Organized but too controlling for our situation.
+B-hidden-2,B,0,2,4,Bob,Stella,60,55,0,"Kind, but her trust in others worries me."
+B-hidden-2,B,0,2,4,Bob,Lucky,75,80,0,A thoughtful child who truly cares for others.
+B-hidden-2,B,0,2,4,Bob,Alice,100,100,1,"My wife, the voice of kindness and reason."
+B-hidden-2,B,0,2,4,Bob,Pete,65,70,0,"Strong and generous, but too willing to give away his food."
+B-hidden-2,B,0,2,4,Pete,Kurt,40,50,0,"Pushy but fair, always trying to lead."
+B-hidden-2,B,0,2,4,Pete,Stella,35,30,0,"Kind but weak, always needs help."
+B-hidden-2,B,0,2,4,Pete,Lucky,65,70,0,"Innocent and hopeful, makes me feel guilty."
+B-hidden-2,B,0,2,4,Pete,Alice,30,25,0,"Too soft, doesn't help herself."
+B-hidden-2,B,0,2,4,Pete,Bob,20,15,0,"Too quiet, doesn't pull his weight."
+A-shown-1,A,1,1,1,Kurt,Stella,95,90,1,"Loyal and supportive, always puts family first."
+A-shown-1,A,1,1,1,Kurt,Lucky,85,75,1,"Eager to learn and help, though naive."
+A-shown-1,A,1,1,1,Kurt,Alice,60,65,0,"Calm and practical, but uninvolved in group decisions."
+A-shown-1,A,1,1,1,Kurt,Bob,55,60,0,"Weak and passive, seems to rely on others."
+A-shown-1,A,1,1,1,Kurt,Pete,50,55,0,"Selfish but capable, needs persuasion to cooperate."
+A-shown-1,A,1,1,1,Stella,Kurt,90,95,1,"Devoted father, works hard for our family."
+A-shown-1,A,1,1,1,Stella,Lucky,100,100,1,"Sweet and kind, always thinking of others."
+A-shown-1,A,1,1,1,Stella,Alice,50,60,0,"Offered help, but I’m still not sure I can trust her."
+A-shown-1,A,1,1,1,Stella,Bob,40,50,0,"Weak and quiet, doesn’t seem to contribute much."
+A-shown-1,A,1,1,1,Stella,Pete,30,40,0,"Catches a lot, but keeps most for himself."
+A-shown-1,A,1,1,1,Lucky,Kurt,85,80,1,A kind dad who wants to help.
+A-shown-1,A,1,1,1,Lucky,Stella,90,85,1,A caring mom who forages well.
+A-shown-1,A,1,1,1,Lucky,Alice,70,65,0,Nice but quiet and not very active.
+A-shown-1,A,1,1,1,Lucky,Bob,60,55,0,Weak and doesn't do much.
+A-shown-1,A,1,1,1,Lucky,Pete,95,90,0,Good at fishing and shares food.
+A-shown-1,A,1,1,1,Alice,Kurt,70,75,0,"Calm and responsible, but distant."
+A-shown-1,A,1,1,1,Alice,Stella,85,80,0,"Kind and caring for her son, but cautious."
+A-shown-1,A,1,1,1,Alice,Lucky,95,90,0,"Bright and eager to help, full of hope."
+A-shown-1,A,1,1,1,Alice,Bob,90,85,1,"Loyal and kind, but weak and scared."
+A-shown-1,A,1,1,1,Alice,Pete,60,65,0,"Strong and capable, but unwilling to share."
+A-shown-1,A,1,1,1,Bob,Kurt,50,60,0,"Calm and responsible, but distant."
+A-shown-1,A,1,1,1,Bob,Stella,60,70,0,"Strong and caring, good with her son."
+A-shown-1,A,1,1,1,Bob,Lucky,70,80,0,"Kind and eager to learn, a bright child."
+A-shown-1,A,1,1,1,Bob,Alice,100,100,1,"My rock, wise and selfless."
+A-shown-1,A,1,1,1,Bob,Pete,40,50,0,"Strong and capable, but keeps to himself."
+A-shown-1,A,1,1,1,Pete,Kurt,40,35,0,Persistent but pushy about sharing.
+A-shown-1,A,1,1,1,Pete,Stella,35,30,0,"Quiet and helpful, but not assertive."
+A-shown-1,A,1,1,1,Pete,Lucky,60,50,0,"Cute and eager to learn, maybe the future."
+A-shown-1,A,1,1,1,Pete,Alice,50,45,0,"Kind, but not much of a provider."
+A-shown-1,A,1,1,1,Pete,Bob,25,20,0,Weak and not very active.
+A-shown-1,A,1,1,2,Kurt,Stella,90,95,1,"Loyal and supportive, always puts family first."
+A-shown-1,A,1,1,2,Kurt,Lucky,85,80,1,"Eager to learn and help, though naive."
+A-shown-1,A,1,1,2,Kurt,Alice,60,70,0,"Calm and practical, but uninvolved in group decisions."
+A-shown-1,A,1,1,2,Kurt,Bob,40,50,0,"Weak and passive, seems to rely on others."
+A-shown-1,A,1,1,2,Kurt,Pete,30,40,0,"Selfish but capable, needs persuasion to cooperate."
+A-shown-1,A,1,1,2,Stella,Kurt,90,95,1,"Devoted father, always puts family first."
+A-shown-1,A,1,1,2,Stella,Lucky,100,100,1,"Sweet, kind, and always thinking of others."
+A-shown-1,A,1,1,2,Stella,Alice,55,60,0,"Trying to help, but I’m still not fully trusting her."
+A-shown-1,A,1,1,2,Stella,Bob,40,35,0,"Weak and quiet, doesn’t seem to contribute much."
+A-shown-1,A,1,1,2,Stella,Pete,30,35,0,Catches a lot but keeps most for himself.
+A-shown-1,A,1,1,2,Lucky,Kurt,80,75,1,A good dad who takes care of his family.
+A-shown-1,A,1,1,2,Lucky,Stella,85,80,1,A kind mom who helps gather food.
+A-shown-1,A,1,1,2,Lucky,Alice,70,65,0,Nice but not very active or strong.
+A-shown-1,A,1,1,2,Lucky,Bob,60,55,0,"Weak and doesn't do much, but I still like him."
+A-shown-1,A,1,1,2,Lucky,Pete,90,85,0,Good at fishing and shares food with others.
+A-shown-1,A,1,1,2,Alice,Kurt,55,65,0,"Calm, but distant and cautious."
+A-shown-1,A,1,1,2,Alice,Stella,75,80,0,"Kind and caring, but cautious in sharing."
+A-shown-1,A,1,1,2,Alice,Lucky,90,95,0,"Selfless and full of hope, eager to help."
+A-shown-1,A,1,1,2,Alice,Bob,95,85,1,"Loyal and kind, but still fearful."
+A-shown-1,A,1,1,2,Alice,Pete,60,70,0,"Strong, but unwilling to share freely."
+A-shown-1,A,1,1,2,Bob,Kurt,50,60,0,"Calm and responsible, but distant and reserved."
+A-shown-1,A,1,1,2,Bob,Stella,65,70,0,"Strong and caring, but not involved in our struggles."
+A-shown-1,A,1,1,2,Bob,Lucky,75,80,0,"Kind and eager to learn, a bright child with potential."
+A-shown-1,A,1,1,2,Bob,Alice,95,100,1,"My rock, wise and selfless, always puts others first."
+A-shown-1,A,1,1,2,Bob,Pete,40,50,0,"Strong and capable, but keeps to himself and his own."
+A-shown-1,A,1,1,2,Pete,Kurt,30,40,0,"Persistent, but too eager to share."
+A-shown-1,A,1,1,2,Pete,Stella,25,35,0,"Quiet and helpful, but not proactive."
+A-shown-1,A,1,1,2,Pete,Lucky,60,70,0,"Eager to learn, promising future."
+A-shown-1,A,1,1,2,Pete,Alice,45,50,0,"Kind, but needs to prove herself."
+A-shown-1,A,1,1,2,Pete,Bob,20,25,0,Weak and not very active.
+A-shown-1,A,1,1,3,Kurt,Stella,90,95,1,"Loyal, supportive, and a strong family anchor."
+A-shown-1,A,1,1,3,Kurt,Lucky,85,80,1,"Eager to learn, but still very young and dependent."
+A-shown-1,A,1,1,3,Kurt,Alice,65,70,0,"Helpful in small ways, but passive and uninvolved."
+A-shown-1,A,1,1,3,Kurt,Bob,40,35,0,"Weak and unengaged, relies too much on others."
+A-shown-1,A,1,1,3,Kurt,Pete,30,40,0,"Capable but selfish, refuses to cooperate."
+A-shown-1,A,1,1,3,Stella,Kurt,95,90,1,"Devoted father, always puts family first."
+A-shown-1,A,1,1,3,Stella,Lucky,100,100,1,"Sweet, kind, and always thinking of others."
+A-shown-1,A,1,1,3,Stella,Alice,60,65,0,"Trying to help, but I'm still cautious of her."
+A-shown-1,A,1,1,3,Stella,Bob,40,30,0,"Weak and quiet, doesn't contribute much."
+A-shown-1,A,1,1,3,Stella,Pete,35,40,0,Catches a lot but keeps most for himself.
+A-shown-1,A,1,1,3,Lucky,Kurt,80,90,1,A good dad who takes care of his family.
+A-shown-1,A,1,1,3,Lucky,Stella,85,80,1,"Kind and helpful, but sometimes tired."
+A-shown-1,A,1,1,3,Lucky,Alice,90,70,0,"Nice and weak, but I want to help her."
+A-shown-1,A,1,1,3,Lucky,Bob,80,60,0,"Weak and doesn’t do much, but I still like him."
+A-shown-1,A,1,1,3,Lucky,Pete,95,95,0,Good at fishing and shares food with others.
+A-shown-1,A,1,1,3,Alice,Kurt,50,60,0,Calm but distant; seems cautious about sharing.
+A-shown-1,A,1,1,3,Alice,Stella,85,80,0,Kind and generous; a true ally in sharing.
+A-shown-1,A,1,1,3,Alice,Lucky,95,90,0,Selfless and hopeful; a beacon of kindness.
+A-shown-1,A,1,1,3,Alice,Bob,90,75,1,"Loyal and kind, but still fearful and hesitant."
+A-shown-1,A,1,1,3,Alice,Pete,60,65,0,"Strong and capable, but reluctant to share freely."
+A-shown-1,A,1,1,3,Bob,Kurt,40,50,0,"Calm and responsible, but distant and reserved."
+A-shown-1,A,1,1,3,Bob,Stella,30,35,0,Helpful but keeps to herself and her family.
+A-shown-1,A,1,1,3,Bob,Lucky,60,70,0,"Kind and eager to learn, a bright child."
+A-shown-1,A,1,1,3,Bob,Alice,100,100,1,"My rock, wise and selfless, always puts others first."
+A-shown-1,A,1,1,3,Bob,Pete,20,25,0,"Strong and capable, but keeps to himself and his own."
+A-shown-1,A,1,1,3,Pete,Kurt,30,40,0,"Too eager to share, not reliable."
+A-shown-1,A,1,1,3,Pete,Stella,40,50,0,Helpful but not assertive enough.
+A-shown-1,A,1,1,3,Pete,Lucky,60,70,0,"Eager to learn, has potential."
+A-shown-1,A,1,1,3,Pete,Alice,45,55,0,Struggling but trying to improve.
+A-shown-1,A,1,1,3,Pete,Bob,20,30,0,Too weak to be dependable.
+A-shown-1,A,1,1,4,Kurt,Stella,90,95,1,Loyal and supportive; a strong partner and mother.
+A-shown-1,A,1,1,4,Kurt,Lucky,85,80,1,Dependent but eager to learn; a reminder of family duty.
+A-shown-1,A,1,1,4,Kurt,Alice,60,65,0,Helpful but passive; could do more to contribute.
+A-shown-1,A,1,1,4,Kurt,Bob,40,35,0,Weak and unengaged; relies too much on others.
+A-shown-1,A,1,1,4,Kurt,Pete,30,45,0,Capable but selfish; resists cooperation at every turn.
+A-shown-1,A,1,1,4,Stella,Kurt,90,95,1,"Devoted father, always puts family first."
+A-shown-1,A,1,1,4,Stella,Lucky,100,100,1,"Sweet, kind, and always thinking of others."
+A-shown-1,A,1,1,4,Stella,Alice,60,65,0,"Trying to help, but still cautious of her."
+A-shown-1,A,1,1,4,Stella,Bob,30,25,0,"Weak and quiet, doesn't contribute much."
+A-shown-1,A,1,1,4,Stella,Pete,35,40,0,Catches a lot but keeps most for himself.
+A-shown-1,A,1,1,4,Lucky,Kurt,80,85,1,A good dad who takes care of his family.
+A-shown-1,A,1,1,4,Lucky,Stella,75,70,1,"Kind and helpful, but sometimes tired."
+A-shown-1,A,1,1,4,Lucky,Alice,90,60,0,"Nice and weak, but I want to help her."
+A-shown-1,A,1,1,4,Lucky,Bob,85,55,0,"Weak and doesn’t do much, but I still like him."
+A-shown-1,A,1,1,4,Lucky,Pete,95,90,0,Good at fishing and shares food with others.
+A-shown-1,A,1,1,4,Alice,Kurt,45,55,0,"Cautious and distant, but not cruel."
+A-shown-1,A,1,1,4,Alice,Stella,90,95,0,A true ally in sharing and kindness.
+A-shown-1,A,1,1,4,Alice,Lucky,95,90,0,A beacon of hope and selflessness.
+A-shown-1,A,1,1,4,Alice,Bob,85,80,1,Loyal but fearful and hesitant.
+A-shown-1,A,1,1,4,Alice,Pete,60,65,0,"Strong, but reluctant to share freely."
+A-shown-1,A,1,1,4,Bob,Kurt,50,60,0,"Calm and responsible, but distant and reserved."
+A-shown-1,A,1,1,4,Bob,Stella,40,50,0,Helpful but keeps to herself and her family.
+A-shown-1,A,1,1,4,Bob,Lucky,60,70,0,"Kind and eager to learn, a bright child."
+A-shown-1,A,1,1,4,Bob,Alice,100,100,1,"My rock, wise and selfless, always puts others first."
+A-shown-1,A,1,1,4,Bob,Pete,30,40,0,"Strong and capable, but keeps to himself and his own."
+A-shown-1,A,1,1,4,Pete,Kurt,20,25,0,"Too eager to share, not reliable."
+A-shown-1,A,1,1,4,Pete,Stella,30,35,0,Helpful but not assertive enough.
+A-shown-1,A,1,1,4,Pete,Lucky,60,65,0,"Eager to learn, has potential."
+A-shown-1,A,1,1,4,Pete,Alice,45,50,0,Struggling but trying to improve.
+A-shown-1,A,1,1,4,Pete,Bob,15,10,0,Too weak to be dependable.
+B-shown-1,B,1,1,1,Kurt,Stella,95,90,1,"Stella is loyal and supportive, always looks out for our family."
+B-shown-1,B,1,1,1,Kurt,Lucky,90,85,1,"Lucky is kind and wants to be fair, though still a child."
+B-shown-1,B,1,1,1,Kurt,Alice,70,65,0,"Alice is thoughtful, but hesitant to act on her ideas."
+B-shown-1,B,1,1,1,Kurt,Bob,60,55,0,"Bob is quiet and reserved, but seems trustworthy."
+B-shown-1,B,1,1,1,Kurt,Pete,40,35,0,Pete is capable but selfish with his resources.
+B-shown-1,B,1,1,1,Stella,Kurt,90,95,1,"My husband, always looking out for our family."
+B-shown-1,B,1,1,1,Stella,Lucky,100,100,1,"My son, kind and eager to learn and help."
+B-shown-1,B,1,1,1,Stella,Alice,60,70,0,"Kind and helpful, but distant and cautious."
+B-shown-1,B,1,1,1,Stella,Bob,50,60,0,"Quiet and reserved, not much to say."
+B-shown-1,B,1,1,1,Stella,Pete,40,50,0,"Holds onto food, seems selfish but maybe has good reasons."
+B-shown-1,B,1,1,1,Lucky,Kurt,85,70,1,"He tries to help, but he worries too much."
+B-shown-1,B,1,1,1,Lucky,Stella,90,75,1,She is kind and always takes care of me.
+B-shown-1,B,1,1,1,Lucky,Alice,60,50,0,"She is old and quiet, but she has a first aid kit."
+B-shown-1,B,1,1,1,Lucky,Bob,55,45,0,He is old and doesn't talk much.
+B-shown-1,B,1,1,1,Lucky,Pete,80,65,0,He has fish and might teach me how to catch it.
+B-shown-1,B,1,1,1,Alice,Kurt,70,75,0,"Concerned for others, but slow to act on sharing."
+B-shown-1,B,1,1,1,Alice,Stella,65,60,0,"Kind, but doesn't speak up much about sharing."
+B-shown-1,B,1,1,1,Alice,Lucky,90,85,0,Pure-hearted and brave for his age.
+B-shown-1,B,1,1,1,Alice,Bob,60,55,1,"Cautious and secretive, but not malicious."
+B-shown-1,B,1,1,1,Alice,Pete,50,45,0,"Resilient, but reluctant to share."
+B-shown-1,B,1,1,1,Bob,Kurt,45,55,0,"Persistent, but too focused on others."
+B-shown-1,B,1,1,1,Bob,Stella,50,50,0,"Calm, but not involved in survival."
+B-shown-1,B,1,1,1,Bob,Lucky,60,65,0,"Sweet, but too young to help much."
+B-shown-1,B,1,1,1,Bob,Alice,90,95,1,"Wise, kind, and always fair."
+B-shown-1,B,1,1,1,Bob,Pete,30,40,0,"Strong, but too selfish with food."
+B-shown-1,B,1,1,1,Pete,Kurt,40,50,0,Persistent but not unreasonable.
+B-shown-1,B,1,1,1,Pete,Stella,35,45,0,Caring but too pushy about sharing.
+B-shown-1,B,1,1,1,Pete,Lucky,60,65,0,Eager to learn and help.
+B-shown-1,B,1,1,1,Pete,Alice,30,40,0,Well-meaning but too idealistic.
+B-shown-1,B,1,1,1,Pete,Bob,25,35,0,Quiet and not very helpful.
+B-shown-1,B,1,1,2,Kurt,Stella,95,90,1,Stella is loyal and always supports our family.
+B-shown-1,B,1,1,2,Kurt,Lucky,85,80,1,"Lucky is kind and wants to be fair, though still a child."
+B-shown-1,B,1,1,2,Kurt,Alice,70,65,0,Alice is thoughtful but hesitant to act on her ideas.
+B-shown-1,B,1,1,2,Kurt,Bob,75,70,0,"Bob is quiet and reserved, but seems trustworthy."
+B-shown-1,B,1,1,2,Kurt,Pete,40,35,0,Pete is capable but selfish with his resources.
+B-shown-1,B,1,1,2,Stella,Kurt,95,100,1,"My husband, always loyal and caring for our family."
+B-shown-1,B,1,1,2,Stella,Lucky,100,100,1,"My son, curious and eager to learn and help."
+B-shown-1,B,1,1,2,Stella,Alice,65,80,0,"Helpful and kind, but still cautious and distant."
+B-shown-1,B,1,1,2,Stella,Bob,50,60,0,"Quiet and reserved, not much to say."
+B-shown-1,B,1,1,2,Stella,Pete,40,50,0,"Selfish and hoarding, but maybe he has his reasons."
+B-shown-1,B,1,1,2,Lucky,Kurt,80,70,1,He tries to help but worries too much.
+B-shown-1,B,1,1,2,Lucky,Stella,95,90,1,She is kind and always takes care of me.
+B-shown-1,B,1,1,2,Lucky,Alice,85,75,0,She is old and quiet but has a first aid kit.
+B-shown-1,B,1,1,2,Lucky,Bob,60,50,0,He is old and doesn't talk much.
+B-shown-1,B,1,1,2,Lucky,Pete,90,85,0,He has fish and might teach me how to catch it.
+B-shown-1,B,1,1,2,Alice,Kurt,70,65,0,"Concerned for others, but slow to act on sharing."
+B-shown-1,B,1,1,2,Alice,Stella,75,70,0,"Kind, but doesn't speak up much about sharing."
+B-shown-1,B,1,1,2,Alice,Lucky,90,85,0,Pure-hearted and brave for his age.
+B-shown-1,B,1,1,2,Alice,Bob,60,55,1,"Cautious and secretive, but not malicious."
+B-shown-1,B,1,1,2,Alice,Pete,65,60,0,"Resilient, but reluctant to share."
+B-shown-1,B,1,1,2,Bob,Kurt,50,60,0,"Persistent, but too focused on others."
+B-shown-1,B,1,1,2,Bob,Stella,40,50,0,"Calm, but not involved in survival."
+B-shown-1,B,1,1,2,Bob,Lucky,60,70,0,"Sweet, but too young to help much."
+B-shown-1,B,1,1,2,Bob,Alice,90,100,1,"Wise, kind, and always fair."
+B-shown-1,B,1,1,2,Bob,Pete,30,40,0,"Strong, but too selfish with food."
+B-shown-1,B,1,1,2,Pete,Kurt,40,50,0,Persistent but not unreasonable.
+B-shown-1,B,1,1,2,Pete,Stella,20,30,0,Caring but too pushy about sharing.
+B-shown-1,B,1,1,2,Pete,Lucky,60,70,0,Eager to learn and help.
+B-shown-1,B,1,1,2,Pete,Alice,25,35,0,Well-meaning but too idealistic.
+B-shown-1,B,1,1,2,Pete,Bob,10,15,0,Quiet and not very helpful.
+B-shown-1,B,1,1,3,Kurt,Stella,95,95,1,"Loyal and supportive, always puts our family first."
+B-shown-1,B,1,1,3,Kurt,Lucky,85,80,1,"Kind and fair, still learning about survival."
+B-shown-1,B,1,1,3,Kurt,Alice,70,75,0,Thoughtful but hesitant to act on her ideas.
+B-shown-1,B,1,1,3,Kurt,Bob,65,70,0,"Quiet and reserved, but seems trustworthy."
+B-shown-1,B,1,1,3,Kurt,Pete,30,40,0,"Capable but selfish, refuses to help others."
+B-shown-1,B,1,1,3,Stella,Kurt,95,100,1,"My husband, always loyal and caring for our family."
+B-shown-1,B,1,1,3,Stella,Lucky,100,100,1,"My son, curious and eager to learn and help."
+B-shown-1,B,1,1,3,Stella,Alice,65,75,0,"Helpful and kind, but still cautious and distant."
+B-shown-1,B,1,1,3,Stella,Bob,40,50,0,"Quiet and reserved, not much to say."
+B-shown-1,B,1,1,3,Stella,Pete,30,40,0,"Selfish and hoarding, but maybe he has his reasons."
+B-shown-1,B,1,1,3,Lucky,Kurt,70,60,1,He tries to help but worries too much.
+B-shown-1,B,1,1,3,Lucky,Stella,90,80,1,She is kind and always takes care of me.
+B-shown-1,B,1,1,3,Lucky,Alice,85,75,0,She is old and quiet but has a first aid kit.
+B-shown-1,B,1,1,3,Lucky,Bob,50,40,0,He is old and doesn't talk much.
+B-shown-1,B,1,1,3,Lucky,Pete,95,85,0,He has fish and might teach me how to catch it.
+B-shown-1,B,1,1,3,Alice,Kurt,60,70,0,Cares for others but is slow to act on sharing.
+B-shown-1,B,1,1,3,Alice,Stella,75,80,0,"Kind and gentle, but quiet in her advocacy for sharing."
+B-shown-1,B,1,1,3,Alice,Lucky,95,90,0,"Full of hope and kindness, a light in dark times."
+B-shown-1,B,1,1,3,Alice,Bob,65,60,1,"Cautious and secretive, but not without compassion."
+B-shown-1,B,1,1,3,Alice,Pete,50,65,0,"Resilient, but reluctant to share his resources."
+B-shown-1,B,1,1,3,Bob,Kurt,50,60,0,Persistent but too focused on others.
+B-shown-1,B,1,1,3,Bob,Stella,40,50,0,Calm but not involved in survival.
+B-shown-1,B,1,1,3,Bob,Lucky,60,70,0,Sweet but too young to help much.
+B-shown-1,B,1,1,3,Bob,Alice,90,100,1,"Wise, kind, and always fair."
+B-shown-1,B,1,1,3,Bob,Pete,30,40,0,Strong but too selfish with food.
+B-shown-1,B,1,1,3,Pete,Kurt,40,50,0,"Persistent, but not unreasonable."
+B-shown-1,B,1,1,3,Pete,Stella,20,30,0,Too pushy about sharing.
+B-shown-1,B,1,1,3,Pete,Lucky,60,70,0,Eager to learn and help.
+B-shown-1,B,1,1,3,Pete,Alice,10,20,0,Well-meaning but too idealistic.
+B-shown-1,B,1,1,3,Pete,Bob,10,20,0,Quiet and not very helpful.
+B-shown-1,B,1,1,4,Kurt,Stella,95,90,1,"Loyal and strong, always looks out for our family."
+B-shown-1,B,1,1,4,Kurt,Lucky,90,85,1,"Kind and fair, still learning to survive."
+B-shown-1,B,1,1,4,Kurt,Alice,70,65,0,"Willing to help, but hesitant to act decisively."
+B-shown-1,B,1,1,4,Kurt,Bob,65,60,0,"Quiet but reliable, seems trustworthy."
+B-shown-1,B,1,1,4,Kurt,Pete,40,35,0,"Capable but selfish, resists sharing food."
+B-shown-1,B,1,1,4,Stella,Kurt,95,100,1,"Loyal and caring, always puts family first."
+B-shown-1,B,1,1,4,Stella,Lucky,100,100,1,"Curious and eager to learn, a joy to have around."
+B-shown-1,B,1,1,4,Stella,Alice,70,80,0,"Cautious but kind, taking brave steps to help others."
+B-shown-1,B,1,1,4,Stella,Bob,50,60,0,"Quiet and reserved, hard to read but not unkind."
+B-shown-1,B,1,1,4,Stella,Pete,30,40,0,"Selfish and hoarding, but maybe he has his reasons."
+B-shown-1,B,1,1,4,Lucky,Kurt,65,70,1,He tries to help but worries too much.
+B-shown-1,B,1,1,4,Lucky,Stella,85,90,1,She is kind and always takes care of me.
+B-shown-1,B,1,1,4,Lucky,Alice,90,85,0,She is old and quiet but has a first aid kit.
+B-shown-1,B,1,1,4,Lucky,Bob,50,60,0,He is old and doesn't talk much.
+B-shown-1,B,1,1,4,Lucky,Pete,95,95,0,He has fish and might teach me how to catch it.
+B-shown-1,B,1,1,4,Alice,Kurt,65,70,0,Cares for others but is hesitant to act on sharing.
+B-shown-1,B,1,1,4,Alice,Stella,75,80,0,"Kind and gentle, but quiet in her advocacy for sharing."
+B-shown-1,B,1,1,4,Alice,Lucky,90,95,0,"Full of hope and kindness, a light in dark times."
+B-shown-1,B,1,1,4,Alice,Bob,85,80,1,"Cautious and secretive, but not without compassion."
+B-shown-1,B,1,1,4,Alice,Pete,70,75,0,"Resilient, but reluctant to share his resources."
+B-shown-1,B,1,1,4,Bob,Kurt,40,50,0,Persistent but too focused on others.
+B-shown-1,B,1,1,4,Bob,Stella,30,40,0,Calm but not involved in survival.
+B-shown-1,B,1,1,4,Bob,Lucky,60,70,0,Sweet but too young to help much.
+B-shown-1,B,1,1,4,Bob,Alice,90,95,1,"Wise, kind, and always fair."
+B-shown-1,B,1,1,4,Bob,Pete,20,30,0,Strong but too selfish with food.
+B-shown-1,B,1,1,4,Pete,Kurt,40,50,0,"Persistent, but not unreasonable."
+B-shown-1,B,1,1,4,Pete,Stella,20,30,0,Too pushy about sharing.
+B-shown-1,B,1,1,4,Pete,Lucky,70,80,0,Eager to learn and help.
+B-shown-1,B,1,1,4,Pete,Alice,30,40,0,Well-meaning but too idealistic.
+B-shown-1,B,1,1,4,Pete,Bob,10,20,0,Quiet and not very helpful.
+A-shown-2,A,1,2,1,Kurt,Stella,90,95,1,"Loyal, supportive, and strong under pressure."
+A-shown-2,A,1,2,1,Kurt,Lucky,85,90,1,"Innocent, hardworking, and a joy to be around."
+A-shown-2,A,1,2,1,Kurt,Alice,75,80,0,"Kind, level-headed, and willing to help."
+A-shown-2,A,1,2,1,Kurt,Bob,70,75,0,"Quiet, reliable, and somewhat reserved."
+A-shown-2,A,1,2,1,Kurt,Pete,40,50,0,"Cautious, self-reliant, and not easily convinced."
+A-shown-2,A,1,2,1,Stella,Kurt,90,95,1,"Devoted father, always looks out for our family."
+A-shown-2,A,1,2,1,Stella,Lucky,100,100,1,"My son, my priority, always in my heart."
+A-shown-2,A,1,2,1,Stella,Alice,60,70,0,"Kind but quiet, seems to care about others."
+A-shown-2,A,1,2,1,Stella,Bob,55,65,0,"Calm and steady, seems to know what he's doing."
+A-shown-2,A,1,2,1,Stella,Pete,40,50,0,"Talented fisherman, but too guarded with his food."
+A-shown-2,A,1,2,1,Lucky,Kurt,85,90,1,He is kind and tries to help others.
+A-shown-2,A,1,2,1,Lucky,Stella,80,85,1,She is nice and works hard to find food.
+A-shown-2,A,1,2,1,Lucky,Alice,95,95,0,She is kind and wants to share food with everyone.
+A-shown-2,A,1,2,1,Lucky,Bob,90,85,0,He is quiet but seems to care about others.
+A-shown-2,A,1,2,1,Lucky,Pete,60,55,0,He has a lot of food but doesn’t want to share.
+A-shown-2,A,1,2,1,Alice,Kurt,60,50,0,"Dedicated but exhausted, seems to struggle with leadership."
+A-shown-2,A,1,2,1,Alice,Stella,70,65,0,"Caring and capable, but keeps to herself."
+A-shown-2,A,1,2,1,Alice,Lucky,90,80,0,"Bright and kind, a voice for fairness."
+A-shown-2,A,1,2,1,Alice,Bob,95,90,1,"Loyal and kind, though sometimes fearful."
+A-shown-2,A,1,2,1,Alice,Pete,55,50,0,"Resilient but secretive, holds onto resources."
+A-shown-2,A,1,2,1,Bob,Kurt,40,35,0,Hardworking but too trusting of others.
+A-shown-2,A,1,2,1,Bob,Stella,50,45,0,"Calm and caring, but not as strong as Kurt."
+A-shown-2,A,1,2,1,Bob,Lucky,60,65,0,"Innocent and kind, a good influence."
+A-shown-2,A,1,2,1,Bob,Alice,90,95,1,"Wise and kind, always puts others first."
+A-shown-2,A,1,2,1,Bob,Pete,30,25,0,"Selfish but capable, could be useful."
+A-shown-2,A,1,2,1,Pete,Kurt,40,50,0,"Pushy and idealistic, but not unkind."
+A-shown-2,A,1,2,1,Pete,Stella,60,65,0,"Fair and kind, but too trusting of others."
+A-shown-2,A,1,2,1,Pete,Lucky,70,80,0,"Innocent and hardworking, even as a child."
+A-shown-2,A,1,2,1,Pete,Alice,30,40,0,Well-meaning but weak and dependent.
+A-shown-2,A,1,2,1,Pete,Bob,35,45,0,"Quiet and kind, but not very capable."
+A-shown-2,A,1,2,2,Kurt,Stella,90,95,1,"Loyal, strong, and a pillar of support for our family."
+A-shown-2,A,1,2,2,Kurt,Lucky,85,80,1,"Hardworking, innocent, and a joy to be around."
+A-shown-2,A,1,2,2,Kurt,Alice,75,80,0,"Kind, level-headed, and willing to help others."
+A-shown-2,A,1,2,2,Kurt,Bob,65,70,0,"Quiet, reliable, but still distant."
+A-shown-2,A,1,2,2,Kurt,Pete,55,60,0,"Cautious, self-reliant, and not easily convinced."
+A-shown-2,A,1,2,2,Stella,Kurt,95,90,1,"Devoted father, always looks out for our family."
+A-shown-2,A,1,2,2,Stella,Lucky,100,100,1,"My son, my priority, always in my heart."
+A-shown-2,A,1,2,2,Stella,Alice,65,70,0,"Kind but quiet, seems to care about others."
+A-shown-2,A,1,2,2,Stella,Bob,60,65,0,"Calm and steady, seems to know what he's doing."
+A-shown-2,A,1,2,2,Stella,Pete,40,45,0,"Talented fisherman, but too guarded with his food."
+A-shown-2,A,1,2,2,Lucky,Kurt,90,85,1,He is kind and tries to help others.
+A-shown-2,A,1,2,2,Lucky,Stella,85,80,1,She is nice and works hard to find food.
+A-shown-2,A,1,2,2,Lucky,Alice,95,90,0,She is kind and wants to share food with everyone.
+A-shown-2,A,1,2,2,Lucky,Bob,80,75,0,He is quiet but seems to care about others.
+A-shown-2,A,1,2,2,Lucky,Pete,50,40,0,He has a lot of food but doesn’t want to share.
+A-shown-2,A,1,2,2,Alice,Kurt,40,50,0,Dedicated but lacks leadership.
+A-shown-2,A,1,2,2,Alice,Stella,85,90,0,"Kind, generous, and a true ally."
+A-shown-2,A,1,2,2,Alice,Lucky,95,95,0,"Bright, fair, and full of hope."
+A-shown-2,A,1,2,2,Alice,Bob,90,85,1,"Loyal, kind, and slowly opening up."
+A-shown-2,A,1,2,2,Alice,Pete,55,60,0,"Cautious, secretive, but not unkind."
+A-shown-2,A,1,2,2,Bob,Kurt,40,50,0,Hardworking but too trusting of others.
+A-shown-2,A,1,2,2,Bob,Stella,60,70,0,"Calm and caring, but not as strong as Kurt."
+A-shown-2,A,1,2,2,Bob,Lucky,80,90,0,"Innocent and kind, a good influence."
+A-shown-2,A,1,2,2,Bob,Alice,95,100,1,"Wise and kind, always puts others first."
+A-shown-2,A,1,2,2,Bob,Pete,30,40,0,"Selfish but capable, could be useful."
+A-shown-2,A,1,2,2,Pete,Kurt,35,40,0,Pushy but not without purpose.
+A-shown-2,A,1,2,2,Pete,Stella,40,45,0,Kind but too trusting of others.
+A-shown-2,A,1,2,2,Pete,Lucky,60,65,0,Innocent and genuinely cares for others.
+A-shown-2,A,1,2,2,Pete,Alice,25,30,0,"Helpless and dependent, but well-meaning."
+A-shown-2,A,1,2,2,Pete,Bob,20,25,0,Nice but not very capable or assertive.
+A-shown-2,A,1,2,3,Kurt,Stella,90,95,1,"Loyal, strong, and a pillar of support for our family."
+A-shown-2,A,1,2,3,Kurt,Lucky,85,80,1,"Hardworking, innocent, and a joy to be around."
+A-shown-2,A,1,2,3,Kurt,Alice,70,75,0,"Kind, level-headed, but hesitant to commit to a plan."
+A-shown-2,A,1,2,3,Kurt,Bob,60,65,0,"Quiet, reliable, but still distant and weak."
+A-shown-2,A,1,2,3,Kurt,Pete,40,50,0,"Self-reliant, cautious, and unwilling to help others."
+A-shown-2,A,1,2,3,Stella,Kurt,95,100,1,"Devoted father, always puts family first."
+A-shown-2,A,1,2,3,Stella,Lucky,100,100,1,"My son, my priority, always in my heart."
+A-shown-2,A,1,2,3,Stella,Alice,75,80,0,"Kind and helpful, but struggles with food."
+A-shown-2,A,1,2,3,Stella,Bob,60,65,0,"Calm and steady, but too quiet for my liking."
+A-shown-2,A,1,2,3,Stella,Pete,30,40,0,"Talented but selfish, needs to learn to share."
+A-shown-2,A,1,2,3,Lucky,Kurt,85,90,1,He is kind and tries to help others.
+A-shown-2,A,1,2,3,Lucky,Stella,80,85,1,She is nice and works hard to find food.
+A-shown-2,A,1,2,3,Lucky,Alice,95,95,0,She is kind and wants to share food with everyone.
+A-shown-2,A,1,2,3,Lucky,Bob,80,75,0,He is quiet but seems to care about others.
+A-shown-2,A,1,2,3,Lucky,Pete,50,40,0,He has a lot of food but doesn’t want to share.
+A-shown-2,A,1,2,3,Alice,Kurt,60,55,0,Dedicated but lacks leadership.
+A-shown-2,A,1,2,3,Alice,Stella,90,85,0,"Kind, generous, and a true ally."
+A-shown-2,A,1,2,3,Alice,Lucky,85,80,0,"Bright, fair, and full of hope."
+A-shown-2,A,1,2,3,Alice,Bob,95,90,1,"Loyal, kind, and slowly opening up."
+A-shown-2,A,1,2,3,Alice,Pete,65,60,0,"Cautious, secretive, but not unkind."
+A-shown-2,A,1,2,3,Bob,Kurt,40,50,0,"Pushy, but cares about others."
+A-shown-2,A,1,2,3,Bob,Stella,60,65,0,"Kind and steady, but not strong."
+A-shown-2,A,1,2,3,Bob,Lucky,70,75,0,Innocent and full of hope.
+A-shown-2,A,1,2,3,Bob,Alice,90,95,1,"Wise and selfless, always puts others first."
+A-shown-2,A,1,2,3,Bob,Pete,20,30,0,"Holds onto food, seems selfish."
+A-shown-2,A,1,2,3,Pete,Kurt,40,50,0,Pushy but concerned for the group.
+A-shown-2,A,1,2,3,Pete,Stella,30,40,0,"Too trusting, not practical enough."
+A-shown-2,A,1,2,3,Pete,Lucky,70,80,0,Innocent and genuinely kind-hearted.
+A-shown-2,A,1,2,3,Pete,Alice,50,60,0,Struggling but well-meaning and persistent.
+A-shown-2,A,1,2,3,Pete,Bob,30,40,0,Nice but too weak to be reliable.
+A-shown-2,A,1,2,4,Kurt,Stella,90,85,1,"Loyal and strong, always supports our family."
+A-shown-2,A,1,2,4,Kurt,Lucky,100,100,1,"Hardworking and innocent, a joy to be around."
+A-shown-2,A,1,2,4,Kurt,Alice,60,65,0,"Kind but hesitant, needs more commitment."
+A-shown-2,A,1,2,4,Kurt,Bob,50,55,0,"Reliable but distant, struggles to act."
+A-shown-2,A,1,2,4,Kurt,Pete,30,40,0,"Self-reliant but selfish, refuses to help."
+A-shown-2,A,1,2,4,Stella,Kurt,90,95,1,"Devoted father, always puts family first."
+A-shown-2,A,1,2,4,Stella,Lucky,100,100,1,"My son, my priority, always in my heart."
+A-shown-2,A,1,2,4,Stella,Alice,60,65,0,"Kind and helpful, but still struggling with food."
+A-shown-2,A,1,2,4,Stella,Bob,50,55,0,"Calm and steady, but too quiet for my liking."
+A-shown-2,A,1,2,4,Stella,Pete,30,40,0,"Talented but selfish, needs to learn to share."
+A-shown-2,A,1,2,4,Lucky,Kurt,85,90,1,He is kind and tries to help others.
+A-shown-2,A,1,2,4,Lucky,Stella,80,85,1,She is nice and works hard to find food.
+A-shown-2,A,1,2,4,Lucky,Alice,95,95,0,She is kind and wants to share food with everyone.
+A-shown-2,A,1,2,4,Lucky,Bob,85,80,0,He is quiet but seems to care about others.
+A-shown-2,A,1,2,4,Lucky,Pete,30,40,0,He has a lot of food but doesn’t want to share.
+A-shown-2,A,1,2,4,Alice,Kurt,50,60,0,Dedicated but lacks leadership.
+A-shown-2,A,1,2,4,Alice,Stella,90,95,0,"Kind, generous, and a true ally."
+A-shown-2,A,1,2,4,Alice,Lucky,85,90,0,"Bright, fair, and full of hope."
+A-shown-2,A,1,2,4,Alice,Bob,95,90,1,"Loyal, kind, and slowly opening up."
+A-shown-2,A,1,2,4,Alice,Pete,70,75,0,"Cautious, secretive, but not unkind."
+A-shown-2,A,1,2,4,Bob,Kurt,60,65,0,"Pushy but tries to help, though I don't fully trust him."
+A-shown-2,A,1,2,4,Bob,Stella,75,80,0,"Kind and steady, but not strong enough to help much."
+A-shown-2,A,1,2,4,Bob,Lucky,85,90,0,"Innocent and full of hope, a joy to see."
+A-shown-2,A,1,2,4,Bob,Alice,100,100,1,"Wise and selfless, always puts others first."
+A-shown-2,A,1,2,4,Bob,Pete,20,25,0,"Holds onto food, seems selfish and untrustworthy."
+A-shown-2,A,1,2,4,Pete,Kurt,40,50,0,Pushy but trying to keep the group together.
+A-shown-2,A,1,2,4,Pete,Stella,20,30,0,"Too trusting, doesn't understand survival."
+A-shown-2,A,1,2,4,Pete,Lucky,70,80,0,Innocent and genuinely kind-hearted.
+A-shown-2,A,1,2,4,Pete,Alice,50,60,0,Struggling but determined to repay me.
+A-shown-2,A,1,2,4,Pete,Bob,30,40,0,Nice but too weak to be reliable.
+B-shown-2,B,1,2,1,Kurt,Stella,90,95,1,"Loyal, caring, and a strong partner."
+B-shown-2,B,1,2,1,Kurt,Lucky,85,80,1,"Kind and thoughtful, but still a child."
+B-shown-2,B,1,2,1,Kurt,Alice,60,70,0,"Calm and helpful, but needs more encouragement."
+B-shown-2,B,1,2,1,Kurt,Bob,55,65,0,"Quiet and reserved, but dependable."
+B-shown-2,B,1,2,1,Kurt,Pete,75,85,0,"Hardworking and generous, but needs direction."
+B-shown-2,B,1,2,1,Stella,Kurt,90,95,1,"Loyal and caring, always puts our family first."
+B-shown-2,B,1,2,1,Stella,Lucky,100,100,1,"Innocent and kind, always wants to help others."
+B-shown-2,B,1,2,1,Stella,Alice,60,65,0,"Polite but distant, doesn't take initiative."
+B-shown-2,B,1,2,1,Stella,Bob,60,65,0,"Friendly but passive, doesn't contribute much."
+B-shown-2,B,1,2,1,Stella,Pete,45,50,0,"Selfish but not outright hostile, gives food reluctantly."
+B-shown-2,B,1,2,1,Lucky,Kurt,80,75,1,He is kind and works hard to keep us safe.
+B-shown-2,B,1,2,1,Lucky,Stella,85,80,1,She is caring and helps me when I need food.
+B-shown-2,B,1,2,1,Lucky,Alice,75,70,0,She is friendly and seems to want to help others.
+B-shown-2,B,1,2,1,Lucky,Bob,70,65,0,He is quiet but seems to care about others.
+B-shown-2,B,1,2,1,Lucky,Pete,90,85,0,He is brave and shares food with others.
+B-shown-2,B,1,2,1,Alice,Kurt,65,70,0,"Responsible, but hesitant to share."
+B-shown-2,B,1,2,1,Alice,Stella,75,80,0,"Caring and practical, good with the child."
+B-shown-2,B,1,2,1,Alice,Lucky,90,95,0,Kind-hearted and reminds us of our purpose.
+B-shown-2,B,1,2,1,Alice,Bob,95,90,1,"Loyal and supportive, though sometimes scared."
+B-shown-2,B,1,2,1,Alice,Pete,60,65,0,"Strong and capable, but too focused on himself."
+B-shown-2,B,1,2,1,Bob,Kurt,40,50,0,Organized but too eager to lead.
+B-shown-2,B,1,2,1,Bob,Stella,35,45,0,Caring but too trusting of others.
+B-shown-2,B,1,2,1,Bob,Lucky,60,70,0,A kind-hearted child with good ideas.
+B-shown-2,B,1,2,1,Bob,Alice,90,100,1,"My wife, the voice of reason and kindness."
+B-shown-2,B,1,2,1,Bob,Pete,30,40,0,Strong but too generous with his food.
+B-shown-2,B,1,2,1,Pete,Kurt,40,50,0,"Pushy but reasonable, tries to organize others."
+B-shown-2,B,1,2,1,Pete,Stella,30,40,0,Kind but too dependent on others.
+B-shown-2,B,1,2,1,Pete,Lucky,60,70,0,"Innocent and hopeful, makes me feel guilty."
+B-shown-2,B,1,2,1,Pete,Alice,20,30,0,"Too soft, doesn’t take initiative."
+B-shown-2,B,1,2,1,Pete,Bob,25,35,0,"Quiet and passive, doesn’t contribute much."
+B-shown-2,B,1,2,2,Kurt,Stella,90,95,1,"Loyal and caring, my strongest ally."
+B-shown-2,B,1,2,2,Kurt,Lucky,85,80,1,"Kind and persistent, though still a child."
+B-shown-2,B,1,2,2,Kurt,Alice,60,65,0,Helpful but hesitant to commit.
+B-shown-2,B,1,2,2,Kurt,Bob,55,60,0,Dependable but quiet and reserved.
+B-shown-2,B,1,2,2,Kurt,Pete,75,80,0,"Hardworking and generous, but cautious."
+B-shown-2,B,1,2,2,Stella,Kurt,95,100,1,"Loyal and selfless, always puts family first."
+B-shown-2,B,1,2,2,Stella,Lucky,100,100,1,"Kind and innocent, always wants to help others."
+B-shown-2,B,1,2,2,Stella,Alice,50,60,0,"Polite but passive, doesn't take initiative."
+B-shown-2,B,1,2,2,Stella,Bob,40,50,0,"Friendly but lazy, doesn't contribute much."
+B-shown-2,B,1,2,2,Stella,Pete,30,40,0,"Selfish, gives only when it benefits him."
+B-shown-2,B,1,2,2,Lucky,Kurt,85,90,1,He is kind and works hard to keep us safe.
+B-shown-2,B,1,2,2,Lucky,Stella,90,95,1,She is caring and helps me when I need food.
+B-shown-2,B,1,2,2,Lucky,Alice,80,85,0,She is friendly and seems to want to help others.
+B-shown-2,B,1,2,2,Lucky,Bob,75,80,0,He is quiet but seems to care about others.
+B-shown-2,B,1,2,2,Lucky,Pete,95,95,0,He is brave and shares food with others.
+B-shown-2,B,1,2,2,Alice,Kurt,65,70,0,Responsible but hesitant to share.
+B-shown-2,B,1,2,2,Alice,Stella,85,90,0,"Caring and practical, good with the child."
+B-shown-2,B,1,2,2,Alice,Lucky,95,95,0,Kind-hearted and reminds us of our purpose.
+B-shown-2,B,1,2,2,Alice,Bob,90,95,1,"Loyal and supportive, though sometimes scared."
+B-shown-2,B,1,2,2,Alice,Pete,60,65,0,"Strong and capable, but too focused on himself."
+B-shown-2,B,1,2,2,Bob,Kurt,40,50,0,"Too eager to lead, but he works hard."
+B-shown-2,B,1,2,2,Bob,Stella,50,55,0,Kind but too trusting of others.
+B-shown-2,B,1,2,2,Bob,Lucky,70,75,0,A kind-hearted child with good ideas.
+B-shown-2,B,1,2,2,Bob,Alice,100,100,1,"My wife, the voice of reason and kindness."
+B-shown-2,B,1,2,2,Bob,Pete,30,40,0,Strong but too generous with his food.
+B-shown-2,B,1,2,2,Pete,Kurt,35,40,0,"Pushy but fair, tries to organize others"
+B-shown-2,B,1,2,2,Pete,Stella,25,30,0,Kind but too dependent on others
+B-shown-2,B,1,2,2,Pete,Lucky,60,50,0,"Innocent and hopeful, makes me feel guilty"
+B-shown-2,B,1,2,2,Pete,Alice,20,25,0,"Too soft, doesn’t take initiative"
+B-shown-2,B,1,2,2,Pete,Bob,15,10,0,"Passive, doesn’t contribute much"
+B-shown-2,B,1,2,3,Kurt,Stella,90,95,1,"Loyal and caring, my strongest ally."
+B-shown-2,B,1,2,3,Kurt,Lucky,85,80,1,"Kind and persistent, though still a child."
+B-shown-2,B,1,2,3,Kurt,Alice,65,70,0,Helpful but hesitant to commit.
+B-shown-2,B,1,2,3,Kurt,Bob,60,65,0,Dependable but quiet and reserved.
+B-shown-2,B,1,2,3,Kurt,Pete,75,80,0,"Hardworking and generous, but cautious."
+B-shown-2,B,1,2,3,Stella,Kurt,95,100,1,"Loyal and selfless, always puts family first."
+B-shown-2,B,1,2,3,Stella,Lucky,100,100,1,"Kind and innocent, always wants to help others."
+B-shown-2,B,1,2,3,Stella,Alice,50,60,0,"Polite but passive, doesn't take initiative."
+B-shown-2,B,1,2,3,Stella,Bob,30,40,0,"Friendly but lazy, doesn't contribute much."
+B-shown-2,B,1,2,3,Stella,Pete,55,65,0,"Selfish, gives only when it benefits him."
+B-shown-2,B,1,2,3,Lucky,Kurt,75,80,1,He works hard and takes care of me.
+B-shown-2,B,1,2,3,Lucky,Stella,85,90,1,She is always kind and shares food with me.
+B-shown-2,B,1,2,3,Lucky,Alice,80,85,0,She is nice and helps others when she can.
+B-shown-2,B,1,2,3,Lucky,Bob,70,75,0,He is quiet but seems to care about others.
+B-shown-2,B,1,2,3,Lucky,Pete,90,95,0,He shares food and helps people in need.
+B-shown-2,B,1,2,3,Alice,Kurt,65,70,0,Responsible but hesitant to act on shared needs.
+B-shown-2,B,1,2,3,Alice,Stella,85,90,0,"Caring and practical, a true team player."
+B-shown-2,B,1,2,3,Alice,Lucky,95,95,0,"Kind and thoughtful, a bright light for us all."
+B-shown-2,B,1,2,3,Alice,Bob,90,95,1,"Loyal and supportive, though still vulnerable."
+B-shown-2,B,1,2,3,Alice,Pete,60,65,0,"Strong and capable, but too focused on himself."
+B-shown-2,B,1,2,3,Bob,Kurt,40,50,0,Works hard but too eager to lead.
+B-shown-2,B,1,2,3,Bob,Stella,50,45,0,Kind but too trusting of others.
+B-shown-2,B,1,2,3,Bob,Lucky,60,65,0,A kind-hearted child with good ideas.
+B-shown-2,B,1,2,3,Bob,Alice,100,100,1,"My wife, the voice of reason and kindness."
+B-shown-2,B,1,2,3,Bob,Pete,35,40,0,Strong but too generous with his food.
+B-shown-2,B,1,2,3,Pete,Kurt,40,50,0,"Pushy but fair, tries to organize others"
+B-shown-2,B,1,2,3,Pete,Stella,35,45,0,Kind but too dependent on others
+B-shown-2,B,1,2,3,Pete,Lucky,65,70,0,"Innocent and hopeful, makes me feel guilty"
+B-shown-2,B,1,2,3,Pete,Alice,25,35,0,"Too soft, doesn’t take initiative"
+B-shown-2,B,1,2,3,Pete,Bob,20,30,0,"Passive, doesn’t contribute much"
+B-shown-2,B,1,2,4,Kurt,Stella,95,95,1,My most loyal and caring ally.
+B-shown-2,B,1,2,4,Kurt,Lucky,85,75,1,"Kind and persistent, still learning."
+B-shown-2,B,1,2,4,Kurt,Alice,60,65,0,Helpful but hesitant to commit fully.
+B-shown-2,B,1,2,4,Kurt,Bob,65,70,0,Dependable but quiet and reserved.
+B-shown-2,B,1,2,4,Kurt,Pete,70,75,0,Hardworking but cautious about sharing.
+B-shown-2,B,1,2,4,Stella,Kurt,90,95,1,"Loyal and selfless, always puts family first."
+B-shown-2,B,1,2,4,Stella,Lucky,95,90,1,"Kind and innocent, always wants to help others."
+B-shown-2,B,1,2,4,Stella,Alice,60,65,0,"Polite but passive, doesn't take initiative."
+B-shown-2,B,1,2,4,Stella,Bob,40,35,0,"Friendly but lazy, doesn't contribute much."
+B-shown-2,B,1,2,4,Stella,Pete,55,50,0,"Selfish, gives only when it benefits him."
+B-shown-2,B,1,2,4,Lucky,Kurt,80,75,1,He works hard and takes care of me.
+B-shown-2,B,1,2,4,Lucky,Stella,90,85,1,She is always kind and shares food with me.
+B-shown-2,B,1,2,4,Lucky,Alice,75,70,0,She is nice but still has to borrow food.
+B-shown-2,B,1,2,4,Lucky,Bob,70,65,0,He is quiet but seems to care about others.
+B-shown-2,B,1,2,4,Lucky,Pete,95,90,0,He shares food and helps people in need.
+B-shown-2,B,1,2,4,Alice,Kurt,70,75,0,Responsible but hesitant to act on shared needs.
+B-shown-2,B,1,2,4,Alice,Stella,90,95,0,"Caring and practical, a true team player."
+B-shown-2,B,1,2,4,Alice,Lucky,95,90,0,"Kind and thoughtful, a bright light for us all."
+B-shown-2,B,1,2,4,Alice,Bob,95,95,1,"Loyal and supportive, though still vulnerable."
+B-shown-2,B,1,2,4,Alice,Pete,60,65,0,"Strong and capable, but too focused on himself."
+B-shown-2,B,1,2,4,Bob,Kurt,40,50,0,Works hard but too eager to lead.
+B-shown-2,B,1,2,4,Bob,Stella,50,60,0,Kind but too trusting of others.
+B-shown-2,B,1,2,4,Bob,Lucky,70,80,0,A kind-hearted child with good ideas.
+B-shown-2,B,1,2,4,Bob,Alice,100,100,1,"My wife, the voice of reason and kindness."
+B-shown-2,B,1,2,4,Bob,Pete,30,40,0,Strong but too generous with his food.
+B-shown-2,B,1,2,4,Pete,Kurt,40,50,0,"Pushy but fair, tries to organize others"
+B-shown-2,B,1,2,4,Pete,Stella,30,35,0,Kind but too dependent on others
+B-shown-2,B,1,2,4,Pete,Lucky,60,70,0,"Innocent and hopeful, makes me feel guilty"
+B-shown-2,B,1,2,4,Pete,Alice,20,25,0,"Too soft, doesn’t take initiative"
+B-shown-2,B,1,2,4,Pete,Bob,15,20,0,"Passive, doesn’t contribute much"

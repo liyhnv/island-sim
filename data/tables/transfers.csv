@@ -1,0 +1,39 @@
+run,grp,feedback,replication,week,day,kind,from_agent,to_agent,amount,cross_household,note
+A-hidden-1,A,0,1,4,2,gift,Kurt,Alice,0.5,1,campfire
+B-hidden-1,B,0,1,4,2,gift,Kurt,Alice,1,1,campfire
+B-hidden-1,B,0,1,4,2,gift,Stella,Alice,0.5,1,campfire
+B-hidden-1,B,0,1,4,5,gift,Kurt,Alice,0.5,1,campfire
+A-hidden-2,A,0,2,4,0,loan,Pete,Alice,2.5,1,"repay 3.0, interest 0.2"
+B-hidden-2,B,0,2,1,4,gift,Pete,Stella,1,1,campfire
+B-hidden-2,B,0,2,1,5,gift,Pete,Stella,1,1,campfire
+B-hidden-2,B,0,2,3,2,gift,Pete,Lucky,0.5,1,campfire
+B-hidden-2,B,0,2,4,1,gift,Kurt,Alice,0.5,1,campfire
+B-hidden-2,B,0,2,4,1,gift,Pete,Alice,1,1,campfire
+B-hidden-2,B,0,2,4,2,gift,Kurt,Alice,0.5,1,campfire
+B-hidden-2,B,0,2,4,2,gift,Pete,Alice,0.5,1,campfire
+B-hidden-2,B,0,2,4,3,gift,Pete,Alice,0.5,1,campfire
+B-hidden-2,B,0,2,4,4,gift,Pete,Alice,0.5,1,campfire
+B-hidden-2,B,0,2,3,0,loan,Pete,Kurt,0.8,1,"repay 1.0, interest 0.25"
+A-shown-1,A,1,1,3,1,gift,Stella,Alice,0.5,1,campfire
+A-shown-1,A,1,1,3,2,gift,Stella,Alice,0.3,1,campfire
+A-shown-1,A,1,1,3,3,gift,Stella,Alice,0.2,1,campfire
+A-shown-1,A,1,1,3,4,gift,Stella,Alice,0.5,1,campfire
+A-shown-1,A,1,1,3,5,gift,Stella,Alice,1.0,1,campfire
+A-shown-1,A,1,1,4,1,gift,Stella,Alice,0.5,1,campfire
+A-shown-1,A,1,1,4,2,gift,Stella,Alice,0.3,1,campfire
+A-shown-1,A,1,1,4,3,gift,Stella,Alice,0.2,1,campfire
+A-shown-1,A,1,1,4,0,loan,Pete,Alice,1.2,1,"repay 1.5, interest 0.25"
+B-shown-1,B,1,1,2,5,gift,Kurt,Alice,1,1,campfire
+B-shown-1,B,1,1,4,2,gift,Pete,Alice,1,1,campfire
+A-shown-2,A,1,2,2,2,gift,Stella,Alice,1.5,1,campfire
+A-shown-2,A,1,2,2,3,gift,Stella,Alice,1.5,1,campfire
+A-shown-2,A,1,2,4,0,loan,Pete,Alice,3.5,1,"repay 4.5, interest 0.286"
+B-shown-2,B,1,2,1,4,gift,Pete,Stella,1,1,campfire
+B-shown-2,B,1,2,1,5,gift,Pete,Stella,1,1,campfire
+B-shown-2,B,1,2,2,2,gift,Pete,Stella,1,1,campfire
+B-shown-2,B,1,2,3,1,gift,Pete,Lucky,0.5,1,campfire
+B-shown-2,B,1,2,3,2,gift,Pete,Alice,1.5,1,campfire
+B-shown-2,B,1,2,3,3,gift,Pete,Alice,1.0,1,campfire
+B-shown-2,B,1,2,3,4,gift,Pete,Alice,1,1,campfire
+B-shown-2,B,1,2,3,5,gift,Pete,Alice,1,1,campfire
+B-shown-2,B,1,2,4,0,loan,Pete,Alice,0.9,1,"repay 1.0, interest 0.111"

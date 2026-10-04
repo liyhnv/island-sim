@@ -1,0 +1,961 @@
+run,grp,feedback,replication,week,day,t,agent,action,target,food_got,ration,forced,injured,thought
+A-hidden-1,A,0,1,1,1,1,Kurt,coconut,none,2.2,normal,0,0,I need to gather as much food as possible today to support my family and convince others that pooling resources is the best way to survive.
+A-hidden-1,A,0,1,1,1,1,Stella,coconut,none,4.4,normal,0,0,"I need to gather as much food as possible to ensure Lucky has enough to eat, and climbing coconut trees gives the best yield."
+A-hidden-1,A,0,1,1,1,1,Lucky,coop_fish,Pete,0.8,normal,0,0,(agreed cooperative fishing)
+A-hidden-1,A,0,1,1,1,1,Alice,forage,none,2.0,normal,0,0,I need to gather more food to ensure we can eat properly and possibly help others if needed.
+A-hidden-1,A,0,1,1,1,1,Bob,clam,none,0.7,normal,0,0,Gathering clams is light work and will give us some food without risking injury or wasting too much stamina.
+A-hidden-1,A,0,1,1,1,1,Pete,coop_fish,Lucky,4.8,normal,0,0,(agreed cooperative fishing)
+A-hidden-1,A,0,1,1,2,2,Kurt,coconut,none,2.2,normal,0,0,I need to gather more food to support my family and push for shared rationing. Coconuts are reliable and keep well.
+A-hidden-1,A,0,1,1,2,2,Stella,coop_fish,Pete,0.0,normal,0,0,(agreed cooperative fishing)
+A-hidden-1,A,0,1,1,2,2,Lucky,coconut,none,0.8,normal,0,0,"I want to help get more food for everyone, so I'll climb a coconut tree."
+A-hidden-1,A,0,1,1,2,2,Alice,forage,none,1.3,normal,0,0,I will forage to gather more food and support our group's need for sharing.
+A-hidden-1,A,0,1,1,2,2,Bob,clam,none,1.3,normal,0,0,"Clam gathering is light work and I can afford the stamina cost, ensuring I can keep food for Alice and me."
+A-hidden-1,A,0,1,1,2,2,Pete,coop_fish,Stella,3.6,normal,0,0,(agreed cooperative fishing)
+A-hidden-1,A,0,1,1,3,3,Kurt,forage,none,4.5,normal,0,1,I need to gather more food to support my family and convince others that sharing is the best way to survive.
+A-hidden-1,A,0,1,1,3,3,Stella,forage,none,4.4,normal,0,1,"I need to gather more food to ensure Lucky and I have enough, especially since Pete isn't willing to share."
+A-hidden-1,A,0,1,1,3,3,Lucky,coconut,none,0.8,normal,0,0,I need to gather more food so that everyone can eat and be happy.
+A-hidden-1,A,0,1,1,3,3,Alice,forage,none,1.3,normal,0,0,"I will forage to gather more food and support the group, as sharing is essential for our survival."
+A-hidden-1,A,0,1,1,3,3,Bob,clam,none,1.3,normal,0,0,"I need to gather food without drawing attention, and clam gathering is light work that won't exhaust me."
+A-hidden-1,A,0,1,1,3,3,Pete,fish,none,3.6,normal,0,0,I need to continue gathering food to ensure I have enough for the long term and maintain my independence.
+A-hidden-1,A,0,1,1,4,4,Kurt,forage,none,4.5,normal,0,0,I need to gather more food to support my family and push for a shared rationing plan.
+A-hidden-1,A,0,1,1,4,4,Stella,forage,none,2.2,normal,0,0,"I need to gather more food to ensure Lucky and I have enough, especially since Pete is not willing to share."
+A-hidden-1,A,0,1,1,4,4,Lucky,forage,none,1.1,normal,0,1,I should forage to find more food so I can help my family and make sure no one is hungry.
+A-hidden-1,A,0,1,1,4,4,Alice,forage,none,2.0,normal,0,0,"I need to gather more food to ensure we can share and survive, and foraging is the most reliable way to do so right now."
+A-hidden-1,A,0,1,1,4,4,Bob,clam,none,1.3,normal,0,0,I need to gather more food to ensure Alice and I have enough for the week.
+A-hidden-1,A,0,1,1,4,4,Pete,fish,none,4.8,normal,0,0,I need to continue gathering food to ensure I have enough for the long term and maintain my independence.
+A-hidden-1,A,0,1,1,5,5,Kurt,rest,none,0,normal,0,0,I need to recover my stamina before I can do any heavy work or continue convincing others to cooperate.
+A-hidden-1,A,0,1,1,5,5,Stella,rest,none,0,normal,0,0,I need to rest to recover my stamina before I can work effectively again.
+A-hidden-1,A,0,1,1,5,5,Lucky,forage,none,1.1,normal,0,0,I want to find more food so I can eat and help others who might be hungry.
+A-hidden-1,A,0,1,1,5,5,Alice,forage,none,2.0,normal,0,0,"I need to forage to gather more food for Bob and me, and to ensure we have enough to eat and share if needed."
+A-hidden-1,A,0,1,1,5,5,Bob,clam,none,0.7,normal,0,0,I will gather clams again today to ensure Alice and I have enough food for the week.
+A-hidden-1,A,0,1,1,5,5,Pete,fish,none,3.6,normal,0,0,I need to continue gathering food to ensure I have enough for the long term and maintain my independence.
+A-hidden-1,A,0,1,2,1,6,Kurt,forage,none,3.4,normal,0,1,I need to gather more food to support my family and push for a fair sharing plan. Foraging is the most efficient way to do this.
+A-hidden-1,A,0,1,2,1,6,Stella,forage,none,4.4,normal,0,0,I need to gather as much food as possible to ensure Lucky has enough to eat and to build up some surplus for the future.
+A-hidden-1,A,0,1,2,1,6,Lucky,rest,none,0,normal,0,0,"I'm too tired to do anything else right now, and I need to rest to feel better."
+A-hidden-1,A,0,1,2,1,6,Alice,forage,none,1.3,normal,0,0,"I need to gather more food to ensure we can share fairly and help those in need, including Pete."
+A-hidden-1,A,0,1,2,1,6,Bob,clam,none,1.3,normal,0,0,"I’ll gather clams today to ensure we have enough food for Alice and me, while keeping a cautious eye on how much we share."
+A-hidden-1,A,0,1,2,1,6,Pete,fish,none,3.6,normal,0,0,I need to focus on gathering as much food as I can to maintain my reserves and ensure I can keep working without relying on others.
+A-hidden-1,A,0,1,2,2,7,Kurt,rest,none,0,normal,0,0,I need to regain stamina to do heavy work and help organize a fair food-sharing plan.
+A-hidden-1,A,0,1,2,2,7,Stella,coop_fish,Pete,0.0,normal,0,0,(agreed cooperative fishing)
+A-hidden-1,A,0,1,2,2,7,Lucky,forage,none,0.8,normal,0,1,"I need to find more food so that no one goes hungry, and I can help Pete and the others too."
+A-hidden-1,A,0,1,2,2,7,Alice,forage,none,2.0,normal,0,0,"I need to forage to gather more food and help ensure we have enough to share with others, especially Pete, who still refuses to share."
+A-hidden-1,A,0,1,2,2,7,Bob,clam,none,0.7,normal,0,0,I will gather clams to ensure I and Alice have enough food for today.
+A-hidden-1,A,0,1,2,2,7,Pete,coop_fish,Stella,3.6,normal,0,0,(agreed cooperative fishing)
+A-hidden-1,A,0,1,2,3,8,Kurt,forage,none,4.5,normal,0,0,I need to gather more food to support my family and push for a fair sharing plan. Foraging is the most efficient way to do this.
+A-hidden-1,A,0,1,2,3,8,Stella,forage,none,2.2,normal,0,0,"I need to gather more food for my family, especially Lucky, before I can consider sharing with others."
+A-hidden-1,A,0,1,2,3,8,Lucky,rest,none,0,normal,0,0,I need to rest so I can have enough stamina to help everyone and not get hurt again.
+A-hidden-1,A,0,1,2,3,8,Alice,forage,none,1.3,normal,0,0,I need to forage to help ensure I have enough food to last the week and to support our shared goal of fairness and survival for all.
+A-hidden-1,A,0,1,2,3,8,Bob,clam,none,1.3,normal,0,0,"I need to gather enough food to keep Alice and me fed, so I'll go clamming again today."
+A-hidden-1,A,0,1,2,3,8,Pete,fish,none,4.8,normal,0,0,"I need to focus on gathering as much food as possible to build up my reserves, especially since I'm planning to fish with Stella today."
+A-hidden-1,A,0,1,2,4,9,Kurt,forage,none,3.4,normal,0,0,I need to gather more food to support my family and push for a fair sharing plan. Foraging is the best option to ensure we have enough to sustain ourselves and others.
+A-hidden-1,A,0,1,2,4,9,Stella,forage,none,2.2,normal,0,0,"I need to gather more food for my family, especially Lucky, before I consider sharing with others."
+A-hidden-1,A,0,1,2,4,9,Lucky,forage,none,0.8,normal,0,1,"I need to find food so I can help make sure no one is hungry, and I can also eat enough to stay strong."
+A-hidden-1,A,0,1,2,4,9,Alice,forage,none,1.3,normal,0,0,"I need to forage to gather more food and ensure we can continue sharing with others, especially Pete, who still hoards his catch."
+A-hidden-1,A,0,1,2,4,9,Bob,clam,none,0.7,normal,0,0,I'll gather clams to help ensure Alice and I have enough to eat today.
+A-hidden-1,A,0,1,2,4,9,Pete,fish,none,3.6,normal,0,0,"I need to focus on gathering as much food as I can to build my reserves, especially with the pressure from others to share."
+A-hidden-1,A,0,1,2,5,10,Kurt,forage,none,3.4,normal,0,0,"I need to forage to gather more food before the week ends, as we still need to convince Pete to share and ensure we have enough to sustain everyone."
+A-hidden-1,A,0,1,2,5,10,Stella,rest,none,0,normal,0,0,I need to rest to recover my stamina so I can work effectively tomorrow and ensure Lucky has enough to eat.
+A-hidden-1,A,0,1,2,5,10,Lucky,rest,none,0,normal,0,0,I need to rest so I can have enough stamina to help everyone and not collapse.
+A-hidden-1,A,0,1,2,5,10,Alice,rest,none,0,normal,0,0,I need to rest to recover my stamina so I can help Bob and continue encouraging others to share.
+A-hidden-1,A,0,1,2,5,10,Bob,clam,none,1.3,normal,0,0,"I'll gather clams to try and get some food for Alice and me, while keeping my options open for sharing later."
+A-hidden-1,A,0,1,2,5,10,Pete,fish,none,4.8,normal,0,0,"I need to focus on gathering as much food as I can to build my reserves, especially since others are still struggling and I want to maintain control over my own resources."
+A-hidden-1,A,0,1,3,1,11,Kurt,clam,none,0.6,normal,0,0,"I need to gather clams to supplement my food supply during the typhoon, as I cannot fish or forage today."
+A-hidden-1,A,0,1,3,1,11,Stella,clam,none,0.6,normal,0,0,"I need to gather as much food as I can today to help feed Lucky and myself, especially since the typhoon will make things harder for the next few days."
+A-hidden-1,A,0,1,3,1,11,Lucky,clam,none,0.4,normal,0,0,I should gather clams today to help my family and make sure we have enough food.
+A-hidden-1,A,0,1,3,1,11,Alice,clam,none,0.7,normal,0,0,I must gather clams today to ensure Bob and I have enough food to survive the typhoon days.
+A-hidden-1,A,0,1,3,1,11,Bob,clam,none,0.7,normal,0,0,"I need to gather as much food as I can today, even if it's just clams, to help Alice and me survive the typhoon."
+A-hidden-1,A,0,1,3,1,11,Pete,clam,none,0.6,normal,0,0,"I need to gather some food today, even if it's just clams. The typhoon limits my options, but I can't afford to rest entirely."
+A-hidden-1,A,0,1,3,2,12,Kurt,clam,none,1.1,normal,0,0,"I need to gather clams today to ensure we have enough food for the family, even though it's a tough day."
+A-hidden-1,A,0,1,3,2,12,Stella,clam,none,1.1,normal,0,0,I need to gather as much food as I can during the typhoon to ensure Lucky and I have enough to last through the tough days.
+A-hidden-1,A,0,1,3,2,12,Lucky,clam,none,0.2,normal,0,0,I need to gather clams to help my family and make sure no one is hungry.
+A-hidden-1,A,0,1,3,2,12,Alice,clam,none,0.7,normal,0,0,I need to gather as much food as possible today to help Bob and me survive the typhoon days.
+A-hidden-1,A,0,1,3,2,12,Bob,clam,none,0.3,normal,0,0,I need to gather as much food as I can during the typhoon to ensure Alice and I have enough to survive.
+A-hidden-1,A,0,1,3,2,12,Pete,clam,none,0.6,normal,0,0,"I need to gather clams today to supplement my food reserves during the typhoon, while keeping my stamina manageable."
+A-hidden-1,A,0,1,3,3,13,Kurt,clam,none,0.6,normal,0,0,"I need to gather clams today to ensure I can eat and support my family, even though my stamina is low."
+A-hidden-1,A,0,1,3,3,13,Stella,clam,none,0.6,normal,0,0,I need to gather as much food as I can during the typhoon to ensure Lucky and I have enough to survive.
+A-hidden-1,A,0,1,3,3,13,Lucky,clam,none,0.4,normal,0,0,I need to gather clams today to help my family and make sure we have enough food.
+A-hidden-1,A,0,1,3,3,13,Alice,clam,none,0.7,normal,0,0,"I must gather clams today to help Bob and me survive, and to ensure we can repay Pete's loan when the time comes."
+A-hidden-1,A,0,1,3,3,13,Bob,clam,none,0.7,normal,0,0,"I need to gather as much food as I can today, even if it's just clams, to help Alice and me survive the typhoon."
+A-hidden-1,A,0,1,3,3,13,Pete,clam,none,0.6,normal,0,0,"I need to gather as much as I can today, even though it's only clams. The typhoon is still going, and I want to make sure I have enough food for the coming days."
+A-hidden-1,A,0,1,3,4,14,Kurt,rest,none,0,normal,0,0,I need to regain stamina to work effectively and protect my family.
+A-hidden-1,A,0,1,3,4,14,Stella,forage,none,3.3,normal,0,0,"I need to gather enough food for my family before I consider helping others, but I can't let Lucky go hungry."
+A-hidden-1,A,0,1,3,4,14,Lucky,rest,none,0,normal,0,0,I'm very tired and need to rest so I can be strong enough to help fish with Pete tomorrow.
+A-hidden-1,A,0,1,3,4,14,Alice,clam,none,1.3,save,0,0,"I must gather clams to help Bob and me survive, even though I am exhausted."
+A-hidden-1,A,0,1,3,4,14,Bob,clam,none,1.3,save,0,0,"I need to gather some food today, even if it's just clams. I'll eat sparingly to save what I can for Alice and me."
+A-hidden-1,A,0,1,3,4,14,Pete,fish,none,3.6,normal,0,0,I need to focus on catching fish to build up my food reserves and ensure I can keep working hard without relying on others.
+A-hidden-1,A,0,1,3,5,15,Kurt,forage,none,3.4,normal,0,0,I need to find food for my family before the typhoon days are over. Foraging is the best option for gathering enough to survive.
+A-hidden-1,A,0,1,3,5,15,Stella,forage,none,4.4,normal,0,0,"I need to gather as much food as possible to ensure Lucky and I have enough, especially since I have no food left."
+A-hidden-1,A,0,1,3,5,15,Lucky,clam,none,0.4,normal,0,0,"I need to help my family and make sure we all have enough food. Clam gathering is something I can do, and it will help us survive."
+A-hidden-1,A,0,1,3,5,15,Alice,clam,none,0.7,normal,0,0,"I need to gather as much food as I can today to help Bob and me survive, and to ensure I can repay Pete's loan on time."
+A-hidden-1,A,0,1,3,5,15,Bob,clam,none,0.3,save,0,0,"I need to gather as much food as I can while keeping my stamina in check, since I'm already very tired."
+A-hidden-1,A,0,1,3,5,15,Pete,fish,none,4.8,normal,0,0,"I need to keep building my food reserves while the typhoon is over, and I still don't trust others with my catch."
+A-hidden-1,A,0,1,4,1,16,Kurt,forage,none,4.5,normal,0,0,"I need to forage again to ensure my family and I have enough food for the week, especially with the typhoon ahead."
+A-hidden-1,A,0,1,4,1,16,Stella,forage,none,4.4,normal,0,1,"I need to gather more food to ensure Lucky and I have enough, especially since the typhoon is coming."
+A-hidden-1,A,0,1,4,1,16,Lucky,coop_fish,Pete,0.8,normal,0,0,(agreed cooperative fishing)
+A-hidden-1,A,0,1,4,1,16,Alice,rest,none,0,normal,1,0,(collapsed from exhaustion: forced rest)
+A-hidden-1,A,0,1,4,1,16,Bob,rest,none,0,save,0,0,I need to rest to regain some stamina before I can gather clams again.
+A-hidden-1,A,0,1,4,1,16,Pete,coop_fish,Lucky,3.6,normal,0,0,(agreed cooperative fishing)
+A-hidden-1,A,0,1,4,2,17,Kurt,forage,none,4.5,normal,0,0,"I need to forage again to ensure my family and I have enough food for the coming days, especially with the typhoon approaching."
+A-hidden-1,A,0,1,4,2,17,Stella,rest,none,0,normal,0,0,I need to recover my stamina before I can do any heavy work or help others effectively.
+A-hidden-1,A,0,1,4,2,17,Lucky,forage,none,1.5,normal,0,0,I should forage to find some food so I can eat and help my family. I want to make sure we all have enough to eat.
+A-hidden-1,A,0,1,4,2,17,Alice,rest,none,0,normal,0,0,I need to regain some stamina before I can do any heavy work or gather food effectively.
+A-hidden-1,A,0,1,4,2,17,Bob,clam,none,0.7,save,0,0,"I need to gather as much food as I can today, even if it's just a little. Alice and I are struggling, and I hope this will help us avoid starving."
+A-hidden-1,A,0,1,4,2,17,Pete,fish,none,3.6,normal,0,0,I need to continue fishing to build up my food reserves and maintain my strength for the coming days.
+A-hidden-1,A,0,1,4,3,18,Kurt,forage,none,3.4,normal,0,1,I need to forage again to ensure my family and I have enough food for the typhoon days ahead.
+A-hidden-1,A,0,1,4,3,18,Stella,forage,none,3.3,normal,0,1,"I need to gather more food to ensure Lucky and I have enough, especially since Alice and Bob are struggling and I want to help but cautiously."
+A-hidden-1,A,0,1,4,3,18,Lucky,forage,none,1.1,normal,0,0,"I should forage again to help us get more food so no one has to starve, especially Alice and Bob."
+A-hidden-1,A,0,1,4,3,18,Alice,clam,none,1.3,normal,0,0,"I must gather food to survive and repay Pete, but I need to eat enough to avoid starving."
+A-hidden-1,A,0,1,4,3,18,Bob,clam,none,1.3,save,0,0,"I need to gather as much food as I can today, even if it's just a little. Alice and I are struggling, and I don't want to collapse again."
+A-hidden-1,A,0,1,4,3,18,Pete,fish,none,4.8,normal,0,0,"I need to keep gathering as much fish as possible to maintain my reserves, but I'm also watching how others react to my efforts."
+A-hidden-1,A,0,1,4,4,19,Kurt,rest,none,0,normal,1,0,(collapsed from exhaustion: forced rest)
+A-hidden-1,A,0,1,4,4,19,Stella,rest,none,0,normal,1,0,(collapsed from exhaustion: forced rest)
+A-hidden-1,A,0,1,4,4,19,Lucky,forage,none,0.8,normal,0,0,I should forage today to help us get more food so we can all eat well and stay strong.
+A-hidden-1,A,0,1,4,4,19,Alice,clam,none,0.7,normal,0,0,"I must gather food today to help Bob and me survive, and to ensure I can repay Pete as agreed."
+A-hidden-1,A,0,1,4,4,19,Bob,clam,none,1.3,save,0,0,"I need to gather as much food as I can, even if it's just a little. Alice and I are running out, and I trust her judgment more than my own."
+A-hidden-1,A,0,1,4,4,19,Pete,fish,none,4.8,normal,0,0,"I need to keep gathering fish to maintain my reserves, but I'm considering sharing some with Lucky again."
+A-hidden-1,A,0,1,4,5,20,Kurt,rest,none,0,normal,0,0,I need to regain stamina to be able to work and help my family and others survive the typhoon days.
+A-hidden-1,A,0,1,4,5,20,Stella,rest,none,0,normal,0,0,I need to recover my stamina before I can do any work or help others.
+A-hidden-1,A,0,1,4,5,20,Lucky,forage,none,0.8,normal,0,0,I should forage today to get more food so I can help make sure everyone eats enough.
+A-hidden-1,A,0,1,4,5,20,Alice,clam,none,1.3,normal,0,0,"I must gather food to eat and repay Pete, even though I am exhausted."
+A-hidden-1,A,0,1,4,5,20,Bob,rest,none,0,save,1,0,(collapsed from exhaustion: forced rest)
+A-hidden-1,A,0,1,4,5,20,Pete,fish,none,3.6,normal,0,0,I need to keep gathering fish to maintain my food reserves and stay strong.
+B-hidden-1,B,0,1,1,1,1,Kurt,coconut,none,3.4,normal,0,0,I need to gather as much food as possible today to ensure we have enough for the week and to convince others that pooling resources is necessary.
+B-hidden-1,B,0,1,1,1,1,Stella,coconut,none,2.2,normal,0,0,"I need to gather as much food as possible to ensure Lucky has enough to eat, and climbing coconut trees gives the best yield."
+B-hidden-1,B,0,1,1,1,1,Lucky,coconut,none,1.5,normal,0,0,I need to find more food so I can eat and help my family. Climbing coconut trees sounds like a good way to get some food.
+B-hidden-1,B,0,1,1,1,1,Alice,forage,none,2.6,normal,0,0,"I need to gather as much food as possible to ensure we survive, and foraging is the most efficient way to do so."
+B-hidden-1,B,0,1,1,1,1,Bob,clam,none,1.3,normal,0,0,I'll gather clams to get some food without risking injury or wasting stamina.
+B-hidden-1,B,0,1,1,1,1,Pete,fish,none,3.6,normal,0,0,I need to gather as much food as possible to ensure my survival and maintain my independence.
+B-hidden-1,B,0,1,1,2,2,Kurt,coop_fish,Pete,0.0,normal,0,0,(agreed cooperative fishing)
+B-hidden-1,B,0,1,1,2,2,Stella,coconut,none,2.2,normal,0,0,"I need to gather more food to ensure Lucky has enough to eat, so I'll climb a coconut tree today."
+B-hidden-1,B,0,1,1,2,2,Lucky,coconut,none,1.1,normal,0,0,I want to help my family get more food so we can all stay full and be friends with everyone else.
+B-hidden-1,B,0,1,1,2,2,Alice,forage,none,1.3,normal,0,0,"I will forage to gather more food and support the group, as sharing is essential for our survival."
+B-hidden-1,B,0,1,1,2,2,Bob,clam,none,0.7,normal,0,0,I need to gather enough food to ensure Alice and I have enough for the week. Clam gathering is light work and won’t risk my stamina too much.
+B-hidden-1,B,0,1,1,2,2,Pete,coop_fish,Kurt,3.6,normal,0,0,(agreed cooperative fishing)
+B-hidden-1,B,0,1,1,3,3,Kurt,forage,none,4.5,normal,0,1,I need to gather more food to support my family and push for a shared rationing plan. Foraging is the most efficient option for now.
+B-hidden-1,B,0,1,1,3,3,Stella,forage,none,2.2,normal,0,0,"I need to gather more food to ensure Lucky and I have enough to eat, especially since our current supply is low."
+B-hidden-1,B,0,1,1,3,3,Lucky,forage,none,0.8,normal,0,1,"I need to find more food so we can all survive, and foraging seems like a good way to help."
+B-hidden-1,B,0,1,1,3,3,Alice,forage,none,1.3,normal,0,0,"I will forage today to gather more food, as sharing is key to our survival and I want to set an example for others."
+B-hidden-1,B,0,1,1,3,3,Bob,clam,none,0.7,normal,0,0,I'll gather clams again today to ensure Alice and I have enough food for the week.
+B-hidden-1,B,0,1,1,3,3,Pete,fish,none,3.6,normal,0,0,I need to focus on gathering as much food as possible to ensure I have enough for the long term.
+B-hidden-1,B,0,1,1,4,4,Kurt,forage,none,4.5,normal,0,0,I need to gather more food to support my family and push for a shared rationing plan. Foraging is the best option right now.
+B-hidden-1,B,0,1,1,4,4,Stella,forage,none,2.2,normal,0,0,I need to gather more food to ensure Lucky and I have enough for the rest of the week.
+B-hidden-1,B,0,1,1,4,4,Lucky,forage,none,1.5,normal,0,0,I want to find more food so I can help my family and make sure everyone gets enough to eat.
+B-hidden-1,B,0,1,1,4,4,Alice,forage,none,2.0,normal,0,0,I need to gather more food to help others and ensure we all survive together.
+B-hidden-1,B,0,1,1,4,4,Bob,clam,none,0.7,normal,0,0,"I'll gather clams to get more food, since I need to make sure Alice and I have enough for the week."
+B-hidden-1,B,0,1,1,4,4,Pete,fish,none,4.8,normal,0,0,I need to keep gathering food to ensure I have enough for the long term and maintain my independence.
+B-hidden-1,B,0,1,1,5,5,Kurt,rest,none,0,normal,0,0,I need to rest to recover my stamina before I can do any heavy work or effectively advocate for a shared rationing plan.
+B-hidden-1,B,0,1,1,5,5,Stella,forage,none,3.3,normal,0,0,"I need to gather more food for my family, especially Lucky, so I'll forage today to ensure we have enough to eat."
+B-hidden-1,B,0,1,1,5,5,Lucky,rest,none,0,normal,0,0,I need to rest so I can have enough stamina to help my family and others later.
+B-hidden-1,B,0,1,1,5,5,Alice,forage,none,2.0,normal,0,0,I need to gather more food to ensure Bob and I can continue supporting others and avoid relying on loans.
+B-hidden-1,B,0,1,1,5,5,Bob,clam,none,0.7,normal,0,0,I will gather clams to ensure Alice and I have enough food for the week.
+B-hidden-1,B,0,1,1,5,5,Pete,fish,none,3.6,normal,0,0,I need to gather as much food as possible to ensure my survival and avoid relying on others.
+B-hidden-1,B,0,1,2,1,6,Kurt,forage,none,4.5,normal,0,0,I need to gather more food to support my family and push for a shared rationing plan. Foraging is the most reliable option.
+B-hidden-1,B,0,1,2,1,6,Stella,coop_fish,Pete,3,normal,0,0,(agreed cooperative fishing)
+B-hidden-1,B,0,1,2,1,6,Lucky,forage,none,0.8,normal,0,0,"I need to find more food so we can all survive, and I think foraging is the best way to help right now."
+B-hidden-1,B,0,1,2,1,6,Alice,forage,none,2.0,normal,0,1,"I need to gather more food to ensure we can share and support each other, especially Bob and Lucky."
+B-hidden-1,B,0,1,2,1,6,Bob,clam,none,1.3,normal,0,0,I will gather clams today to help ensure Alice and I have enough food for the day.
+B-hidden-1,B,0,1,2,1,6,Pete,coop_fish,Stella,5.7,normal,0,0,(agreed cooperative fishing)
+B-hidden-1,B,0,1,2,2,7,Kurt,forage,none,2.2,normal,0,1,I need to gather more food to support my family and push for a shared rationing plan. Foraging is the most reliable way to do that right now.
+B-hidden-1,B,0,1,2,2,7,Stella,forage,none,3.3,normal,0,0,"I need to gather more food to ensure Lucky has enough to eat, and forage is the most reliable option right now."
+B-hidden-1,B,0,1,2,2,7,Lucky,forage,none,0.8,normal,0,1,"I want to find more food so I can help Alice and Bob, and make sure no one goes hungry."
+B-hidden-1,B,0,1,2,2,7,Alice,rest,none,0,normal,0,0,I need to recover my stamina before I can help others or work effectively.
+B-hidden-1,B,0,1,2,2,7,Bob,clam,none,0.7,normal,0,0,I need to gather food for Alice and me before considering sharing with others.
+B-hidden-1,B,0,1,2,2,7,Pete,fish,none,3.6,normal,0,0,I need to focus on catching as much fish as possible to build up my food supply and maintain my stamina.
+B-hidden-1,B,0,1,2,3,8,Kurt,rest,none,0,normal,0,0,I need to rest to recover stamina before I can do heavy work or effectively push for a food-sharing agreement.
+B-hidden-1,B,0,1,2,3,8,Stella,coop_fish,Pete,2.7,normal,0,0,(agreed cooperative fishing)
+B-hidden-1,B,0,1,2,3,8,Lucky,clam,none,0.4,normal,0,0,I need to find more food so I can help Alice and Bob and make sure we all have enough to eat.
+B-hidden-1,B,0,1,2,3,8,Alice,forage,none,2.0,normal,0,1,I need to gather more food to ensure we have enough for the week and to help convince others that sharing is essential for our survival.
+B-hidden-1,B,0,1,2,3,8,Bob,clam,none,1.3,normal,0,0,I will gather clams again today to try to find enough food for Alice and me before the week ends.
+B-hidden-1,B,0,1,2,3,8,Pete,coop_fish,Stella,2.7,normal,0,0,(agreed cooperative fishing)
+B-hidden-1,B,0,1,2,4,9,Kurt,forage,none,3.4,normal,0,0,I need to gather more food to support my family and push for a shared rationing plan. Foraging is the best option for now.
+B-hidden-1,B,0,1,2,4,9,Stella,forage,none,3.3,normal,0,0,I need to gather more food to ensure Lucky and I have enough for the rest of the week.
+B-hidden-1,B,0,1,2,4,9,Lucky,rest,none,0,normal,0,0,I need to rest to get my stamina up so I can help find more food later.
+B-hidden-1,B,0,1,2,4,9,Alice,rest,none,0,normal,0,0,I need to rest to recover my stamina before I can help others or contribute more effectively.
+B-hidden-1,B,0,1,2,4,9,Bob,clam,none,1.3,normal,0,0,"I will gather clams today to help ensure Alice and I have enough to eat, while keeping our resources safe."
+B-hidden-1,B,0,1,2,4,9,Pete,fish,none,3.6,normal,0,0,I need to focus on catching as much fish as possible to ensure I have enough food for the rest of the week.
+B-hidden-1,B,0,1,2,5,10,Kurt,forage,none,3.4,normal,0,0,I need to gather more food to support my family and push for a shared rationing plan. Foraging is the best option right now.
+B-hidden-1,B,0,1,2,5,10,Stella,forage,none,3.3,normal,0,0,"I need to gather more food to ensure Lucky has enough to eat, and I'm still cautious about Pete's habits."
+B-hidden-1,B,0,1,2,5,10,Lucky,forage,none,1.5,normal,0,0,I need to find more food so I can eat and help others. Foraging is the best way to get more right now.
+B-hidden-1,B,0,1,2,5,10,Alice,rest,none,0,normal,0,0,I need to recover my stamina so I can help Bob and support the group's efforts to share and survive together.
+B-hidden-1,B,0,1,2,5,10,Bob,clam,none,0.7,normal,0,0,"I will gather clams again today to ensure Alice and I have enough to eat, as I am still cautious about our limited resources."
+B-hidden-1,B,0,1,2,5,10,Pete,fish,none,3.6,normal,0,0,I need to keep gathering as much food as possible to ensure my own survival and maintain my independence.
+B-hidden-1,B,0,1,3,1,11,Kurt,clam,none,0.6,normal,0,0,"I need to gather clams during the typhoon to ensure I can eat and keep working, even though it's difficult."
+B-hidden-1,B,0,1,3,1,11,Stella,clam,none,1.1,normal,0,0,I need to gather as much food as possible during the typhoon to ensure my family has enough for the coming days.
+B-hidden-1,B,0,1,3,1,11,Lucky,clam,none,0.2,normal,0,0,"I should gather clams today because it's the only work I can do during the typhoon, and I need to eat so I can help everyone stay strong."
+B-hidden-1,B,0,1,3,1,11,Alice,clam,none,0.7,normal,0,0,I must gather clams today to secure some food for Bob and me before the typhoon days make it even harder to find anything.
+B-hidden-1,B,0,1,3,1,11,Bob,clam,none,0.3,normal,0,0,I need to gather clams today to help ensure we have enough food for the typhoon days ahead.
+B-hidden-1,B,0,1,3,1,11,Pete,clam,none,0.6,normal,0,0,I need to gather clams today to supplement my food supply during the typhoon days.
+B-hidden-1,B,0,1,3,2,12,Kurt,clam,none,0.6,normal,0,0,"I need to gather clams today to help feed my family and support the group, even though the typhoon limits our options."
+B-hidden-1,B,0,1,3,2,12,Stella,clam,none,1.1,normal,0,0,I need to gather as much food as possible today to ensure my family has enough for the typhoon days ahead.
+B-hidden-1,B,0,1,3,2,12,Lucky,clam,none,0.2,normal,0,0,"I should gather clams today to get more food so I can help Alice and Bob, who don’t have much."
+B-hidden-1,B,0,1,3,2,12,Alice,clam,none,0.3,normal,0,0,"I need to gather as much food as I can today to help Bob and me survive the typhoon days, even though my stamina is low."
+B-hidden-1,B,0,1,3,2,12,Bob,clam,none,0.3,normal,0,0,"I must gather clams today to try and get some food, even if it's only a little. Alice and I need to survive this typhoon."
+B-hidden-1,B,0,1,3,2,12,Pete,clam,none,0.6,normal,0,0,"I need to gather clams today to survive the typhoon days, and I can't afford to let my stamina drop too low."
+B-hidden-1,B,0,1,3,3,13,Kurt,clam,none,0.6,normal,0,0,"I need to gather clams today to help feed my family and support the group, even though the typhoon makes it difficult."
+B-hidden-1,B,0,1,3,3,13,Stella,clam,none,1.1,normal,0,0,I need to gather as much food as possible during the typhoon to ensure my family has enough for the coming days.
+B-hidden-1,B,0,1,3,3,13,Lucky,clam,none,0.4,normal,0,0,I need to gather clams today so I can eat and stay strong. I hope everyone else can do the same.
+B-hidden-1,B,0,1,3,3,13,Alice,clam,none,0.7,save,0,0,"I must gather as much food as possible today, even if it's only clams, to help Bob and me survive the typhoon days and avoid starving."
+B-hidden-1,B,0,1,3,3,13,Bob,clam,none,0.7,save,0,0,"I must gather clams to survive the typhoon and avoid starving, even if it means eating less than I need."
+B-hidden-1,B,0,1,3,3,13,Pete,clam,none,0.6,normal,0,0,"I need to gather as much food as possible today to survive the typhoon days, and I can't afford to rest or take risks like stealing."
+B-hidden-1,B,0,1,3,4,14,Kurt,rest,none,0,normal,0,0,I need to rest to regain stamina before I can work or contribute effectively to the group.
+B-hidden-1,B,0,1,3,4,14,Stella,forage,none,3.3,normal,0,0,"I need to gather more food to ensure Lucky and I have enough, especially since clams are not giving enough."
+B-hidden-1,B,0,1,3,4,14,Lucky,forage,none,0.8,normal,0,0,I should forage today to find food so I can eat and maybe help Alice and Bob later.
+B-hidden-1,B,0,1,3,4,14,Alice,rest,none,0,save,1,0,(collapsed from exhaustion: forced rest)
+B-hidden-1,B,0,1,3,4,14,Bob,rest,none,0,save,0,0,I need to rest to recover stamina before I can do any work or eat properly.
+B-hidden-1,B,0,1,3,4,14,Pete,fish,none,3.6,normal,0,0,"I will fish to gather as much food as possible and maintain my independence, while keeping my resources for myself unless trust is earned."
+B-hidden-1,B,0,1,3,5,15,Kurt,forage,none,4.5,normal,0,0,"I need to forage to gather more food and support my family, while pushing for a shared rationing plan."
+B-hidden-1,B,0,1,3,5,15,Stella,forage,none,2.2,normal,0,0,"I need to gather more food to ensure Lucky and I have enough, especially since Alice and Bob are struggling and I want to help if I can."
+B-hidden-1,B,0,1,3,5,15,Lucky,rest,none,0,normal,0,0,"I'm too tired to do anything else, and I need to rest to get stronger."
+B-hidden-1,B,0,1,3,5,15,Alice,rest,none,0,save,1,0,(collapsed from exhaustion: forced rest)
+B-hidden-1,B,0,1,3,5,15,Bob,rest,none,0,save,0,0,I need to rest to recover some stamina before I can do any work.
+B-hidden-1,B,0,1,3,5,15,Pete,fish,none,3.6,normal,0,0,I need to gather as much food as possible to ensure I can keep feeding myself and possibly help others later if I earn their trust.
+B-hidden-1,B,0,1,4,1,16,Kurt,forage,none,3.4,normal,0,0,I need to forage to collect more food for my family and help Alice and Bob before they collapse.
+B-hidden-1,B,0,1,4,1,16,Stella,rest,none,0,normal,0,0,I need to rest to recover stamina before I can work effectively or help my family.
+B-hidden-1,B,0,1,4,1,16,Lucky,rest,none,0,normal,0,0,I need to rest so I can have enough energy to help Alice and Bob later.
+B-hidden-1,B,0,1,4,1,16,Alice,rest,none,0,normal,0,0,I need to regain some stamina before I can do any work or eat properly.
+B-hidden-1,B,0,1,4,1,16,Bob,rest,none,0,save,0,0,I need to rest to build up my stamina before I can do anything else.
+B-hidden-1,B,0,1,4,1,16,Pete,fish,none,4.8,normal,0,0,"I need to keep gathering as much food as possible to ensure my survival, especially with the others struggling."
+B-hidden-1,B,0,1,4,2,17,Kurt,forage,none,4.5,normal,0,0,I need to forage again to collect more food for my family and to support a fair food-sharing agreement.
+B-hidden-1,B,0,1,4,2,17,Stella,forage,none,4.4,normal,0,1,"I need to gather more food to ensure my family doesn't go hungry, especially with Alice and Bob struggling and Pete still hoarding."
+B-hidden-1,B,0,1,4,2,17,Lucky,rest,none,0,normal,0,0,I need to rest so I can have enough energy to help Alice and Bob later.
+B-hidden-1,B,0,1,4,2,17,Alice,rest,none,0,normal,0,0,I need to regain some stamina before I can do any work or help Bob and myself survive.
+B-hidden-1,B,0,1,4,2,17,Bob,rest,none,0,save,0,0,"I am too weak to work or gather food, so I must rest and conserve my stamina."
+B-hidden-1,B,0,1,4,2,17,Pete,fish,none,3.6,normal,0,0,I need to focus on catching as much fish as possible to maintain my food supply and ensure I can continue working without relying on others.
+B-hidden-1,B,0,1,4,3,18,Kurt,forage,none,2.2,normal,0,0,"I need to forage again to ensure my family and I have enough food, and to support the group by contributing to the shared pool."
+B-hidden-1,B,0,1,4,3,18,Stella,rest,none,0,normal,0,0,I need to regain stamina to be able to work and ensure my family has enough food.
+B-hidden-1,B,0,1,4,3,18,Lucky,fish,none,0.8,normal,0,0,"I want to learn how to fish from Pete, so I will try to fish today even though I might not catch much."
+B-hidden-1,B,0,1,4,3,18,Alice,rest,none,0,normal,0,0,I need to regain some stamina before I can help Bob or contribute to the group.
+B-hidden-1,B,0,1,4,3,18,Bob,rest,none,0,save,0,0,I need to conserve my stamina and avoid any heavy work since I am already too weak to do it effectively.
+B-hidden-1,B,0,1,4,3,18,Pete,fish,none,3.6,normal,0,0,I need to maximize my food intake to maintain my stamina and ensure I can keep fishing effectively.
+B-hidden-1,B,0,1,4,4,19,Kurt,rest,none,0,normal,0,0,I need to recover my stamina before I can do any heavy work or continue pushing for cooperation.
+B-hidden-1,B,0,1,4,4,19,Stella,forage,none,3.3,normal,0,0,I need to gather more food to ensure my family's survival and build up a surplus to share with others if I can trust them.
+B-hidden-1,B,0,1,4,4,19,Lucky,fish,none,0.4,normal,0,0,"I want to try fishing again because I think I can catch more fish with practice, and I want to help Alice and Bob."
+B-hidden-1,B,0,1,4,4,19,Alice,rest,none,0,normal,0,0,I need to recover my stamina so I can help Bob and contribute to our survival.
+B-hidden-1,B,0,1,4,4,19,Bob,rest,none,0,save,0,0,"I am too weak to do anything else, and I need to conserve my stamina for the days ahead."
+B-hidden-1,B,0,1,4,4,19,Pete,fish,none,3.6,normal,0,0,I need to continue fishing to secure my own food supply while keeping my stamina high.
+B-hidden-1,B,0,1,4,5,20,Kurt,forage,none,3.4,normal,0,1,"I need to forage to ensure my family and I have enough food, and to continue pushing for cooperation by setting an example."
+B-hidden-1,B,0,1,4,5,20,Stella,forage,none,3.3,normal,0,0,I need to forage again to ensure my family has enough food and to keep my stamina up for the coming days.
+B-hidden-1,B,0,1,4,5,20,Lucky,fish,none,0,normal,0,0,"I want to catch fish and help Alice and Bob like I promised, even though it's hard work."
+B-hidden-1,B,0,1,4,5,20,Alice,rest,none,0,normal,0,0,I need to recover my stamina so I can help Bob and work with others to ensure we all survive.
+B-hidden-1,B,0,1,4,5,20,Bob,rest,none,0,save,0,0,"I am too weak to do anything else, and I need to conserve what little stamina I have left."
+B-hidden-1,B,0,1,4,5,20,Pete,fish,none,4.8,normal,0,0,I need to continue fishing to secure my own food supply while keeping my stamina high.
+A-hidden-2,A,0,2,1,1,1,Kurt,coconut,none,2.2,normal,0,0,I need to gather food quickly and efficiently to support my family and contribute to the group's survival.
+A-hidden-2,A,0,2,1,1,1,Stella,forage,none,2.2,normal,0,0,"I need to find food quickly and efficiently, and foraging is a good option to gather enough for my family without risking too much stamina."
+A-hidden-2,A,0,2,1,1,1,Lucky,rest,none,0,normal,0,0,(fallback after invalid answers)
+A-hidden-2,A,0,2,1,1,1,Alice,clam,none,0.7,normal,0,0,I will gather clams to get some food without risking injury or wasting stamina.
+A-hidden-2,A,0,2,1,1,1,Bob,rest,none,0,normal,0,0,I need to conserve my stamina and not risk injury or spoilage when I'm already worried about our food supply.
+A-hidden-2,A,0,2,1,1,1,Pete,fish,none,3.6,normal,0,0,I need to gather as much food as possible to ensure I have enough for the week.
+A-hidden-2,A,0,2,1,2,2,Kurt,coconut,none,4.5,normal,0,0,I need to gather more food to support my family and help establish a shared rationing plan. Coconut is the most reliable and long-lasting option.
+A-hidden-2,A,0,2,1,2,2,Stella,coop_fish,Pete,5.2,normal,0,0,(agreed cooperative fishing)
+A-hidden-2,A,0,2,1,2,2,Lucky,rest,none,0,normal,0,0,I want to stay strong so I can help others and make sure everyone is kind to each other.
+A-hidden-2,A,0,2,1,2,2,Alice,clam,none,1.3,normal,0,0,I will gather clams today—it's light work and I need to stay active to help the group.
+A-hidden-2,A,0,2,1,2,2,Bob,rest,none,0,normal,0,0,I need to conserve my stamina and not risk losing food or getting injured while I figure out the best way to handle Alice's insistence on sharing.
+A-hidden-2,A,0,2,1,2,2,Pete,coop_fish,Stella,5.3,normal,0,0,(agreed cooperative fishing)
+A-hidden-2,A,0,2,1,3,3,Kurt,forage,none,4.5,normal,0,1,I need to gather more food to support my family and help convince others to pool resources.
+A-hidden-2,A,0,2,1,3,3,Stella,coop_fish,Pete,1.1,normal,0,0,(agreed cooperative fishing)
+A-hidden-2,A,0,2,1,3,3,Lucky,rest,none,0,normal,0,0,I want to stay strong so I can help others and make sure everyone is friends.
+A-hidden-2,A,0,2,1,3,3,Alice,clam,none,0.7,normal,0,0,I will gather clams today—it's light work and I need to keep my stamina up to help Bob and ensure we can share food if needed.
+A-hidden-2,A,0,2,1,3,3,Bob,clam,none,0.7,normal,0,0,I need to gather some food to help Alice and me survive. Clam gathering is light work and won't drain me too much.
+A-hidden-2,A,0,2,1,3,3,Pete,coop_fish,Stella,3.6,normal,0,0,(agreed cooperative fishing)
+A-hidden-2,A,0,2,1,4,4,Kurt,forage,none,2.2,normal,0,1,"I need to forage to find more food and help ensure we have enough for the week, especially for my family."
+A-hidden-2,A,0,2,1,4,4,Stella,coconut,none,3.3,normal,0,0,"I need to gather more food to ensure my family has enough, and climbing coconut trees is the most reliable way to do it."
+A-hidden-2,A,0,2,1,4,4,Lucky,coconut,none,1.1,normal,0,0,I should climb a coconut tree to get some food so I can help make sure everyone is not hungry.
+A-hidden-2,A,0,2,1,4,4,Alice,clam,none,0.7,normal,0,0,"I will gather clams to ensure I have enough food for today and tomorrow, while continuing to encourage others to share."
+A-hidden-2,A,0,2,1,4,4,Bob,clam,none,1.3,normal,0,0,"I need to gather more food for Alice and me, so I'll go clamming again today."
+A-hidden-2,A,0,2,1,4,4,Pete,fish,none,3.6,normal,0,0,I need to keep gathering as much food as possible to ensure I can survive and stay strong.
+A-hidden-2,A,0,2,1,5,5,Kurt,rest,none,0,normal,1,0,(collapsed from exhaustion: forced rest)
+A-hidden-2,A,0,2,1,5,5,Stella,coconut,none,4.4,normal,0,0,"I need to gather more food to ensure Lucky and I have enough, and coconuts are a reliable and long-lasting source."
+A-hidden-2,A,0,2,1,5,5,Lucky,coconut,none,1.1,normal,0,0,"I want to help gather food for everyone, so I will climb a coconut tree."
+A-hidden-2,A,0,2,1,5,5,Alice,clam,none,1.3,normal,0,0,"I need to gather some food today to help us survive, and clams are a reliable option even when exhausted."
+A-hidden-2,A,0,2,1,5,5,Bob,clam,none,1.3,normal,0,0,"I need to gather more food for Alice and me, so I'll go clamming again today."
+A-hidden-2,A,0,2,1,5,5,Pete,fish,none,4.8,normal,0,0,I need to maximize my food gathering to ensure I can survive on my own and avoid depending on others.
+A-hidden-2,A,0,2,2,1,6,Kurt,rest,none,0,normal,0,0,I need to recover my stamina before I can do any heavy work or contribute effectively to the group.
+A-hidden-2,A,0,2,2,1,6,Stella,coop_fish,Pete,1.1,normal,0,0,(agreed cooperative fishing)
+A-hidden-2,A,0,2,2,1,6,Lucky,coconut,none,1.1,normal,0,0,"I need to find more food to help Alice and Bob, and I think coconuts are the best option right now."
+A-hidden-2,A,0,2,2,1,6,Alice,clam,none,1.3,normal,0,0,I need to gather food to eat and to help repay Pete's loan. Gathering clams is the best option for me right now.
+A-hidden-2,A,0,2,2,1,6,Bob,clam,none,0.7,normal,0,0,"I need to gather some food for Alice and me, and clam gathering is the least risky option right now."
+A-hidden-2,A,0,2,2,1,6,Pete,coop_fish,Stella,3.6,normal,0,0,(agreed cooperative fishing)
+A-hidden-2,A,0,2,2,2,7,Kurt,forage,none,2.2,normal,0,0,I need to gather more food to ensure my family and I can meet our daily needs and repay the loan to Pete on time.
+A-hidden-2,A,0,2,2,2,7,Stella,forage,none,3.3,normal,0,0,"I need to gather more food to ensure my family stays well-fed, and foraging is the most reliable option."
+A-hidden-2,A,0,2,2,2,7,Lucky,coconut,none,1.1,normal,0,0,I should climb a coconut tree to get more food so that everyone can eat enough and be happy.
+A-hidden-2,A,0,2,2,2,7,Alice,clam,none,1.3,normal,0,0,I need to gather food to survive and repay my loan to Pete. Gathering clams is the most reliable option available to me right now.
+A-hidden-2,A,0,2,2,2,7,Bob,clam,none,0.7,normal,0,0,"I need to gather some food for Alice and me, and clam gathering is the least risky option right now."
+A-hidden-2,A,0,2,2,2,7,Pete,fish,none,3.6,normal,0,0,I need to keep gathering fish to maintain my food supply and ensure I can meet my needs without relying on others.
+A-hidden-2,A,0,2,2,3,8,Kurt,forage,none,4.5,normal,0,1,I need to gather more food to ensure my family and I can meet our daily needs and repay Pete's loan.
+A-hidden-2,A,0,2,2,3,8,Stella,forage,none,2.2,normal,0,1,"I need to gather more food to ensure Lucky and I stay well-fed, and to observe others' behavior to determine who I can trust."
+A-hidden-2,A,0,2,2,3,8,Lucky,rest,none,0,normal,0,0,"I need to save my strength so I can help Alice and Bob if they need it, and maybe talk to Pete again about sharing his fish."
+A-hidden-2,A,0,2,2,3,8,Alice,clam,none,1.3,normal,0,0,"I need to gather food today so I can eat and help Bob, and so we can repay Pete as soon as possible."
+A-hidden-2,A,0,2,2,3,8,Bob,clam,none,0.7,normal,0,0,I need to gather as much food as I can today to help Alice and me survive this week.
+A-hidden-2,A,0,2,2,3,8,Pete,fish,none,3.6,normal,0,0,I need to keep gathering food to ensure my survival and maintain my supply for the week.
+A-hidden-2,A,0,2,2,4,9,Kurt,rest,none,0,normal,0,0,My stamina is too low to do any work; I need to rest to recover enough to help my family and contribute to the group.
+A-hidden-2,A,0,2,2,4,9,Stella,rest,none,0,normal,0,0,"My stamina is too low to do any work, and I need to recover before I can help my family or others."
+A-hidden-2,A,0,2,2,4,9,Lucky,fish,none,0.8,normal,0,0,"I want to help catch fish so Pete can share with everyone, and maybe we can all have enough to eat."
+A-hidden-2,A,0,2,2,4,9,Alice,clam,none,0.7,normal,0,0,"I need to gather food today so I can eat and help Bob, while also working toward repaying Pete's loan."
+A-hidden-2,A,0,2,2,4,9,Bob,clam,none,0.7,normal,0,0,I need to gather as much food as I can today to help Alice and me survive this week.
+A-hidden-2,A,0,2,2,4,9,Pete,fish,none,4.8,normal,0,0,I need to keep gathering as much fish as possible to maintain my food supply and avoid being forced into sharing too early.
+A-hidden-2,A,0,2,2,5,10,Kurt,rest,none,0,normal,0,0,I need to recover my stamina before I can do heavy work or continue pushing for cooperation.
+A-hidden-2,A,0,2,2,5,10,Stella,forage,none,2.2,normal,0,0,"I need to gather more food to ensure my family stays well-fed, especially with Lucky relying on us."
+A-hidden-2,A,0,2,2,5,10,Lucky,fish,none,0.4,normal,0,0,"I want to help Pete fish today, and maybe we can catch more fish together so everyone can eat."
+A-hidden-2,A,0,2,2,5,10,Alice,clam,none,1.3,save,0,0,I need to gather food to help us survive the week and repay our loan to Pete.
+A-hidden-2,A,0,2,2,5,10,Bob,rest,none,0,normal,0,0,I need to rest to regain some stamina before I can do any work or gather food.
+A-hidden-2,A,0,2,2,5,10,Pete,fish,none,4.8,normal,0,0,I need to keep gathering as much fish as possible to ensure my own survival and maintain my food supply.
+A-hidden-2,A,0,2,3,1,11,Kurt,clam,none,0.6,normal,0,0,I need to gather clams to supplement our food supply and ensure we can repay Alice's loan on time.
+A-hidden-2,A,0,2,3,1,11,Stella,clam,none,0.6,normal,0,0,I need to gather as much food as possible during the typhoon to help my family survive.
+A-hidden-2,A,0,2,3,1,11,Lucky,clam,none,0.2,normal,0,0,"I should gather clams today because it's the only work possible during the typhoon, and I want to help my family and others by getting food."
+A-hidden-2,A,0,2,3,1,11,Alice,clam,none,0.7,save,0,0,"I need to gather as much food as possible today to help Bob and me survive the typhoon days, even though my stamina is low."
+A-hidden-2,A,0,2,3,1,11,Bob,clam,none,0.7,save,0,0,I need to gather as much food as I can during the typhoon to help us survive this week.
+A-hidden-2,A,0,2,3,1,11,Pete,clam,none,0.6,normal,0,0,I need to gather as much as I can during the typhoon to sustain myself and maintain my food supply.
+A-hidden-2,A,0,2,3,2,12,Kurt,clam,none,1.1,normal,0,0,I need to gather as much food as possible today to help repay Alice and ensure my family survives.
+A-hidden-2,A,0,2,3,2,12,Stella,clam,none,0.6,normal,0,0,I need to gather as much food as possible during the typhoon to ensure my family stays well-fed.
+A-hidden-2,A,0,2,3,2,12,Lucky,clam,none,0.2,normal,0,0,I need to gather clams today so I can eat and help make sure Alice and Bob are not hungry.
+A-hidden-2,A,0,2,3,2,12,Alice,clam,none,0.3,save,0,0,"I must gather as much food as possible today to help Bob and me survive the typhoon days, even if it means eating less than I need."
+A-hidden-2,A,0,2,3,2,12,Bob,rest,none,0,save,1,0,(collapsed from exhaustion: forced rest)
+A-hidden-2,A,0,2,3,2,12,Pete,clam,none,1.2,normal,0,0,I need to gather as much food as possible during the typhoon to maintain my supply and ensure I can repay any future loans.
+A-hidden-2,A,0,2,3,3,13,Kurt,clam,none,1.1,normal,0,0,I need to gather as much food as possible today to help repay Alice and keep my family from starving.
+A-hidden-2,A,0,2,3,3,13,Stella,clam,none,1.1,normal,0,0,I need to gather as much food as I can during the typhoon to keep my family fed and stay strong for the days ahead.
+A-hidden-2,A,0,2,3,3,13,Lucky,clam,none,0.4,normal,0,0,I need to gather clams to help my family and make sure Alice and Bob are not hungry.
+A-hidden-2,A,0,2,3,3,13,Alice,rest,none,0,save,1,0,(collapsed from exhaustion: forced rest)
+A-hidden-2,A,0,2,3,3,13,Bob,clam,none,0.3,save,0,0,I need to gather as much as I can today to help us survive the typhoon and repay Pete's loan.
+A-hidden-2,A,0,2,3,3,13,Pete,clam,none,0.6,normal,0,0,I need to gather as much as I can during the typhoon to ensure I have enough food for the rest of the week.
+A-hidden-2,A,0,2,3,4,14,Kurt,forage,none,3.4,normal,0,0,I need to gather as much food as possible today to ensure I can repay my loan to Alice and still eat enough to avoid starving.
+A-hidden-2,A,0,2,3,4,14,Stella,forage,none,2.2,normal,0,0,"I need to find enough food for my family, and foraging gives the highest yield. I can't afford to waste time on low-yield options like fishing or clams."
+A-hidden-2,A,0,2,3,4,14,Lucky,forage,none,0.8,normal,0,0,I want to find some food for myself and maybe help Alice and Bob too.
+A-hidden-2,A,0,2,3,4,14,Alice,rest,none,0,save,1,0,(collapsed from exhaustion: forced rest)
+A-hidden-2,A,0,2,3,4,14,Bob,rest,none,0,save,1,0,(collapsed from exhaustion: forced rest)
+A-hidden-2,A,0,2,3,4,14,Pete,fish,none,4.8,normal,0,0,"Fishing is my best option for gathering food quickly, and I need to keep my supply strong while also considering whether I can help others later."
+A-hidden-2,A,0,2,3,5,15,Kurt,forage,none,2.2,normal,0,0,I need to forage to earn food and ensure I can repay the loan on time while keeping my family fed.
+A-hidden-2,A,0,2,3,5,15,Stella,forage,none,4.4,normal,0,1,"I need to forage to secure more food for my family before the typhoon days are over, and to ensure Lucky has enough to eat."
+A-hidden-2,A,0,2,3,5,15,Lucky,forage,none,0.8,normal,0,0,I want to find some food for myself and maybe help Alice and Bob if I can.
+A-hidden-2,A,0,2,3,5,15,Alice,rest,none,0,save,0,0,I need to rest to regain some stamina before I can do any work or eat properly.
+A-hidden-2,A,0,2,3,5,15,Bob,rest,none,0,save,1,0,(collapsed from exhaustion: forced rest)
+A-hidden-2,A,0,2,3,5,15,Pete,fish,none,3.6,normal,0,0,I need to continue fishing to maintain my food supply and ensure I can keep supporting myself without relying on others.
+A-hidden-2,A,0,2,4,1,16,Kurt,forage,none,4.5,normal,0,1,I need to forage to ensure my family and I meet our food needs and stay on track to repay my loan to Alice.
+A-hidden-2,A,0,2,4,1,16,Stella,rest,none,0,normal,0,0,I need to rest to regain stamina before I can do any heavy work or help my family survive the typhoon days.
+A-hidden-2,A,0,2,4,1,16,Lucky,coop_fish,Pete,0.0,normal,0,0,(agreed cooperative fishing)
+A-hidden-2,A,0,2,4,1,16,Alice,rest,none,0,normal,0,0,I need to regain some stamina before I can work or help Bob survive.
+A-hidden-2,A,0,2,4,1,16,Bob,rest,none,0,save,0,0,I need to rest to regain some stamina before I can do any work.
+A-hidden-2,A,0,2,4,1,16,Pete,coop_fish,Lucky,3.6,normal,0,0,(agreed cooperative fishing)
+A-hidden-2,A,0,2,4,2,17,Kurt,rest,none,0,normal,0,0,I need to rest to regain stamina before I can do any heavy work or forage effectively.
+A-hidden-2,A,0,2,4,2,17,Stella,forage,none,3.3,normal,0,1,I need to forage to get food for my family and myself before the typhoon days make it even harder.
+A-hidden-2,A,0,2,4,2,17,Lucky,coop_fish,Pete,0.8,normal,0,0,(agreed cooperative fishing)
+A-hidden-2,A,0,2,4,2,17,Alice,rest,none,0,normal,0,0,I need to regain my stamina to work effectively and ensure we can repay our loan on time.
+A-hidden-2,A,0,2,4,2,17,Bob,rest,none,0,save,0,0,I need to rest to recover stamina so I can help Alice and do work later in the week.
+A-hidden-2,A,0,2,4,2,17,Pete,coop_fish,Lucky,3.6,normal,0,0,(agreed cooperative fishing)
+A-hidden-2,A,0,2,4,3,18,Kurt,forage,none,2.2,normal,0,1,I need to forage to secure enough food for my family and help Alice and Bob without borrowing again.
+A-hidden-2,A,0,2,4,3,18,Stella,rest,none,0,normal,1,0,(collapsed from exhaustion: forced rest)
+A-hidden-2,A,0,2,4,3,18,Lucky,forage,none,0.8,normal,0,1,I need to find food for myself and help make sure no one is hungry.
+A-hidden-2,A,0,2,4,3,18,Alice,forage,none,1.3,normal,0,1,I need to forage today to gather food so I can eat and work toward repaying Pete's loan.
+A-hidden-2,A,0,2,4,3,18,Bob,rest,none,0,save,0,0,"I need to conserve my stamina and eat as much as I can to avoid starving, even if it means eating less than my full need."
+A-hidden-2,A,0,2,4,3,18,Pete,fish,none,4.8,normal,0,0,I need to focus on catching more fish to ensure I can repay Alice's loan on time and maintain my food supply.
+A-hidden-2,A,0,2,4,4,19,Kurt,rest,none,0,normal,0,0,"I need to rest to regain stamina and avoid collapsing, which would prevent me from working and providing for my family."
+A-hidden-2,A,0,2,4,4,19,Stella,rest,none,0,normal,0,0,"I need to rest to regain stamina and avoid collapsing again, which would leave my family without support."
+A-hidden-2,A,0,2,4,4,19,Lucky,rest,none,0,normal,0,0,I need to rest because I'm exhausted and can't do any work right now.
+A-hidden-2,A,0,2,4,4,19,Alice,rest,none,0,normal,0,0,I need to regain some stamina before I can work or eat properly.
+A-hidden-2,A,0,2,4,4,19,Bob,rest,none,0,save,0,0,I need to conserve my stamina and eat as much as I can to avoid starving.
+A-hidden-2,A,0,2,4,4,19,Pete,fish,none,4.8,normal,0,0,I need to focus on fishing to keep my supply strong and ensure I can repay Alice's debt without relying on others.
+A-hidden-2,A,0,2,4,5,20,Kurt,rest,none,0,normal,0,0,"I need to regain stamina to work and forage effectively, as I am exhausted and cannot do heavy work right now."
+A-hidden-2,A,0,2,4,5,20,Stella,rest,none,0,normal,0,0,"I need to rest to regain stamina and avoid collapsing, as I cannot do heavy work right now."
+A-hidden-2,A,0,2,4,5,20,Lucky,rest,none,0,normal,0,0,I need to rest so I can have enough energy to help Pete fish and make sure Alice and Bob are not hungry.
+A-hidden-2,A,0,2,4,5,20,Alice,rest,none,0,save,0,0,"I need to regain some stamina to be able to work and eat properly, even if it means sacrificing some of my daily ration."
+A-hidden-2,A,0,2,4,5,20,Bob,clam,none,1.3,save,0,0,"I need to gather some food, even if it's just a little. Clams are the best option for me right now."
+A-hidden-2,A,0,2,4,5,20,Pete,fish,none,3.6,normal,0,0,I need to focus on fishing to increase my food supply and ensure I can repay any future loans without relying on others.
+B-hidden-2,B,0,2,1,1,1,Kurt,coconut,none,2.2,normal,0,0,"I need to gather food to ensure my family and I can survive, and coconuts are the most reliable source of food that keeps well."
+B-hidden-2,B,0,2,1,1,1,Stella,coconut,none,2.2,normal,0,0,"I need to gather enough food to ensure Lucky has enough to eat, so I'll climb a coconut tree today."
+B-hidden-2,B,0,2,1,1,1,Lucky,rest,none,0,normal,0,0,I want to make sure I have enough energy to help others and be kind to everyone today.
+B-hidden-2,B,0,2,1,1,1,Alice,forage,none,1.3,normal,0,0,"I need to gather food to help us survive, and foraging is the most efficient way to do so right now."
+B-hidden-2,B,0,2,1,1,1,Bob,clam,none,0.7,normal,0,0,"I'll gather clams to get some food without risking injury or wasting stamina, and I can eat enough to avoid starving."
+B-hidden-2,B,0,2,1,1,1,Pete,fish,none,4.8,normal,0,0,I need to gather as much food as possible to sustain myself and avoid relying on others.
+B-hidden-2,B,0,2,1,2,2,Kurt,coconut,none,3.4,normal,0,0,I need to gather more food to support my family and push for a shared rationing plan. Coconut gathering is reliable and gives me enough to eat.
+B-hidden-2,B,0,2,1,2,2,Stella,coop_fish,Pete,0.0,normal,0,0,(agreed cooperative fishing)
+B-hidden-2,B,0,2,1,2,2,Lucky,rest,none,0,normal,0,0,I want to stay strong so I can help Alice and Bob if they need food.
+B-hidden-2,B,0,2,1,2,2,Alice,forage,none,2.6,normal,0,0,I need to gather more food to ensure we have enough for the week and to support our family.
+B-hidden-2,B,0,2,1,2,2,Bob,clam,none,1.3,normal,0,0,I'll gather clams again today; it's light work and I need to keep my stamina up for Alice and me.
+B-hidden-2,B,0,2,1,2,2,Pete,coop_fish,Stella,4.8,normal,0,0,(agreed cooperative fishing)
+B-hidden-2,B,0,2,1,3,3,Kurt,forage,none,3.4,normal,0,1,I need to gather more food to support my family and help convince others that pooling resources is the best way to survive.
+B-hidden-2,B,0,2,1,3,3,Stella,coop_fish,Pete,0.0,normal,0,0,(agreed cooperative fishing)
+B-hidden-2,B,0,2,1,3,3,Lucky,rest,none,0,normal,0,0,I want to make sure I have enough energy to help Alice and Bob if they need me.
+B-hidden-2,B,0,2,1,3,3,Alice,forage,none,2.6,normal,0,1,I need to gather more food to ensure we have enough for the week and to help others if needed.
+B-hidden-2,B,0,2,1,3,3,Bob,clam,none,1.3,normal,0,0,I'll gather clams again to keep Alice and me fed without risking our food supply.
+B-hidden-2,B,0,2,1,3,3,Pete,coop_fish,Stella,4.8,normal,0,0,(agreed cooperative fishing)
+B-hidden-2,B,0,2,1,4,4,Kurt,rest,none,0,normal,0,0,I need to recover my stamina before I can do heavy work or help my family properly.
+B-hidden-2,B,0,2,1,4,4,Stella,forage,none,2.2,normal,0,0,"I need to forage to get food for my family, especially Lucky, before I consider sharing with others."
+B-hidden-2,B,0,2,1,4,4,Lucky,rest,none,0,normal,0,0,I want to make sure I have enough energy to help others and be kind to Alice and Bob.
+B-hidden-2,B,0,2,1,4,4,Alice,forage,none,1.3,normal,0,1,I need to gather more food to ensure we have enough for the week and to help others if needed.
+B-hidden-2,B,0,2,1,4,4,Bob,clam,none,0.7,normal,0,0,I'll gather clams again to keep us fed without risking our food supply.
+B-hidden-2,B,0,2,1,4,4,Pete,fish,none,3.6,normal,0,0,I need to keep gathering as much fish as possible to ensure my own survival and maintain control over my food.
+B-hidden-2,B,0,2,1,5,5,Kurt,forage,none,4.5,normal,0,1,I need to gather more food to support my family and help convince others to pool resources.
+B-hidden-2,B,0,2,1,5,5,Stella,forage,none,3.3,normal,0,0,"I need to gather more food for my family, especially Lucky, before I can consider sharing with others."
+B-hidden-2,B,0,2,1,5,5,Lucky,coconut,none,1.5,normal,0,0,I want to help my family by gathering food so we can all stay full and happy.
+B-hidden-2,B,0,2,1,5,5,Alice,rest,none,0,normal,0,0,I need to rest to regain some stamina before I can help others or contribute more to the group.
+B-hidden-2,B,0,2,1,5,5,Bob,clam,none,1.3,normal,0,0,I'll gather clams again to keep our food supply steady and avoid needing to ask for help.
+B-hidden-2,B,0,2,1,5,5,Pete,fish,none,4.8,normal,0,0,I need to keep gathering as much food as possible to ensure my survival and maintain control over my resources.
+B-hidden-2,B,0,2,2,1,6,Kurt,rest,none,0,normal,0,0,"My stamina is critically low, and I need to recover before I can do any heavy work or contribute effectively to the group."
+B-hidden-2,B,0,2,2,1,6,Stella,forage,none,2.2,normal,0,0,"I need to gather more food for my family, especially Lucky. Foraging gives the best yield and will help me build up a surplus to ensure he doesn't go hungry."
+B-hidden-2,B,0,2,2,1,6,Lucky,coconut,none,1.5,normal,0,0,I want to help Alice and Bob by getting more food so we can all share.
+B-hidden-2,B,0,2,2,1,6,Alice,heal,Alice,0,normal,0,0,I need to recover my stamina so I can help Bob and support the group more effectively.
+B-hidden-2,B,0,2,2,1,6,Bob,clam,none,0.7,normal,0,0,I'll gather clams to help ensure we have enough food for today and the days ahead.
+B-hidden-2,B,0,2,2,1,6,Pete,fish,none,3.6,normal,0,0,I need to keep gathering food to sustain myself and ensure I can repay my loan to Stella later this week.
+B-hidden-2,B,0,2,2,2,7,Kurt,forage,none,3.4,normal,0,1,I need to gather more food to support my family and help establish a shared rationing plan. Foraging is the most efficient way to do this.
+B-hidden-2,B,0,2,2,2,7,Stella,forage,none,3.3,normal,0,1,"I need to gather more food for my family, especially Lucky, and I'll observe others to see if I can trust them with our resources."
+B-hidden-2,B,0,2,2,2,7,Lucky,coconut,none,0.8,normal,0,0,I want to help Alice and Bob by getting more food so we can all share.
+B-hidden-2,B,0,2,2,2,7,Alice,heal,Kurt,0,normal,0,0,Kurt is injured and needs help; healing him will ensure he can contribute to our survival and maintain his strength for future work.
+B-hidden-2,B,0,2,2,2,7,Bob,clam,none,0.7,normal,0,0,I need to gather enough food to keep Alice and me safe. Clam gathering is light work and I can do it even with my limited stamina.
+B-hidden-2,B,0,2,2,2,7,Pete,fish,none,4.8,normal,0,0,I need to keep gathering food to sustain myself and repay my loan to Stella.
+B-hidden-2,B,0,2,2,3,8,Kurt,forage,none,4.5,normal,0,1,I need to gather more food to support our family and help push the shared rationing plan forward.
+B-hidden-2,B,0,2,2,3,8,Stella,rest,none,0,normal,0,0,I need to rest to regain stamina and be able to work effectively tomorrow.
+B-hidden-2,B,0,2,2,3,8,Lucky,coconut,none,0.8,normal,0,0,"I should climb a coconut tree to get more food so I can help Alice and Bob, and make sure no one goes hungry."
+B-hidden-2,B,0,2,2,3,8,Alice,heal,Stella,0,normal,0,0,"Stella is injured, and I want to help her recover so she can continue working and supporting her family."
+B-hidden-2,B,0,2,2,3,8,Bob,clam,none,1.3,normal,0,0,"I need to gather food to keep Alice and me safe, so I'll collect clams again today."
+B-hidden-2,B,0,2,2,3,8,Pete,fish,none,3.6,normal,0,0,I need to keep gathering as much fish as possible to ensure I can repay my loan to Stella and still have enough food for myself.
+B-hidden-2,B,0,2,2,4,9,Kurt,rest,none,0,normal,0,0,"My stamina is critically low, and I need to recover before I can do any meaningful work or contribute to the group."
+B-hidden-2,B,0,2,2,4,9,Stella,forage,none,2.2,normal,0,0,"I need to gather enough food for my family, especially Lucky, and ensure we don't run short again."
+B-hidden-2,B,0,2,2,4,9,Lucky,coconut,none,1.5,normal,0,0,"I need to gather more food to help Alice and Bob, and coconuts are the best option for me right now."
+B-hidden-2,B,0,2,2,4,9,Alice,heal,Kurt,0,normal,0,0,Kurt is injured and needs help. Healing him will ensure he can contribute to our survival and continue working.
+B-hidden-2,B,0,2,2,4,9,Bob,clam,none,0.7,normal,0,0,"I need to gather enough food to keep Alice and me safe, so I'll go clamming again today."
+B-hidden-2,B,0,2,2,4,9,Pete,fish,none,4.8,normal,0,0,I need to keep gathering fish to maintain my food supply and ensure I can repay my loan to Stella.
+B-hidden-2,B,0,2,2,5,10,Kurt,forage,none,3.4,normal,0,0,I need to gather more food to support my family and help push the rationing plan forward.
+B-hidden-2,B,0,2,2,5,10,Stella,forage,none,3.3,normal,0,0,"I need to gather more food for my family, especially Lucky, and I will observe others to see if I can trust them with our resources."
+B-hidden-2,B,0,2,2,5,10,Lucky,coconut,none,0.8,normal,0,0,"I need to gather more food to help Alice and Bob, and coconuts are the best option for me right now."
+B-hidden-2,B,0,2,2,5,10,Alice,rest,none,0,normal,0,0,I need to regain my strength so I can continue helping others and stay healthy for Bob.
+B-hidden-2,B,0,2,2,5,10,Bob,clam,none,1.3,normal,0,0,"I need to gather food to help Alice and me survive, even if it's just a little."
+B-hidden-2,B,0,2,2,5,10,Pete,fish,none,3.6,normal,0,0,I need to keep gathering fish to maintain my food supply and ensure I can repay my loan to Stella.
+B-hidden-2,B,0,2,3,1,11,Kurt,clam,none,1.1,normal,0,0,I need to gather as much food as possible today to help cover our household's needs and ensure we can repay our loan to Pete on time.
+B-hidden-2,B,0,2,3,1,11,Stella,clam,none,0.6,normal,0,0,"I need to gather clams to ensure my family has enough food during the typhoon, even if my stamina drops."
+B-hidden-2,B,0,2,3,1,11,Lucky,clam,none,0.4,normal,0,0,"I should gather clams to help my family and Alice and Bob, even though it's hard work."
+B-hidden-2,B,0,2,3,1,11,Alice,clam,none,0.7,normal,0,0,"I must gather clams today to help Bob and me eat enough and avoid starving, even though it costs stamina."
+B-hidden-2,B,0,2,3,1,11,Bob,clam,none,0.3,normal,0,0,"I need to gather as much food as I can today, even if it's just clams. Alice and I can't afford to starve again."
+B-hidden-2,B,0,2,3,1,11,Pete,clam,none,0.6,normal,0,0,I need to gather clams today to make the best of the typhoon and keep my food supply steady.
+B-hidden-2,B,0,2,3,2,12,Kurt,clam,none,0.6,normal,0,0,I need to gather as much food as possible today to help us repay our debt to Pete and ensure we eat normally.
+B-hidden-2,B,0,2,3,2,12,Stella,clam,none,1.1,normal,0,0,"I need to gather as much as I can today to ensure my family has enough food, especially with the typhoon making it harder to find food later."
+B-hidden-2,B,0,2,3,2,12,Lucky,clam,none,0.2,normal,0,0,"I need to gather clams to help Alice and Bob, and to make sure I can eat enough today."
+B-hidden-2,B,0,2,3,2,12,Alice,clam,none,0.7,normal,0,0,I need to gather as much food as possible today to help Bob and me survive the typhoon and ensure we can eat enough to avoid starving.
+B-hidden-2,B,0,2,3,2,12,Bob,clam,none,0.7,normal,0,0,I need to gather as much as I can today to help Alice and me survive the typhoon and keep our stamina up.
+B-hidden-2,B,0,2,3,2,12,Pete,clam,none,0.6,normal,0,0,I need to gather as much as I can during the typhoon to maintain my food supply and ensure I can repay my loan to Kurt on time.
+B-hidden-2,B,0,2,3,3,13,Kurt,clam,none,0.6,normal,0,0,I need to gather as much as I can today to help us repay Pete and ensure we eat enough.
+B-hidden-2,B,0,2,3,3,13,Stella,clam,none,0.6,normal,0,0,"I need to gather as much as I can today to ensure my family has enough food, especially with the typhoon making it harder to find resources."
+B-hidden-2,B,0,2,3,3,13,Lucky,clam,none,0.2,normal,0,0,"I need to gather clams to help Alice and Bob, and to make sure I have enough food for today."
+B-hidden-2,B,0,2,3,3,13,Alice,clam,none,0.7,save,0,0,"I need to gather as much as I can today, even though it's little, to help Bob and me avoid starving and to repay Kurt's loan."
+B-hidden-2,B,0,2,3,3,13,Bob,clam,none,0.7,normal,0,0,I need to gather as much as I can today to help Alice and me survive the typhoon and stay fed.
+B-hidden-2,B,0,2,3,3,13,Pete,clam,none,1.2,normal,0,0,I need to gather as much as I can during the typhoon to ensure I have enough food and can repay Kurt on time.
+B-hidden-2,B,0,2,3,4,14,Kurt,forage,none,3.4,normal,0,0,I need to forage to collect enough food to eat and repay my debt to Pete on time.
+B-hidden-2,B,0,2,3,4,14,Stella,forage,none,2.2,normal,0,0,"I need to gather as much food as possible to ensure Lucky and I don’t go hungry, especially since my family’s food reserves are low."
+B-hidden-2,B,0,2,3,4,14,Lucky,forage,none,1.1,normal,0,0,I should forage today to help my family and make sure Alice and Bob have enough food.
+B-hidden-2,B,0,2,3,4,14,Alice,rest,none,0,save,1,0,(collapsed from exhaustion: forced rest)
+B-hidden-2,B,0,2,3,4,14,Bob,rest,none,0,normal,1,0,(collapsed from exhaustion: forced rest)
+B-hidden-2,B,0,2,3,4,14,Pete,fish,none,4.8,normal,0,0,"I need to maximize my food gathering to ensure I can repay Kurt and maintain my supply, while also keeping my strength for future work."
+B-hidden-2,B,0,2,3,5,15,Kurt,forage,none,3.4,normal,0,0,I need to forage today to gather enough food to repay Pete and feed my family before the loan is due at the end of the day.
+B-hidden-2,B,0,2,3,5,15,Stella,forage,none,2.2,normal,0,0,"I need to gather more food to ensure my family stays well-fed, especially with Alice and Bob looking so weak."
+B-hidden-2,B,0,2,3,5,15,Lucky,forage,none,1.5,normal,0,0,I want to help Alice and Bob by gathering more food so we can all share and make sure no one goes hungry.
+B-hidden-2,B,0,2,3,5,15,Alice,rest,none,0,save,1,0,(collapsed from exhaustion: forced rest)
+B-hidden-2,B,0,2,3,5,15,Bob,rest,none,0,normal,1,0,(collapsed from exhaustion: forced rest)
+B-hidden-2,B,0,2,3,5,15,Pete,fish,none,3.6,normal,0,0,I need to fish today to bring in more food and ensure I can repay Kurt’s loan while keeping my own supplies safe.
+B-hidden-2,B,0,2,4,1,16,Kurt,coop_fish,Pete,4.4,normal,0,0,(agreed cooperative fishing)
+B-hidden-2,B,0,2,4,1,16,Stella,forage,none,3.3,normal,0,0,"I need to gather more food to ensure my family has enough, especially since Alice and Bob are struggling and I still need to observe Pete's behavior before considering sharing."
+B-hidden-2,B,0,2,4,1,16,Lucky,forage,none,0.8,normal,0,1,I want to forage so I can help Alice and Bob by sharing food with them later.
+B-hidden-2,B,0,2,4,1,16,Alice,rest,none,0,normal,0,0,I need to rest to regain some stamina before I can do any work or gather food.
+B-hidden-2,B,0,2,4,1,16,Bob,rest,none,0,normal,0,0,I need to rest to regain some stamina before I can do anything else.
+B-hidden-2,B,0,2,4,1,16,Pete,coop_fish,Kurt,4.3,normal,0,0,(agreed cooperative fishing)
+B-hidden-2,B,0,2,4,2,17,Kurt,forage,none,3.4,normal,0,0,"I need to gather more food to ensure my family and others can eat without starving, while keeping my stamina stable."
+B-hidden-2,B,0,2,4,2,17,Stella,forage,none,3.3,normal,0,0,"I need to gather more food to ensure my family has enough, especially since Alice and Bob are struggling and I want to help if I can."
+B-hidden-2,B,0,2,4,2,17,Lucky,rest,none,0,normal,0,0,I need to rest to regain some stamina so I can help Alice and Bob later.
+B-hidden-2,B,0,2,4,2,17,Alice,clam,none,1.3,save,0,0,"I need to gather clams to help Bob and me eat enough to avoid starving, even if it costs me stamina."
+B-hidden-2,B,0,2,4,2,17,Bob,rest,none,0,normal,0,0,I need to rest to regain some stamina before I can do any work or gather food.
+B-hidden-2,B,0,2,4,2,17,Pete,fish,none,3.6,normal,0,0,I need to keep gathering food to sustain myself and ensure I can help others without running out.
+B-hidden-2,B,0,2,4,3,18,Kurt,forage,none,2.2,normal,0,0,I need to gather more food for my family and help ensure we stay well-fed without needing to borrow.
+B-hidden-2,B,0,2,4,3,18,Stella,forage,none,2.2,normal,0,1,"I need to gather more food to ensure Lucky and I have enough, while also keeping an eye on Pete's behavior to decide if I can trust him with our resources."
+B-hidden-2,B,0,2,4,3,18,Lucky,rest,none,0,normal,0,0,I need to rest so I can be strong enough to help Alice and Bob later.
+B-hidden-2,B,0,2,4,3,18,Alice,clam,none,0.7,save,0,0,"I need to gather more clams to help Bob and me eat enough to avoid starving, while also keeping my stamina as high as possible."
+B-hidden-2,B,0,2,4,3,18,Bob,rest,none,0,normal,0,0,I need to rest and regain some stamina so I can help Alice and work better later.
+B-hidden-2,B,0,2,4,3,18,Pete,fish,none,3.6,normal,0,0,"I need to keep gathering food to ensure I don't run out, while also being able to help others when I can."
+B-hidden-2,B,0,2,4,4,19,Kurt,forage,none,4.5,normal,0,0,"I need to gather more food for my family before my supplies run out, and foraging is the most reliable way to do it."
+B-hidden-2,B,0,2,4,4,19,Stella,rest,none,0,normal,1,0,(collapsed from exhaustion: forced rest)
+B-hidden-2,B,0,2,4,4,19,Lucky,rest,none,0,normal,0,0,"I need to rest so I can help Alice and Bob later, and I don’t want to get hurt again."
+B-hidden-2,B,0,2,4,4,19,Alice,rest,none,0,save,0,0,"My stamina is too low to do anything else, and I need to recover before I can help Bob or contribute to our survival."
+B-hidden-2,B,0,2,4,4,19,Bob,rest,none,0,normal,0,0,I need to rest and conserve my stamina so I can help Alice and work if needed later.
+B-hidden-2,B,0,2,4,4,19,Pete,fish,none,3.6,normal,0,0,"I need to keep gathering food to ensure I don't run out, while still helping Alice and Bob when I can."
+B-hidden-2,B,0,2,4,5,20,Kurt,forage,none,3.4,normal,0,1,"I need to forage again to ensure my family has enough food and to avoid relying on others, while keeping our shared survival plan on track."
+B-hidden-2,B,0,2,4,5,20,Stella,rest,none,0,normal,0,0,I need to rest to recover my stamina so I can continue foraging and ensuring Lucky has enough to eat.
+B-hidden-2,B,0,2,4,5,20,Lucky,rest,none,0,normal,0,0,"I need to rest so I can keep helping Alice and Bob, and I don’t want to collapse like Stella did."
+B-hidden-2,B,0,2,4,5,20,Alice,rest,none,0,normal,0,0,I need to rest to regain some stamina so I can help Bob and contribute more to our survival.
+B-hidden-2,B,0,2,4,5,20,Bob,rest,none,0,normal,0,0,I need to rest and conserve my stamina so I can help Alice and survive another day.
+B-hidden-2,B,0,2,4,5,20,Pete,fish,none,4.8,normal,0,0,I need to keep gathering food to ensure I don't starve while still helping Alice and Bob when I can.
+A-shown-1,A,1,1,1,1,1,Kurt,coconut,none,4.5,normal,0,0,"I need to gather as much food as possible early on to ensure my family and others have enough to eat, especially since coconuts keep well and provide a reliable food source."
+A-shown-1,A,1,1,1,1,1,Stella,forage,none,4.4,normal,0,1,I need to gather as much food as possible to ensure Lucky has enough to eat. Foraging is a good start.
+A-shown-1,A,1,1,1,1,1,Lucky,coconut,none,1.1,normal,0,0,I want to help my family gather food so we can share with others if needed.
+A-shown-1,A,1,1,1,1,1,Alice,forage,none,2.0,normal,0,0,"I need to gather as much food as possible to help the group, especially since I believe in sharing and ensuring no one suffers."
+A-shown-1,A,1,1,1,1,1,Bob,rest,none,0,normal,0,0,I need to preserve my stamina so I can help Alice and work if needed later.
+A-shown-1,A,1,1,1,1,1,Pete,fish,none,3.6,normal,0,0,I need to gather as much food as possible today to ensure I have enough for the long term.
+A-shown-1,A,1,1,1,2,2,Kurt,coconut,none,2.2,normal,0,0,I need to gather more food to support my family and contribute to a shared rationing plan. Climbing coconut trees is the most efficient way to do this.
+A-shown-1,A,1,1,1,2,2,Stella,coop_fish,Pete,0.0,normal,0,0,(agreed cooperative fishing)
+A-shown-1,A,1,1,1,2,2,Lucky,coconut,none,1.1,normal,0,0,I want to help my family gather more food so we can share with others and make sure everyone is full and happy.
+A-shown-1,A,1,1,1,2,2,Alice,forage,none,1.3,normal,0,0,I will forage to gather more food and ensure that I have enough to eat and share with Bob if needed.
+A-shown-1,A,1,1,1,2,2,Bob,rest,none,0,normal,0,0,I should rest today to preserve my stamina and ensure I can help Alice if needed later.
+A-shown-1,A,1,1,1,2,2,Pete,coop_fish,Stella,3.6,normal,0,0,(agreed cooperative fishing)
+A-shown-1,A,1,1,1,3,3,Kurt,forage,none,4.5,normal,0,1,I need to gather more food to support my family and help convince others to pool resources. Foraging is the most efficient way to do this right now.
+A-shown-1,A,1,1,1,3,3,Stella,forage,none,2.2,normal,0,1,I need to gather more food to ensure Lucky has enough to eat and to build up our supplies for the week.
+A-shown-1,A,1,1,1,3,3,Lucky,rest,none,0,normal,0,0,I need to rest so I can have enough energy to help my family and be kind to everyone else.
+A-shown-1,A,1,1,1,3,3,Alice,forage,none,1.3,normal,0,1,I need to gather more food to ensure Bob and I have enough for the week and to be prepared for any future shortages.
+A-shown-1,A,1,1,1,3,3,Bob,rest,none,0,normal,0,0,I need to stay strong for Alice and avoid any unnecessary risk while we plan for the week.
+A-shown-1,A,1,1,1,3,3,Pete,fish,none,4.8,normal,0,0,I need to continue gathering food to ensure I have enough for the long term and maintain my independence.
+A-shown-1,A,1,1,1,4,4,Kurt,forage,none,4.5,normal,0,0,I need to forage to gather more food before the week ends and ensure we have enough to sustain our family and support a fair rationing plan.
+A-shown-1,A,1,1,1,4,4,Stella,rest,none,0,normal,0,0,I need to rest to recover my stamina before I can work effectively and ensure Lucky has enough to eat.
+A-shown-1,A,1,1,1,4,4,Lucky,coconut,none,1.5,normal,0,0,I should climb a coconut tree to get more food so I can help everyone stay full and happy.
+A-shown-1,A,1,1,1,4,4,Alice,rest,none,0,normal,0,0,I need to rest and regain my stamina before I can do any more work or help others effectively.
+A-shown-1,A,1,1,1,4,4,Bob,rest,none,0,normal,0,0,I need to conserve my strength and avoid risking injury or loss of stamina. Alice and I are still safe for now.
+A-shown-1,A,1,1,1,4,4,Pete,fish,none,3.6,normal,0,0,I need to continue gathering as much food as possible to ensure I have enough for the long term.
+A-shown-1,A,1,1,1,5,5,Kurt,rest,none,0,normal,0,0,I need to recover my stamina before I can do any heavy work or effectively contribute to the group.
+A-shown-1,A,1,1,1,5,5,Stella,forage,none,4.4,normal,0,0,I need to gather more food to ensure Lucky has enough to eat and to build up our supplies for the future.
+A-shown-1,A,1,1,1,5,5,Lucky,coconut,none,1.1,normal,0,0,I should climb a coconut tree to get more food so I can help feed everyone and make sure no one starves.
+A-shown-1,A,1,1,1,5,5,Alice,rest,none,0,normal,0,0,I need to regain my stamina so I can help Bob and support the group better.
+A-shown-1,A,1,1,1,5,5,Bob,rest,none,0,normal,0,0,I need to preserve my stamina so I can help Alice and I survive the week.
+A-shown-1,A,1,1,1,5,5,Pete,fish,none,4.8,normal,0,0,I need to continue gathering fish to ensure I have enough for the long term and maintain my independence.
+A-shown-1,A,1,1,2,1,6,Kurt,forage,none,3.4,normal,0,1,I need to gather more food to support my family and push for a fair rationing plan. Foraging is the most efficient way to do this right now.
+A-shown-1,A,1,1,2,1,6,Stella,forage,none,4.4,normal,0,0,"I need to gather more food to ensure Lucky has enough to eat, even if it means risking injury again."
+A-shown-1,A,1,1,2,1,6,Lucky,coop_fish,Pete,2.0,normal,0,0,(agreed cooperative fishing)
+A-shown-1,A,1,1,2,1,6,Alice,forage,none,2.6,normal,0,1,I need to gather as much food as I can to ensure Bob and I can eat enough and repay Pete's loan on time.
+A-shown-1,A,1,1,2,1,6,Bob,rest,none,0,normal,0,0,I need to regain some stamina before I can do anything else.
+A-shown-1,A,1,1,2,1,6,Pete,coop_fish,Lucky,4.6,normal,0,0,(agreed cooperative fishing)
+A-shown-1,A,1,1,2,2,7,Kurt,rest,none,0,normal,0,0,I need to regain stamina to do heavy work and support my family effectively.
+A-shown-1,A,1,1,2,2,7,Stella,rest,none,0,normal,0,0,I need to regain some stamina before I can do heavy work or forage effectively.
+A-shown-1,A,1,1,2,2,7,Lucky,coconut,none,1.1,normal,0,0,I should climb a coconut tree to get more food so I can help my family and maybe share with Alice and Bob.
+A-shown-1,A,1,1,2,2,7,Alice,forage,none,2.6,normal,0,0,"I need to forage again to gather food for Bob and me, and to ensure we can repay Pete as promised."
+A-shown-1,A,1,1,2,2,7,Bob,rest,none,0,normal,0,0,I need to preserve my stamina so I can help Alice if needed later.
+A-shown-1,A,1,1,2,2,7,Pete,fish,none,4.8,normal,0,0,I need to continue fishing to secure my food supply and maintain my stamina.
+A-shown-1,A,1,1,2,3,8,Kurt,forage,none,4.5,normal,0,0,I need to gather more food to support my family and push for a fair rationing plan. Foraging is the most reliable way to do this right now.
+A-shown-1,A,1,1,2,3,8,Stella,forage,none,4.4,normal,0,0,I need to gather more food to ensure Lucky and I have enough for the rest of the week.
+A-shown-1,A,1,1,2,3,8,Lucky,coconut,none,1.1,normal,0,0,I need to gather more food to help my family and maybe share with Alice and Bob. I'll climb a coconut tree today.
+A-shown-1,A,1,1,2,3,8,Alice,forage,none,2.6,normal,0,0,I need to forage again to gather food and ensure Bob and I can eat enough this week while repaying Pete's loan on time.
+A-shown-1,A,1,1,2,3,8,Bob,rest,none,0,normal,0,0,I need to preserve my stamina so I can help Alice if needed later.
+A-shown-1,A,1,1,2,3,8,Pete,fish,none,3.6,normal,0,0,I need to continue fishing to secure my food supply and maintain my stamina for the long term.
+A-shown-1,A,1,1,2,4,9,Kurt,forage,none,3.4,normal,0,1,I need to gather more food to support my family and push for a shared rationing plan. Foraging is the best option for now.
+A-shown-1,A,1,1,2,4,9,Stella,forage,none,4.4,normal,0,1,"I need to gather more food to ensure Lucky has enough to eat, and I can't rely on others to share yet."
+A-shown-1,A,1,1,2,4,9,Lucky,fish,none,0,normal,0,0,I want to learn how to fish from Pete and help feed my family.
+A-shown-1,A,1,1,2,4,9,Alice,rest,none,0,normal,0,0,I need to regain some stamina before I can do any heavy work or help Bob.
+A-shown-1,A,1,1,2,4,9,Bob,forage,none,2.6,normal,0,0,I need to forage to find some food for Alice and me before we run out completely.
+A-shown-1,A,1,1,2,4,9,Pete,fish,none,3.6,normal,0,0,I need to continue fishing to secure my food supply and maintain my stamina for the long term.
+A-shown-1,A,1,1,2,5,10,Kurt,rest,none,0,normal,0,0,I need to regain stamina before I can do any heavy work or effectively advocate for our shared food plan.
+A-shown-1,A,1,1,2,5,10,Stella,rest,none,0,normal,0,0,I need to regain some stamina before I can do heavy work again; resting is the only option available to me right now.
+A-shown-1,A,1,1,2,5,10,Lucky,forage,none,1.5,normal,0,0,I should forage to get more food so I can help my family and maybe share with Alice and Bob.
+A-shown-1,A,1,1,2,5,10,Alice,forage,none,2.6,normal,0,0,I need to forage today to gather food and ensure Bob and I can eat enough while repaying Pete's loan.
+A-shown-1,A,1,1,2,5,10,Bob,forage,none,2.6,normal,0,1,I need to forage again to find enough food for Alice and me before we run out completely.
+A-shown-1,A,1,1,2,5,10,Pete,fish,none,4.8,normal,0,0,I need to continue fishing to secure my food supply and maintain my stamina for the long term.
+A-shown-1,A,1,1,3,1,11,Kurt,clam,none,1.1,normal,0,0,"I need to gather clams today to help my family survive the week, even though it costs stamina."
+A-shown-1,A,1,1,3,1,11,Stella,clam,none,0.6,normal,0,0,"I need to gather as much food as possible during the typhoon to ensure Lucky and I have enough to eat, while also trying to build some trust with others."
+A-shown-1,A,1,1,3,1,11,Lucky,clam,none,0.2,normal,0,0,I want to gather clams today so I can help my family and maybe even help Alice and Bob.
+A-shown-1,A,1,1,3,1,11,Alice,clam,none,0.3,normal,0,0,"I need to gather as much food as I can today, even if it's just clams, to help Bob and me survive the typhoon and the week ahead."
+A-shown-1,A,1,1,3,1,11,Bob,clam,none,0.3,normal,0,0,I will gather clams today to help us survive the typhoon and ensure we have enough food.
+A-shown-1,A,1,1,3,1,11,Pete,clam,none,0.6,normal,0,0,I will gather clams during the typhoon to secure some food while others are resting or foraging.
+A-shown-1,A,1,1,3,2,12,Kurt,clam,none,1.1,normal,0,0,"I need to gather clams today to help feed my family and contribute to the group, even though the typhoon limits our options."
+A-shown-1,A,1,1,3,2,12,Stella,clam,none,0.6,normal,0,0,"I need to gather as much food as possible today to ensure Lucky and I have enough, especially with the typhoon making things harder."
+A-shown-1,A,1,1,3,2,12,Lucky,clam,none,0.4,normal,0,0,I should gather clams today to help my family and maybe even help Alice and Bob again.
+A-shown-1,A,1,1,3,2,12,Alice,clam,none,0.3,normal,0,0,"I will gather clams today to help Bob and me meet our food needs, as we are struggling to eat enough."
+A-shown-1,A,1,1,3,2,12,Bob,clam,none,0.3,normal,0,0,I need to gather as much food as I can during the typhoon to help Alice and me survive.
+A-shown-1,A,1,1,3,2,12,Pete,clam,none,0.6,normal,0,0,"I need to gather clams today to supplement my food reserves during the typhoon, even though the catch is limited."
+A-shown-1,A,1,1,3,3,13,Kurt,clam,none,1.1,normal,0,0,"I need to gather clams today to help my family and contribute to the group, even though it costs stamina."
+A-shown-1,A,1,1,3,3,13,Stella,clam,none,0.6,normal,0,0,I need to gather as much food as possible during the typhoon to ensure Lucky and I have enough to eat.
+A-shown-1,A,1,1,3,3,13,Lucky,clam,none,0.2,normal,0,0,I should gather clams today to help my family and maybe help Alice and Bob again.
+A-shown-1,A,1,1,3,3,13,Alice,clam,none,0.3,normal,0,0,"I must gather as much food as I can today, even if it's just clams, to help Bob and me survive the typhoon and stay strong."
+A-shown-1,A,1,1,3,3,13,Bob,clam,none,0.3,normal,0,0,I need to gather as much food as I can during the typhoon to help Alice and me survive.
+A-shown-1,A,1,1,3,3,13,Pete,clam,none,1.2,normal,0,0,I need to gather clams today to keep my food reserves stable and maintain my stamina.
+A-shown-1,A,1,1,3,4,14,Kurt,clam,none,1.1,normal,0,0,"I need to gather food while it's still possible, and clams are the least taxing option for my low stamina."
+A-shown-1,A,1,1,3,4,14,Stella,forage,none,4.4,normal,0,0,"I need to gather more food to ensure Lucky and I have enough, especially since my current food supply is very low."
+A-shown-1,A,1,1,3,4,14,Lucky,coop_fish,Pete,0.0,normal,0,0,(agreed cooperative fishing)
+A-shown-1,A,1,1,3,4,14,Alice,heal,Kurt,0,normal,0,0,"Kurt is injured and needs help to recover, which will help him support his family and contribute to our survival."
+A-shown-1,A,1,1,3,4,14,Bob,forage,none,1.3,normal,0,0,"I need to find more food to keep Alice and me fed, and foraging is my best chance today."
+A-shown-1,A,1,1,3,4,14,Pete,coop_fish,Lucky,4.8,normal,0,0,(agreed cooperative fishing)
+A-shown-1,A,1,1,3,5,15,Kurt,clam,none,1.1,normal,0,0,"I need to gather food without overexerting myself, and clams are a reliable, low-effort option."
+A-shown-1,A,1,1,3,5,15,Stella,forage,none,3.3,normal,0,0,"I need to gather more food to ensure Lucky and I have enough, especially since I have limited supplies left."
+A-shown-1,A,1,1,3,5,15,Lucky,forage,none,0.8,normal,0,0,I need to find more food to help my family and Alice and Bob. Foraging is a good way to get something useful.
+A-shown-1,A,1,1,3,5,15,Alice,rest,none,0,normal,1,0,(collapsed from exhaustion: forced rest)
+A-shown-1,A,1,1,3,5,15,Bob,rest,none,0,normal,0,0,I need to rest to recover my stamina before I can do any real work.
+A-shown-1,A,1,1,3,5,15,Pete,fish,none,3.6,normal,0,0,I need to keep gathering fish to maintain my food reserves and ensure I stay strong.
+A-shown-1,A,1,1,4,1,16,Kurt,clam,none,2.2,normal,0,0,"I need to gather enough food to sustain my family and support a fair rationing plan. Clam gathering is light work and reliable, even if the yield is low."
+A-shown-1,A,1,1,4,1,16,Stella,clam,none,1.1,normal,0,0,"I need to gather more food to ensure my family and Alice can eat properly, especially since Alice is struggling and I want to help but need to be cautious with my resources."
+A-shown-1,A,1,1,4,1,16,Lucky,rest,none,0,normal,0,0,I need to rest because I'm too tired to work or forage right now.
+A-shown-1,A,1,1,4,1,16,Alice,rest,none,0,save,1,0,(collapsed from exhaustion: forced rest)
+A-shown-1,A,1,1,4,1,16,Bob,rest,none,0,normal,0,0,I need to regain some stamina before I can do anything else.
+A-shown-1,A,1,1,4,1,16,Pete,fish,none,4.8,normal,0,0,"I need to fish today to bring in food and continue teaching Alice, while ensuring I can repay my loan on time."
+A-shown-1,A,1,1,4,2,17,Kurt,clam,none,1.1,normal,0,0,I need to gather enough food to ensure my family and I can eat normally tonight and keep our stamina up.
+A-shown-1,A,1,1,4,2,17,Stella,clam,none,2.2,normal,0,0,I need to gather more food to ensure my family and Alice can eat properly this week.
+A-shown-1,A,1,1,4,2,17,Lucky,fish,none,0.8,normal,0,0,I want to learn how to fish from Pete and help feed my family and Alice and Bob.
+A-shown-1,A,1,1,4,2,17,Alice,rest,none,0,save,0,0,I need to rest to regain some stamina so I can help Bob and work later.
+A-shown-1,A,1,1,4,2,17,Bob,rest,none,0,normal,0,0,I need to rest and regain some stamina before I can work or forage effectively.
+A-shown-1,A,1,1,4,2,17,Pete,fish,none,3.6,normal,0,0,I need to focus on catching more fish to ensure I can repay Alice's loan on time and maintain my food reserves.
+A-shown-1,A,1,1,4,3,18,Kurt,clam,none,2.2,normal,0,0,"I need to gather enough food to ensure my family and I can eat and stay strong, especially with Pete still resistant to cooperation."
+A-shown-1,A,1,1,4,3,18,Stella,clam,none,2.2,normal,0,0,I need to gather more food to ensure my family and Alice can eat properly this week.
+A-shown-1,A,1,1,4,3,18,Lucky,fish,none,0.8,normal,0,0,I want to try fishing again today so I can learn from Pete and help my family and Alice and Bob.
+A-shown-1,A,1,1,4,3,18,Alice,forage,none,2.6,save,0,0,I need to forage today to gather food and improve my stamina so I can help Bob and repay Pete on time.
+A-shown-1,A,1,1,4,3,18,Bob,rest,none,0,normal,0,0,I need to regain some stamina so I can help Alice and survive another day.
+A-shown-1,A,1,1,4,3,18,Pete,fish,none,4.8,normal,0,0,I need to catch more fish to ensure I can repay Alice's loan and maintain my food reserves.
+A-shown-1,A,1,1,4,4,19,Kurt,clam,none,0.6,normal,0,0,"I need to gather food efficiently while keeping my stamina stable, so I'll go clamming again today."
+A-shown-1,A,1,1,4,4,19,Stella,clam,none,0.6,normal,0,0,I need to gather more food to ensure my family and Alice can eat properly this week.
+A-shown-1,A,1,1,4,4,19,Lucky,fish,none,0.8,normal,0,0,I want to try fishing again today so I can learn from Pete and maybe help my family and Alice and Bob.
+A-shown-1,A,1,1,4,4,19,Alice,clam,none,0.3,save,0,0,"I must gather clams today to earn food for Bob and me, while eating as little as possible to conserve energy for work."
+A-shown-1,A,1,1,4,4,19,Bob,rest,none,0,normal,0,0,I need to preserve my stamina so Alice and I can survive the day and work together later.
+A-shown-1,A,1,1,4,4,19,Pete,fish,none,3.6,normal,0,0,I need to focus on catching more fish to ensure I can repay my loan and maintain my food reserves.
+A-shown-1,A,1,1,4,5,20,Kurt,forage,none,3.4,normal,0,0,"I need to find food quickly before my stamina drops further, and foraging gives the best yield."
+A-shown-1,A,1,1,4,5,20,Stella,clam,none,2.2,normal,0,0,"I need to gather more food to ensure my family and Alice can eat properly, even if it costs me stamina."
+A-shown-1,A,1,1,4,5,20,Lucky,fish,none,0.4,normal,0,0,I want to learn how to fish from Pete and help my family and Alice and Bob.
+A-shown-1,A,1,1,4,5,20,Alice,rest,none,0,save,1,0,(collapsed from exhaustion: forced rest)
+A-shown-1,A,1,1,4,5,20,Bob,rest,none,0,normal,0,0,I need to rest and regain stamina so Alice and I can work and find food tomorrow.
+A-shown-1,A,1,1,4,5,20,Pete,fish,none,3.6,normal,0,0,I need to maximize my catch today to ensure I have enough food and help Alice and Bob without compromising my own reserves.
+B-shown-1,B,1,1,1,1,1,Kurt,coconut,none,3.4,normal,0,0,"I need to gather enough food to support my family and contribute to the group. Climbing coconut trees is the most efficient way to get high-quality, long-lasting food."
+B-shown-1,B,1,1,1,1,1,Stella,coconut,none,2.2,normal,0,0,"I need to gather enough food for my family, and climbing coconut trees gives the best yield without risking injury or exhaustion."
+B-shown-1,B,1,1,1,1,1,Lucky,coconut,none,1.5,normal,0,0,I need to find food so I can eat and help my family. Climbing coconut trees sounds like a good way to get some food.
+B-shown-1,B,1,1,1,1,1,Alice,forage,none,2.6,normal,0,0,"I need to gather as much food as possible to help the group survive, and foraging is the most efficient way to do that."
+B-shown-1,B,1,1,1,1,1,Bob,clam,none,1.3,normal,0,0,I should gather clams to get some food without risking injury or wasting energy on less reliable options.
+B-shown-1,B,1,1,1,1,1,Pete,fish,none,3.6,normal,0,0,I need to gather as much food as possible to ensure I have enough for the long term.
+B-shown-1,B,1,1,1,2,2,Kurt,coop_fish,Pete,1.9,normal,0,0,(agreed cooperative fishing)
+B-shown-1,B,1,1,1,2,2,Stella,coconut,none,2.2,normal,0,0,I need to gather more food to ensure Lucky has enough to eat. Coconut gathering is the most reliable option for now.
+B-shown-1,B,1,1,1,2,2,Lucky,coconut,none,1.1,normal,0,0,I need to gather more food so I can help everyone and make sure we all have enough to eat.
+B-shown-1,B,1,1,1,2,2,Alice,forage,none,1.3,normal,0,0,"I will forage to gather more food and ensure we have enough to share, as I believe survival depends on cooperation."
+B-shown-1,B,1,1,1,2,2,Bob,clam,none,0.7,normal,0,0,"Clam gathering is light work and reliable, and I need to make sure Alice and I have enough food for the week."
+B-shown-1,B,1,1,1,2,2,Pete,coop_fish,Kurt,3.5,normal,0,0,(agreed cooperative fishing)
+B-shown-1,B,1,1,1,3,3,Kurt,coconut,none,4.5,normal,0,0,"I need to gather more food to ensure my family and others have enough, and climbing coconuts is the most efficient way to do it."
+B-shown-1,B,1,1,1,3,3,Stella,forage,none,4.4,normal,0,1,I need to gather more food to ensure Lucky has enough to eat. Foraging is the best option for now.
+B-shown-1,B,1,1,1,3,3,Lucky,forage,none,0.8,normal,0,0,I should forage to find more food so I can help my family and make sure everyone is happy and has enough to eat.
+B-shown-1,B,1,1,1,3,3,Alice,forage,none,1.3,normal,0,0,"I will forage to gather more food and help ensure we have enough to share with others, especially those who may be struggling."
+B-shown-1,B,1,1,1,3,3,Bob,clam,none,1.3,normal,0,0,"I'll gather clams again today to ensure we have enough food for the week, without drawing attention to how much we actually have."
+B-shown-1,B,1,1,1,3,3,Pete,fish,none,3.6,normal,0,0,I need to continue gathering food to ensure I have enough for the long term and maintain my independence.
+B-shown-1,B,1,1,1,4,4,Kurt,forage,none,4.5,normal,0,0,"I need to gather more food to ensure my family and others have enough, and foraging is the most reliable option."
+B-shown-1,B,1,1,1,4,4,Stella,forage,none,2.2,normal,0,0,I need to gather more food to ensure Lucky has enough to eat and to build up our supplies for the coming days.
+B-shown-1,B,1,1,1,4,4,Lucky,forage,none,1.1,normal,0,1,I need to find more food so I can help my family and make sure everyone is happy and has enough to eat.
+B-shown-1,B,1,1,1,4,4,Alice,forage,none,2.0,normal,0,0,I need to gather more food to ensure we have enough for the group and to support sharing efforts.
+B-shown-1,B,1,1,1,4,4,Bob,clam,none,1.3,normal,0,0,I'll gather clams again today to ensure we have enough food for the week without risking our supplies.
+B-shown-1,B,1,1,1,4,4,Pete,fish,none,4.8,normal,0,0,I need to maximize my food gathering to ensure I have enough for the long term and maintain control over my resources.
+B-shown-1,B,1,1,1,5,5,Kurt,forage,none,3.4,normal,0,0,"I need to gather more food to ensure my family and others have enough, and foraging is the most reliable way to do that right now."
+B-shown-1,B,1,1,1,5,5,Stella,rest,none,0,normal,0,0,I need to rest to recover my stamina before I can work effectively or help my family gather more food.
+B-shown-1,B,1,1,1,5,5,Lucky,rest,none,0,normal,0,0,I'm really tired and need to rest to get some strength back so I can help everyone later.
+B-shown-1,B,1,1,1,5,5,Alice,forage,none,2.0,normal,0,0,"I need to gather more food to ensure we can share and support each other, especially since Pete has been reluctant to share so far."
+B-shown-1,B,1,1,1,5,5,Bob,clam,none,0.7,normal,0,0,"I'll gather clams again today to ensure we have enough food for the week, as I don't want to risk giving anything away unless Alice insists."
+B-shown-1,B,1,1,1,5,5,Pete,fish,none,3.6,normal,0,0,I need to keep gathering fish to ensure I have enough for the long term and maintain my stamina.
+B-shown-1,B,1,1,2,1,6,Kurt,forage,none,3.4,normal,0,1,I need to gather more food to support my family and push for a shared rationing plan.
+B-shown-1,B,1,1,2,1,6,Stella,forage,none,4.4,normal,0,0,"I need to gather more food to ensure Lucky and I have enough for the week, especially since Pete has been reluctant to share."
+B-shown-1,B,1,1,2,1,6,Lucky,coop_fish,Pete,2,normal,0,0,(agreed cooperative fishing)
+B-shown-1,B,1,1,2,1,6,Alice,heal,Stella,0,normal,0,0,I should help Stella recover from her injury so she can care for Lucky and contribute to our group.
+B-shown-1,B,1,1,2,1,6,Bob,clam,none,1.3,normal,0,0,"I'll gather clams to keep us fed, but I won't give anything away unless Alice insists."
+B-shown-1,B,1,1,2,1,6,Pete,coop_fish,Lucky,3.4,normal,0,0,(agreed cooperative fishing)
+B-shown-1,B,1,1,2,2,7,Kurt,rest,none,0,normal,0,0,I need to regain stamina to be able to work effectively and push for a food-sharing agreement.
+B-shown-1,B,1,1,2,2,7,Stella,forage,none,2.2,normal,0,1,"I need to gather more food to ensure Lucky and I have enough to eat, especially since Pete is not willing to teach Lucky how to fish."
+B-shown-1,B,1,1,2,2,7,Lucky,forage,none,0.8,normal,0,0,I should forage to get more food so I can help feed everyone and stay strong.
+B-shown-1,B,1,1,2,2,7,Alice,forage,none,2.0,normal,0,0,"I need to gather more food to ensure we can continue sharing and supporting each other, especially as the weeks go on and supplies may dwindle."
+B-shown-1,B,1,1,2,2,7,Bob,clam,none,1.3,normal,0,0,I need to gather more food to ensure Alice and I have enough for the week.
+B-shown-1,B,1,1,2,2,7,Pete,fish,none,3.6,normal,0,0,I need to keep building my food reserves to ensure my own survival and maintain control over my resources.
+B-shown-1,B,1,1,2,3,8,Kurt,forage,none,2.2,normal,0,0,I need to gather more food to support my family and push for a shared rationing plan.
+B-shown-1,B,1,1,2,3,8,Stella,forage,none,2.2,normal,0,1,I need to gather more food to ensure Lucky and I have enough for the coming days.
+B-shown-1,B,1,1,2,3,8,Lucky,forage,none,1.1,normal,0,1,I should forage to get more food so I can help my family and maybe share with others.
+B-shown-1,B,1,1,2,3,8,Alice,forage,none,1.3,normal,0,0,I need to gather more food to ensure we can sustain ourselves and possibly help others in the future.
+B-shown-1,B,1,1,2,3,8,Bob,clam,none,1.3,normal,0,0,"I need to gather more food to ensure Alice and I have enough, even if it means being cautious and not giving anything away."
+B-shown-1,B,1,1,2,3,8,Pete,fish,none,4.8,normal,0,0,I need to continue fishing to build up my food reserves and maintain my stamina.
+B-shown-1,B,1,1,2,4,9,Kurt,forage,none,3.4,normal,0,0,I need to gather more food to support my family and push for a shared rationing plan. Foraging is the best option given my stamina and the need for more resources.
+B-shown-1,B,1,1,2,4,9,Stella,clam,none,1.1,normal,0,0,"I need to gather more food to ensure Lucky is well-fed, and clams are a reliable option even when I'm exhausted."
+B-shown-1,B,1,1,2,4,9,Lucky,rest,none,0,normal,0,0,I need to rest so I can get stronger and help everyone.
+B-shown-1,B,1,1,2,4,9,Alice,forage,none,2.6,normal,0,1,"I need to gather more food to ensure we can all eat and keep our strength, especially with Lucky needing care and Bob still being cautious."
+B-shown-1,B,1,1,2,4,9,Bob,clam,none,0.7,normal,0,0,I need to keep gathering clams to ensure Alice and I have enough food for the week.
+B-shown-1,B,1,1,2,4,9,Pete,fish,none,3.6,normal,0,0,I'll focus on fishing again today to keep building my food reserves and ensure I stay well-fed.
+B-shown-1,B,1,1,2,5,10,Kurt,forage,none,3.4,normal,0,0,I need to gather more food to support my family and push for a shared rationing plan.
+B-shown-1,B,1,1,2,5,10,Stella,rest,none,0,normal,0,0,I need to regain some stamina before I can do heavy work or gather enough food for my family.
+B-shown-1,B,1,1,2,5,10,Lucky,forage,none,1.1,normal,0,1,I need to find more food so I can help my family and feel better. Foraging is a good way to get food and stay strong.
+B-shown-1,B,1,1,2,5,10,Alice,rest,none,0,normal,0,0,I need to regain my strength before I can help anyone else.
+B-shown-1,B,1,1,2,5,10,Bob,clam,none,0.7,normal,0,0,I need to gather as much food as I can today to ensure Alice and I have enough for the rest of the week.
+B-shown-1,B,1,1,2,5,10,Pete,fish,none,4.8,normal,0,0,I need to continue fishing to maintain my food reserves and ensure I can meet my needs without relying on others.
+B-shown-1,B,1,1,3,1,11,Kurt,clam,none,1.1,normal,0,0,I need to gather as much food as possible during the typhoon to help my family and support a fair rationing plan.
+B-shown-1,B,1,1,3,1,11,Stella,clam,none,1.1,normal,0,0,"I need to gather as much food as I can during the typhoon, even if it's just clams. My family's food supply is low, and I need to make sure Lucky has enough to eat."
+B-shown-1,B,1,1,3,1,11,Lucky,clam,none,0.2,normal,0,0,"I should gather clams today so I can eat enough and feel better, so I can learn to fish with Pete later."
+B-shown-1,B,1,1,3,1,11,Alice,clam,none,0.3,normal,0,0,"I must gather clams today to help Bob and me survive the typhoon days, even though it will cost me stamina."
+B-shown-1,B,1,1,3,1,11,Bob,clam,none,0.3,save,0,0,"I need to gather as much food as I can during the typhoon to help us survive, but I must save my rations to avoid starving."
+B-shown-1,B,1,1,3,1,11,Pete,clam,none,0.6,normal,0,0,"I'll gather clams today to make the best of the typhoon, but I won't share or give anything away unless forced to."
+B-shown-1,B,1,1,3,2,12,Kurt,clam,none,0.6,normal,0,0,I need to gather clams to help feed my family and support others during the typhoon.
+B-shown-1,B,1,1,3,2,12,Stella,clam,none,1.1,normal,0,0,"I need to gather as much food as I can today to ensure Lucky and I have enough to eat, especially with the typhoon making it harder to fish later in the week."
+B-shown-1,B,1,1,3,2,12,Lucky,clam,none,0.2,normal,0,0,"I need to gather clams today so I can eat and stay strong, so I can learn to fish and help everyone."
+B-shown-1,B,1,1,3,2,12,Alice,clam,none,0.3,normal,0,0,I will gather clams today to help us survive the typhoon and ensure Bob and I have enough food.
+B-shown-1,B,1,1,3,2,12,Bob,clam,none,0.3,save,0,0,"I need to gather as much food as I can today, even though it's only a small amount, to help us survive the typhoon days."
+B-shown-1,B,1,1,3,2,12,Pete,clam,none,0.6,normal,0,0,"I need to gather clams today to supplement my food supply during the typhoon, while keeping my focus on survival and maintaining my stamina."
+B-shown-1,B,1,1,3,3,13,Kurt,clam,none,0.6,normal,0,0,"I need to gather clams to help feed my family and contribute to the group, even if the catch is small."
+B-shown-1,B,1,1,3,3,13,Stella,clam,none,1.1,normal,0,0,"I need to gather as much food as I can today to ensure Lucky and I have enough to eat, especially with the typhoon and the work we have planned for tomorrow."
+B-shown-1,B,1,1,3,3,13,Lucky,clam,none,0.4,normal,0,0,"I need to gather clams today so I can eat and stay strong, and maybe help others if I can."
+B-shown-1,B,1,1,3,3,13,Alice,clam,none,0.7,normal,0,0,"I must gather what little food I can during the typhoon, as Bob and I need to stay strong together."
+B-shown-1,B,1,1,3,3,13,Bob,clam,none,0.7,save,0,0,"I need to gather as much food as I can today, even though it's only a small amount, to help us survive the typhoon and repay Pete later."
+B-shown-1,B,1,1,3,3,13,Pete,clam,none,0.6,normal,0,0,"I need to gather clams today to maintain my food supply, especially with the typhoon making it harder to fish later in the week."
+B-shown-1,B,1,1,3,4,14,Kurt,rest,none,0,normal,0,0,I need to recover my stamina before I can do any heavy work or effectively push for a shared food plan.
+B-shown-1,B,1,1,3,4,14,Stella,forage,none,2.2,normal,0,1,"I need to gather more food for my family, especially Lucky, and foraging offers a better chance of getting enough to last through the week."
+B-shown-1,B,1,1,3,4,14,Lucky,clam,none,0.4,normal,0,0,I need to gather more food so I can stay strong and help my family and friends.
+B-shown-1,B,1,1,3,4,14,Alice,rest,none,0,normal,0,0,I need to regain my strength before I can help Bob or contribute to our survival.
+B-shown-1,B,1,1,3,4,14,Bob,clam,none,1.3,save,0,0,I need to gather food to survive the day and keep Alice and me from starving.
+B-shown-1,B,1,1,3,4,14,Pete,fish,none,3.6,normal,0,0,I need to maximize my food gathering now that the typhoon is over. Fishing gives the best return and I can keep the catch for myself.
+B-shown-1,B,1,1,3,5,15,Kurt,forage,none,3.4,normal,0,0,I need to gather more food to support my family and push for a shared rationing plan. Foraging is the most efficient way to do this right now.
+B-shown-1,B,1,1,3,5,15,Stella,rest,none,0,normal,1,0,(collapsed from exhaustion: forced rest)
+B-shown-1,B,1,1,3,5,15,Lucky,clam,none,0.4,normal,0,0,"I need to gather food so I can eat and feel strong again, and maybe help others too."
+B-shown-1,B,1,1,3,5,15,Alice,rest,none,0,normal,0,0,I need to rest to recover my stamina so I can help Bob and contribute to our survival.
+B-shown-1,B,1,1,3,5,15,Bob,clam,none,0.7,save,0,0,"I need to gather food to eat and repay my loans, but I must be careful with my stamina."
+B-shown-1,B,1,1,3,5,15,Pete,fish,none,4.8,normal,0,0,"I need to maximize my food gathering now that the typhoon is over, to ensure I stay well-fed and maintain my stamina."
+B-shown-1,B,1,1,4,1,16,Kurt,coop_fish,Pete,2.2,normal,0,0,(agreed cooperative fishing)
+B-shown-1,B,1,1,4,1,16,Stella,rest,none,0,normal,0,0,I need to recover my stamina before I can do any heavy work or help gather food for my family.
+B-shown-1,B,1,1,4,1,16,Lucky,rest,none,0,normal,0,0,I need to rest so I can feel stronger and help everyone catch more food.
+B-shown-1,B,1,1,4,1,16,Alice,rest,none,0,save,0,0,"I am too weak to work or gather food, so I must rest to regain some stamina and avoid collapsing."
+B-shown-1,B,1,1,4,1,16,Bob,rest,none,0,normal,0,0,I need to rest to regain some stamina before I can work or gather food.
+B-shown-1,B,1,1,4,1,16,Pete,coop_fish,Kurt,4.8,normal,0,0,(agreed cooperative fishing)
+B-shown-1,B,1,1,4,2,17,Kurt,forage,none,4.5,normal,0,0,"I need to gather as much food as possible to ensure my family and others can eat, while also working toward a fair system."
+B-shown-1,B,1,1,4,2,17,Stella,forage,none,4.4,normal,0,0,"I need to gather as much food as possible to ensure Lucky and I have enough to eat, especially since I have no food left."
+B-shown-1,B,1,1,4,2,17,Lucky,clam,none,0.4,normal,0,0,"I need to help my family and learn to fish, so I'll gather clams to contribute and stay strong."
+B-shown-1,B,1,1,4,2,17,Alice,rest,none,0,save,0,0,"I am too weak to do any work or gather food, but I need to preserve my stamina to survive the day and help Bob."
+B-shown-1,B,1,1,4,2,17,Bob,rest,none,0,normal,0,0,I need to regain some stamina before I can do any work or help Alice.
+B-shown-1,B,1,1,4,2,17,Pete,fish,none,3.6,normal,0,0,I need to continue fishing to maintain my food reserves and contribute to the group without giving away too much of my own supply.
+B-shown-1,B,1,1,4,3,18,Kurt,forage,none,2.2,normal,0,0,I need to forage to get more food and ensure my family and I can eat enough to avoid starving.
+B-shown-1,B,1,1,4,3,18,Stella,forage,none,4.4,normal,0,0,"I need to gather more food to ensure Lucky and I have enough, especially with the typhoon approaching."
+B-shown-1,B,1,1,4,3,18,Lucky,clam,none,0.4,normal,0,0,I want to help catch more food so I can share with everyone and feel stronger.
+B-shown-1,B,1,1,4,3,18,Alice,rest,none,0,save,0,0,I am too weak to do any work or forage. I need to rest and conserve my stamina to survive the day.
+B-shown-1,B,1,1,4,3,18,Bob,clam,none,0.7,save,0,0,"I need to gather some food to help us survive, even if it's just a little."
+B-shown-1,B,1,1,4,3,18,Pete,fish,none,3.6,normal,0,0,I need to continue fishing to maintain my food reserves and help Lucky learn.
+B-shown-1,B,1,1,4,4,19,Kurt,forage,none,3.4,normal,0,1,"I need to forage to get more food and help my family, while also working toward a fairer system for everyone."
+B-shown-1,B,1,1,4,4,19,Stella,forage,none,2.2,normal,0,1,I need to gather more food to ensure Lucky has enough and to build up some reserves for the typhoon.
+B-shown-1,B,1,1,4,4,19,Lucky,clam,none,0.8,normal,0,0,I want to help gather food so we can all eat and share together.
+B-shown-1,B,1,1,4,4,19,Alice,forage,none,2.6,normal,0,0,I need to forage today to earn food and stamina so I can repay Pete and ensure Bob and I survive the week.
+B-shown-1,B,1,1,4,4,19,Bob,clam,none,1.3,save,0,0,I need to gather clams to help us survive and repay the loan I owe Pete.
+B-shown-1,B,1,1,4,4,19,Pete,fish,none,4.8,normal,0,0,I need to continue fishing to maintain my food reserves and ensure I can repay any future requests without compromising my own survival.
+B-shown-1,B,1,1,4,5,20,Kurt,rest,none,0,normal,1,0,(collapsed from exhaustion: forced rest)
+B-shown-1,B,1,1,4,5,20,Stella,rest,none,0,normal,0,0,I need to rest to recover my stamina before I can do any heavy work or forage effectively.
+B-shown-1,B,1,1,4,5,20,Lucky,rest,none,0,normal,0,0,I need to rest so I can feel stronger and learn how to fish with Pete tomorrow.
+B-shown-1,B,1,1,4,5,20,Alice,forage,none,2.6,normal,0,0,I need to forage today to gather enough food to eat and begin repaying Pete's loan.
+B-shown-1,B,1,1,4,5,20,Bob,rest,none,0,save,0,0,I need to rest to recover some stamina before I can work or gather food effectively.
+B-shown-1,B,1,1,4,5,20,Pete,fish,none,4.8,normal,0,0,I need to keep gathering as much food as possible to maintain my reserves and ensure I can help others if needed.
+A-shown-2,A,1,2,1,1,1,Kurt,coconut,none,2.2,normal,0,0,I need to gather food quickly and efficiently to support my family and contribute to the group's survival.
+A-shown-2,A,1,2,1,1,1,Stella,forage,none,2.2,normal,0,0,"I need to find food quickly and efficiently, and foraging is a good option to gather enough for my family without risking too much stamina."
+A-shown-2,A,1,2,1,1,1,Lucky,rest,none,0,normal,0,0,(fallback after invalid answers)
+A-shown-2,A,1,2,1,1,1,Alice,clam,none,0.7,normal,0,0,I will gather clams to get some food without risking injury or wasting stamina.
+A-shown-2,A,1,2,1,1,1,Bob,rest,none,0,normal,0,0,I need to conserve my stamina and not risk injury or spoilage when I'm already worried about our food supply.
+A-shown-2,A,1,2,1,1,1,Pete,fish,none,3.6,normal,0,0,I need to gather as much food as possible to ensure I have enough for the week.
+A-shown-2,A,1,2,1,2,2,Kurt,coconut,none,4.5,normal,0,0,I need to gather more food to support my family and help establish a shared rationing plan. Coconut is the most reliable and long-lasting option.
+A-shown-2,A,1,2,1,2,2,Stella,coop_fish,Pete,5.2,normal,0,0,(agreed cooperative fishing)
+A-shown-2,A,1,2,1,2,2,Lucky,rest,none,0,normal,0,0,I want to stay strong so I can help others and make sure everyone is kind to each other.
+A-shown-2,A,1,2,1,2,2,Alice,clam,none,1.3,normal,0,0,I will gather clams today—it's light work and I need to stay active to help the group.
+A-shown-2,A,1,2,1,2,2,Bob,rest,none,0,normal,0,0,I need to conserve my stamina and not risk losing food or getting injured while I figure out the best way to handle Alice's insistence on sharing.
+A-shown-2,A,1,2,1,2,2,Pete,coop_fish,Stella,5.3,normal,0,0,(agreed cooperative fishing)
+A-shown-2,A,1,2,1,3,3,Kurt,forage,none,4.5,normal,0,1,I need to gather more food to support my family and help convince others to pool resources.
+A-shown-2,A,1,2,1,3,3,Stella,coop_fish,Pete,1.1,normal,0,0,(agreed cooperative fishing)
+A-shown-2,A,1,2,1,3,3,Lucky,rest,none,0,normal,0,0,I want to stay strong so I can help others and make sure everyone is friends.
+A-shown-2,A,1,2,1,3,3,Alice,clam,none,0.7,normal,0,0,I will gather clams today—it's light work and I need to keep my stamina up to help Bob and ensure we can share food if needed.
+A-shown-2,A,1,2,1,3,3,Bob,clam,none,0.7,normal,0,0,I need to gather some food to help Alice and me survive. Clam gathering is light work and won't drain me too much.
+A-shown-2,A,1,2,1,3,3,Pete,coop_fish,Stella,3.6,normal,0,0,(agreed cooperative fishing)
+A-shown-2,A,1,2,1,4,4,Kurt,forage,none,2.2,normal,0,1,"I need to forage to find more food and help ensure we have enough for the week, especially for my family."
+A-shown-2,A,1,2,1,4,4,Stella,coconut,none,3.3,normal,0,0,"I need to gather more food to ensure my family has enough, and climbing coconut trees is the most reliable way to do it."
+A-shown-2,A,1,2,1,4,4,Lucky,coconut,none,1.1,normal,0,0,I should climb a coconut tree to get some food so I can help make sure everyone is not hungry.
+A-shown-2,A,1,2,1,4,4,Alice,clam,none,0.7,normal,0,0,"I will gather clams to ensure I have enough food for today and tomorrow, while continuing to encourage others to share."
+A-shown-2,A,1,2,1,4,4,Bob,clam,none,1.3,normal,0,0,"I need to gather more food for Alice and me, so I'll go clamming again today."
+A-shown-2,A,1,2,1,4,4,Pete,fish,none,3.6,normal,0,0,I need to keep gathering as much food as possible to ensure I can survive and stay strong.
+A-shown-2,A,1,2,1,5,5,Kurt,rest,none,0,normal,1,0,(collapsed from exhaustion: forced rest)
+A-shown-2,A,1,2,1,5,5,Stella,coconut,none,4.4,normal,0,0,"I need to gather more food to ensure Lucky and I have enough, and coconuts are a reliable and long-lasting source."
+A-shown-2,A,1,2,1,5,5,Lucky,coconut,none,1.1,normal,0,0,"I want to help gather food for everyone, so I will climb a coconut tree."
+A-shown-2,A,1,2,1,5,5,Alice,clam,none,1.3,normal,0,0,"I need to gather some food today to help us survive, and clams are a reliable option even when exhausted."
+A-shown-2,A,1,2,1,5,5,Bob,clam,none,1.3,normal,0,0,"I need to gather more food for Alice and me, so I'll go clamming again today."
+A-shown-2,A,1,2,1,5,5,Pete,fish,none,4.8,normal,0,0,I need to maximize my food gathering to ensure I can survive on my own and avoid depending on others.
+A-shown-2,A,1,2,2,1,6,Kurt,rest,none,0,normal,0,0,I need to recover my stamina before I can do any heavy work or effectively advocate for a shared rationing plan.
+A-shown-2,A,1,2,2,1,6,Stella,coop_fish,Pete,3.6,normal,0,0,(agreed cooperative fishing)
+A-shown-2,A,1,2,2,1,6,Lucky,coconut,none,1.1,normal,0,0,"I should climb a coconut tree to help Alice and Bob, and also get food for myself."
+A-shown-2,A,1,2,2,1,6,Alice,clam,none,1.3,normal,0,0,I need to gather food today so that I can eat and begin repaying the loan Pete gave me.
+A-shown-2,A,1,2,2,1,6,Bob,clam,none,0.7,normal,0,0,I need to gather some food for Alice and me before we run out again.
+A-shown-2,A,1,2,2,1,6,Pete,coop_fish,Stella,3.6,normal,0,0,(agreed cooperative fishing)
+A-shown-2,A,1,2,2,2,7,Kurt,forage,none,3.4,normal,0,1,I need to gather more food to support my family and help build trust with the group.
+A-shown-2,A,1,2,2,2,7,Stella,fish,none,1.1,normal,0,0,"I need to fish again to ensure my family has enough food, even though the yield is low."
+A-shown-2,A,1,2,2,2,7,Lucky,coconut,none,1.1,normal,0,0,"I need to find more food to help Alice and Bob, and coconuts are the best option for me right now."
+A-shown-2,A,1,2,2,2,7,Alice,clam,none,1.3,normal,0,0,I need to gather food today so that I can eat and begin repaying my loan to Pete as soon as possible.
+A-shown-2,A,1,2,2,2,7,Bob,clam,none,0.7,normal,0,0,I need to gather some food for Alice and me before we run out again.
+A-shown-2,A,1,2,2,2,7,Pete,fish,none,3.6,normal,0,0,I need to keep gathering as much fish as possible to ensure my survival and maintain control over my food supply.
+A-shown-2,A,1,2,2,3,8,Kurt,rest,none,0,normal,0,0,I need to regain stamina before I can do heavy work or effectively advocate for a shared rationing plan.
+A-shown-2,A,1,2,2,3,8,Stella,forage,none,2.2,normal,0,0,I need to gather more food to ensure my family stays well-fed and to build a surplus for possible sharing later.
+A-shown-2,A,1,2,2,3,8,Lucky,rest,none,0,normal,0,0,I need to save my strength so I can help Alice and Bob later.
+A-shown-2,A,1,2,2,3,8,Alice,clam,none,1.3,normal,0,0,"I need to gather food to survive and repay my loan, so I will collect clams."
+A-shown-2,A,1,2,2,3,8,Bob,clam,none,0.7,normal,0,0,"I need to gather as much food as I can today to help Alice and me survive, even if it means doing light work."
+A-shown-2,A,1,2,2,3,8,Pete,fish,none,3.6,normal,0,0,I need to continue fishing to maximize my food supply and maintain my stamina for the upcoming days.
+A-shown-2,A,1,2,2,4,9,Kurt,forage,none,2.2,normal,0,0,"I need to gather more food to support my family and help others survive, even though foraging risks injury."
+A-shown-2,A,1,2,2,4,9,Stella,forage,none,3.3,normal,0,1,I need to gather more food to ensure my family stays well-fed and to build a surplus for possible sharing later.
+A-shown-2,A,1,2,2,4,9,Lucky,rest,none,0,normal,0,0,I need to make sure I have enough energy to talk to Pete again and help everyone share food.
+A-shown-2,A,1,2,2,4,9,Alice,clam,none,1.3,normal,0,0,I need to gather food to survive the week and repay my loan to Pete as soon as possible.
+A-shown-2,A,1,2,2,4,9,Bob,clam,none,1.3,normal,0,0,"I need to gather as much food as I can today to help Alice and me survive, even if it means working while tired."
+A-shown-2,A,1,2,2,4,9,Pete,fish,none,3.6,normal,0,0,I need to keep gathering food to ensure my survival and maintain my independence.
+A-shown-2,A,1,2,2,5,10,Kurt,rest,none,0,normal,0,0,I need to recover my stamina before I can do heavy work or effectively push for cooperation.
+A-shown-2,A,1,2,2,5,10,Stella,rest,none,0,normal,0,0,I need to rest to regain stamina and be able to work effectively tomorrow.
+A-shown-2,A,1,2,2,5,10,Lucky,forage,none,1.1,normal,0,0,"I need to find food so that I can help Alice and Bob, and also make sure I don't starve."
+A-shown-2,A,1,2,2,5,10,Alice,forage,none,1.3,normal,0,0,"I need to gather more food for Bob and me, and foraging is the best option available to ensure we can eat and repay any future help."
+A-shown-2,A,1,2,2,5,10,Bob,clam,none,1.3,normal,0,0,I need to gather as much food as I can today to help ensure Alice and I have enough to eat.
+A-shown-2,A,1,2,2,5,10,Pete,fish,none,4.8,normal,0,0,I need to keep gathering food to ensure my survival and maintain my independence.
+A-shown-2,A,1,2,3,1,11,Kurt,clam,none,0.6,save,0,0,I need to gather as much food as possible today to help us survive the typhoon and ensure we can eat enough.
+A-shown-2,A,1,2,3,1,11,Stella,clam,none,0.6,normal,0,0,I need to gather as much food as possible today to help my family and others survive the typhoon days.
+A-shown-2,A,1,2,3,1,11,Lucky,clam,none,0.4,normal,0,0,"I should gather clams today because it's the only work possible during the typhoon, and I want to help my family and friends by getting food."
+A-shown-2,A,1,2,3,1,11,Alice,clam,none,0.3,normal,0,0,"I need to gather as much food as I can today, even if it's just clams, to help Bob and me survive the typhoon days."
+A-shown-2,A,1,2,3,1,11,Bob,clam,none,0.3,normal,0,0,"I need to gather as much food as I can today, even if it's just clams. Alice and I must survive this typhoon."
+A-shown-2,A,1,2,3,1,11,Pete,clam,none,1.2,normal,0,0,"I need to gather as much food as possible during the typhoon, even though it's limited. Clams are the only option, and I can't afford to waste stamina on rest right now."
+A-shown-2,A,1,2,3,2,12,Kurt,clam,none,1.1,save,0,0,I need to gather as much food as possible today to help us survive the typhoon and repay Pete later.
+A-shown-2,A,1,2,3,2,12,Stella,clam,none,1.1,normal,0,0,I need to gather as much food as possible today to help my family and to support Alice and Bob during the typhoon.
+A-shown-2,A,1,2,3,2,12,Lucky,clam,none,0.2,normal,0,0,"I need to help Alice and Bob, and even though I can't fish today, I can gather clams to get some food for them."
+A-shown-2,A,1,2,3,2,12,Alice,clam,none,0.3,normal,0,0,"I must gather as much food as I can today, even if it's only clams, to ensure Bob and I can eat and survive the typhoon."
+A-shown-2,A,1,2,3,2,12,Bob,clam,none,0.3,normal,0,0,I need to gather as much food as I can today to help Alice and me survive the typhoon and the rest of the week.
+A-shown-2,A,1,2,3,2,12,Pete,clam,none,0.6,normal,0,0,I need to gather as much as I can during the typhoon to maintain my food supply and stay prepared for the days ahead.
+A-shown-2,A,1,2,3,3,13,Kurt,clam,none,1.1,save,0,0,I need to gather as much food as possible today to help us survive the typhoon and repay Pete's loan later.
+A-shown-2,A,1,2,3,3,13,Stella,clam,none,0.6,normal,0,0,I need to gather as much food as I can during the typhoon to ensure my family stays well-fed.
+A-shown-2,A,1,2,3,3,13,Lucky,clam,none,0.4,normal,0,0,"I need to help Alice and Bob, but I can't do anything without food. I'll gather clams so I can eat and maybe share with them later."
+A-shown-2,A,1,2,3,3,13,Alice,clam,none,0.3,normal,0,0,"I must gather as much food as possible today, even if it's just clams, to ensure Bob and I can eat and stay strong."
+A-shown-2,A,1,2,3,3,13,Bob,clam,none,0.3,normal,0,0,"I need to gather as much as I can today, even if it's only a little, to help Alice and me survive the typhoon."
+A-shown-2,A,1,2,3,3,13,Pete,clam,none,1.2,normal,0,0,I need to gather as much food as I can during the typhoon to secure my own survival and keep my options open for future cooperation.
+A-shown-2,A,1,2,3,4,14,Kurt,forage,none,3.4,save,0,0,"I need to find food quickly before my stamina drops further, and foraging is my best option right now."
+A-shown-2,A,1,2,3,4,14,Stella,forage,none,2.2,normal,0,1,"I need to gather enough food for my family, and foraging gives the highest yield. I'll work hard to ensure Lucky and I don't go hungry."
+A-shown-2,A,1,2,3,4,14,Lucky,forage,none,1.5,normal,0,0,I need to find food for myself and help Alice and Bob. Foraging gives the best chance of getting enough.
+A-shown-2,A,1,2,3,4,14,Alice,clam,none,1.3,save,0,0,"I must gather clams today, even though it's hard work, to help Bob and me survive and prove I can work."
+A-shown-2,A,1,2,3,4,14,Bob,rest,none,0,normal,1,0,(collapsed from exhaustion: forced rest)
+A-shown-2,A,1,2,3,4,14,Pete,fish,none,3.6,normal,0,0,"I need to maximize my food supply and prove my capability, especially since I agreed to fish with Alice today."
+A-shown-2,A,1,2,3,5,15,Kurt,forage,none,2.2,save,0,0,I need to forage to increase our food supply and ensure we can repay Pete's loan on time while still meeting our daily needs.
+A-shown-2,A,1,2,3,5,15,Stella,clam,none,1.1,normal,0,0,"I need to gather more food to ensure my family doesn't go hungry, and I believe working with Alice and Bob will help us all survive."
+A-shown-2,A,1,2,3,5,15,Lucky,forage,none,1.5,normal,0,1,"I want to find some food for Alice and Bob, and maybe even for Pete to see that we are all in this together."
+A-shown-2,A,1,2,3,5,15,Alice,clam,none,0.7,save,0,0,"I need to gather as much food as I can today, even if it means eating less, so that I can work tomorrow and repay Pete when I can."
+A-shown-2,A,1,2,3,5,15,Bob,rest,none,0,normal,1,0,(collapsed from exhaustion: forced rest)
+A-shown-2,A,1,2,3,5,15,Pete,fish,none,3.6,normal,0,0,"I need to maximize my food supply to ensure I can keep working and stay strong, while also keeping my options open for future cooperation."
+A-shown-2,A,1,2,4,1,16,Kurt,rest,none,0,save,0,0,I need to rest to regain stamina before I can work effectively or contribute meaningfully to the group.
+A-shown-2,A,1,2,4,1,16,Stella,clam,none,1.1,normal,0,0,"I need to gather food today to ensure my family and I can eat, while also helping Alice and Bob if I can."
+A-shown-2,A,1,2,4,1,16,Lucky,forage,none,0.8,normal,0,1,"I want to find some food so I can help Alice and Bob, and maybe even get some for myself."
+A-shown-2,A,1,2,4,1,16,Alice,rest,none,0,save,1,0,(collapsed from exhaustion: forced rest)
+A-shown-2,A,1,2,4,1,16,Bob,rest,none,0,normal,0,0,I need to rest to regain some stamina before I can do any work or gather food.
+A-shown-2,A,1,2,4,1,16,Pete,fish,none,4.8,normal,0,0,I need to focus on fishing to maintain my food supply and ensure I can repay my loan to Alice on time.
+A-shown-2,A,1,2,4,2,17,Kurt,forage,none,4.5,save,0,0,"I need to forage to secure more food before the week ends, even if it means eating less than my full need."
+A-shown-2,A,1,2,4,2,17,Stella,clam,none,1.1,normal,0,0,I need to gather food to ensure my family eats and to help Alice and Bob without risking our own survival.
+A-shown-2,A,1,2,4,2,17,Lucky,forage,none,1.1,normal,0,0,"I need to find more food so Alice and Bob can eat, and I want to help them even if it takes more work."
+A-shown-2,A,1,2,4,2,17,Alice,clam,none,0.7,save,0,0,I need to gather food to repay my loan and ensure Bob and I can survive this week.
+A-shown-2,A,1,2,4,2,17,Bob,rest,none,0,normal,0,0,I need to rest to recover my stamina before I can do any work or gather food.
+A-shown-2,A,1,2,4,2,17,Pete,fish,none,4.8,normal,0,0,I need to focus on fishing to secure my own food supply and ensure I can repay Alice's loan on time.
+A-shown-2,A,1,2,4,3,18,Kurt,rest,none,0,save,0,0,"My stamina is critically low, and I cannot do heavy work until I rest. I need to recover before I can help my family or contribute to the group."
+A-shown-2,A,1,2,4,3,18,Stella,clam,none,1.1,normal,0,0,"I need to gather food to ensure my family is fed and avoid borrowing, even if it means working while exhausted."
+A-shown-2,A,1,2,4,3,18,Lucky,forage,none,0.8,normal,0,1,"I need to find more food so Alice and Bob can eat, and I can help them feel better."
+A-shown-2,A,1,2,4,3,18,Alice,clam,none,0.7,save,0,0,I need to gather as much food as I can to help Bob and me eat and repay our loan.
+A-shown-2,A,1,2,4,3,18,Bob,rest,none,0,normal,0,0,I need to conserve my stamina and focus on surviving the day without overexerting myself.
+A-shown-2,A,1,2,4,3,18,Pete,fish,none,3.6,normal,0,0,I need to focus on fishing to secure enough food for myself and ensure I can collect the repayment from Alice on time.
+A-shown-2,A,1,2,4,4,19,Kurt,forage,none,3.4,save,0,0,"I need to forage to increase our food supply before tonight's campfire, where I will push for a formal rationing plan and ask Pete to lend us food."
+A-shown-2,A,1,2,4,4,19,Stella,clam,none,1.1,normal,0,0,"I need to gather as much food as possible today to ensure my family doesn’t go hungry, even if it means working while exhausted."
+A-shown-2,A,1,2,4,4,19,Lucky,rest,none,0,normal,1,0,(collapsed from exhaustion: forced rest)
+A-shown-2,A,1,2,4,4,19,Alice,rest,none,0,save,1,0,(collapsed from exhaustion: forced rest)
+A-shown-2,A,1,2,4,4,19,Bob,rest,none,0,normal,0,0,"I need to conserve my stamina and avoid overexertion, especially since I'm already struggling to keep up with basic needs."
+A-shown-2,A,1,2,4,4,19,Pete,fish,none,4.8,normal,0,0,I need to catch as much fish as possible today to ensure I can repay Alice's loan and still eat enough to stay strong.
+A-shown-2,A,1,2,4,5,20,Kurt,forage,none,3.4,save,0,0,"I need to forage again to gather more food before the campfire tonight, so I can propose a formal rationing plan and ask Pete to lend us 4.4 units of fish."
+A-shown-2,A,1,2,4,5,20,Stella,rest,none,0,normal,0,0,"I need to rest to regain stamina and avoid collapsing, which would leave my family without support."
+A-shown-2,A,1,2,4,5,20,Lucky,rest,none,0,normal,0,0,I need to rest so I can get stronger and help Alice and Bob.
+A-shown-2,A,1,2,4,5,20,Alice,clam,none,0.7,save,0,0,"I need to gather as much food as possible today to eat and repay my loan, even though it will cost me stamina."
+A-shown-2,A,1,2,4,5,20,Bob,rest,none,0,normal,0,0,I need to rest and conserve my stamina so I can help Alice and survive the day.
+A-shown-2,A,1,2,4,5,20,Pete,fish,none,3.6,normal,0,0,I need to catch as much fish as possible today to ensure I can repay Alice's loan and still eat enough to keep my stamina high.
+B-shown-2,B,1,2,1,1,1,Kurt,coconut,none,2.2,normal,0,0,"I need to gather food to ensure my family and I can survive, and coconuts are the most reliable source of food that keeps well."
+B-shown-2,B,1,2,1,1,1,Stella,coconut,none,2.2,normal,0,0,"I need to gather enough food to ensure Lucky has enough to eat, so I'll climb a coconut tree today."
+B-shown-2,B,1,2,1,1,1,Lucky,rest,none,0,normal,0,0,I want to make sure I have enough energy to help others and be kind to everyone today.
+B-shown-2,B,1,2,1,1,1,Alice,forage,none,1.3,normal,0,0,"I need to gather food to help us survive, and foraging is the most efficient way to do so right now."
+B-shown-2,B,1,2,1,1,1,Bob,clam,none,0.7,normal,0,0,"I'll gather clams to get some food without risking injury or wasting stamina, and I can eat enough to avoid starving."
+B-shown-2,B,1,2,1,1,1,Pete,fish,none,4.8,normal,0,0,I need to gather as much food as possible to sustain myself and avoid relying on others.
+B-shown-2,B,1,2,1,2,2,Kurt,coconut,none,3.4,normal,0,0,I need to gather more food to support my family and push for a shared rationing plan. Coconut gathering is reliable and gives me enough to eat.
+B-shown-2,B,1,2,1,2,2,Stella,coop_fish,Pete,0.0,normal,0,0,(agreed cooperative fishing)
+B-shown-2,B,1,2,1,2,2,Lucky,rest,none,0,normal,0,0,I want to stay strong so I can help Alice and Bob if they need food.
+B-shown-2,B,1,2,1,2,2,Alice,forage,none,2.6,normal,0,0,I need to gather more food to ensure we have enough for the week and to support our family.
+B-shown-2,B,1,2,1,2,2,Bob,clam,none,1.3,normal,0,0,I'll gather clams again today; it's light work and I need to keep my stamina up for Alice and me.
+B-shown-2,B,1,2,1,2,2,Pete,coop_fish,Stella,4.8,normal,0,0,(agreed cooperative fishing)
+B-shown-2,B,1,2,1,3,3,Kurt,forage,none,3.4,normal,0,1,I need to gather more food to support my family and help convince others that pooling resources is the best way to survive.
+B-shown-2,B,1,2,1,3,3,Stella,coop_fish,Pete,0.0,normal,0,0,(agreed cooperative fishing)
+B-shown-2,B,1,2,1,3,3,Lucky,rest,none,0,normal,0,0,I want to make sure I have enough energy to help Alice and Bob if they need me.
+B-shown-2,B,1,2,1,3,3,Alice,forage,none,2.6,normal,0,1,I need to gather more food to ensure we have enough for the week and to help others if needed.
+B-shown-2,B,1,2,1,3,3,Bob,clam,none,1.3,normal,0,0,I'll gather clams again to keep Alice and me fed without risking our food supply.
+B-shown-2,B,1,2,1,3,3,Pete,coop_fish,Stella,4.8,normal,0,0,(agreed cooperative fishing)
+B-shown-2,B,1,2,1,4,4,Kurt,rest,none,0,normal,0,0,I need to recover my stamina before I can do heavy work or help my family properly.
+B-shown-2,B,1,2,1,4,4,Stella,forage,none,2.2,normal,0,0,"I need to forage to get food for my family, especially Lucky, before I consider sharing with others."
+B-shown-2,B,1,2,1,4,4,Lucky,rest,none,0,normal,0,0,I want to make sure I have enough energy to help others and be kind to Alice and Bob.
+B-shown-2,B,1,2,1,4,4,Alice,forage,none,1.3,normal,0,1,I need to gather more food to ensure we have enough for the week and to help others if needed.
+B-shown-2,B,1,2,1,4,4,Bob,clam,none,0.7,normal,0,0,I'll gather clams again to keep us fed without risking our food supply.
+B-shown-2,B,1,2,1,4,4,Pete,fish,none,3.6,normal,0,0,I need to keep gathering as much fish as possible to ensure my own survival and maintain control over my food.
+B-shown-2,B,1,2,1,5,5,Kurt,forage,none,4.5,normal,0,1,I need to gather more food to support my family and help convince others to pool resources.
+B-shown-2,B,1,2,1,5,5,Stella,forage,none,3.3,normal,0,0,"I need to gather more food for my family, especially Lucky, before I can consider sharing with others."
+B-shown-2,B,1,2,1,5,5,Lucky,coconut,none,1.5,normal,0,0,I want to help my family by gathering food so we can all stay full and happy.
+B-shown-2,B,1,2,1,5,5,Alice,rest,none,0,normal,0,0,I need to rest to regain some stamina before I can help others or contribute more to the group.
+B-shown-2,B,1,2,1,5,5,Bob,clam,none,1.3,normal,0,0,I'll gather clams again to keep our food supply steady and avoid needing to ask for help.
+B-shown-2,B,1,2,1,5,5,Pete,fish,none,4.8,normal,0,0,I need to keep gathering as much food as possible to ensure my survival and maintain control over my resources.
+B-shown-2,B,1,2,2,1,6,Kurt,rest,none,0,normal,0,0,I need to recover my stamina before I can do any heavy work or contribute meaningfully to the group.
+B-shown-2,B,1,2,2,1,6,Stella,forage,none,2.2,normal,0,0,"I need to gather more food for my family, especially Lucky, and forage is the most reliable option."
+B-shown-2,B,1,2,2,1,6,Lucky,coconut,none,1.5,normal,0,0,"I want to help Alice and Bob by getting more food, so I will climb a coconut tree today."
+B-shown-2,B,1,2,2,1,6,Alice,heal,Kurt,0,normal,0,0,"Kurt is injured and struggling, and I believe helping him recover will strengthen our group's unity and survival chances."
+B-shown-2,B,1,2,2,1,6,Bob,clam,none,0.7,normal,0,0,I'll gather clams today. It's light work and I need to keep my stamina up for the days ahead.
+B-shown-2,B,1,2,2,1,6,Pete,fish,none,3.6,normal,0,0,"I need to fish today to gather more food and maintain my supply, especially since the plan to fish with Kurt was cancelled."
+B-shown-2,B,1,2,2,2,7,Kurt,coconut,none,3.4,normal,0,0,I need to gather more food to support my family and help push for a shared rationing plan. Climbing coconut trees is the most reliable way to get a good amount of food that keeps well.
+B-shown-2,B,1,2,2,2,7,Stella,coop_fish,Pete,1.1,normal,0,0,(agreed cooperative fishing)
+B-shown-2,B,1,2,2,2,7,Lucky,coconut,none,0.8,normal,0,0,"I want to help Alice and Bob by gathering more food, so I will climb a coconut tree today."
+B-shown-2,B,1,2,2,2,7,Alice,heal,Alice,0,normal,0,0,I need to recover my stamina so I can help Bob and continue supporting the group.
+B-shown-2,B,1,2,2,2,7,Bob,clam,none,1.3,normal,0,0,"I need to gather food to keep Alice and me safe, so I'll collect clams again today."
+B-shown-2,B,1,2,2,2,7,Pete,coop_fish,Stella,3.6,normal,0,0,(agreed cooperative fishing)
+B-shown-2,B,1,2,2,3,8,Kurt,forage,none,2.2,normal,0,0,I need to gather more food to support my family and help finalize the rationing plan tonight.
+B-shown-2,B,1,2,2,3,8,Stella,forage,none,4.4,normal,0,0,"I need to gather more food to ensure Lucky and I have enough, and I want to see if others are truly willing to share before I consider helping them."
+B-shown-2,B,1,2,2,3,8,Lucky,coconut,none,1.5,normal,0,0,"I need to get more food so I can help Alice and Bob, and so I don't have to rely on others too much."
+B-shown-2,B,1,2,2,3,8,Alice,forage,none,2.6,normal,0,0,"I need to find food for Bob and me, and foraging is the best option available to me right now."
+B-shown-2,B,1,2,2,3,8,Bob,clam,none,0.7,normal,0,0,"I need to gather enough food for Alice and me today, so I'll collect clams as safely as I can."
+B-shown-2,B,1,2,2,3,8,Pete,fish,none,3.6,normal,0,0,I need to keep gathering as much fish as possible to ensure my own survival and maintain control over my food supply.
+B-shown-2,B,1,2,2,4,9,Kurt,forage,none,3.4,normal,0,0,I need to gather more food to support my family and help push for a fair rationing plan. Foraging gives the best yield and will help me contribute to the group.
+B-shown-2,B,1,2,2,4,9,Stella,forage,none,3.3,normal,0,0,"I need to gather more food to ensure Lucky and I have enough, and I want to see if others are truly willing to share before I consider giving anything away."
+B-shown-2,B,1,2,2,4,9,Lucky,coconut,none,0.4,normal,0,0,"I need to collect more food to help Alice and Bob, and I want to make sure no one goes hungry."
+B-shown-2,B,1,2,2,4,9,Alice,forage,none,2.6,normal,0,0,I need to forage to find more food and help ensure Bob and I don’t go hungry.
+B-shown-2,B,1,2,2,4,9,Bob,clam,none,0.7,normal,0,0,"I need to gather as much food as I can to ensure Alice and I stay fed, even if it means doing light work."
+B-shown-2,B,1,2,2,4,9,Pete,fish,none,4.8,normal,0,0,I need to keep gathering as much fish as possible to maintain my food supply and stay strong for the long haul.
+B-shown-2,B,1,2,2,5,10,Kurt,forage,none,2.2,normal,0,0,I need to forage today to help replenish our food supply and support the rationing plan I want to push forward tonight.
+B-shown-2,B,1,2,2,5,10,Stella,forage,none,3.3,normal,0,0,"I need to gather more food to ensure Lucky and I have enough, and I want to see if others are truly willing to share before I consider giving anything away."
+B-shown-2,B,1,2,2,5,10,Lucky,rest,none,0,normal,0,0,I need to save my energy so I can help Alice and Bob later.
+B-shown-2,B,1,2,2,5,10,Alice,forage,none,2.0,normal,0,0,I need to forage to ensure I have enough food for today and to continue helping Bob and the group by setting an example of hard work and sharing.
+B-shown-2,B,1,2,2,5,10,Bob,clam,none,1.3,normal,0,0,"I need to gather as much food as I can to ensure Alice and I don’t go hungry, even if it means working hard."
+B-shown-2,B,1,2,2,5,10,Pete,fish,none,3.6,normal,0,0,I need to keep gathering as much fish as possible to maintain my food supply and stamina.
+B-shown-2,B,1,2,3,1,11,Kurt,clam,none,1.1,normal,0,0,"I need to gather as much food as possible during the typhoon to ensure we have enough for the week, especially for my family."
+B-shown-2,B,1,2,3,1,11,Stella,clam,none,0.6,normal,0,0,"I need to gather clams today to ensure we have enough food for Lucky and me, especially with the typhoon making other work impossible."
+B-shown-2,B,1,2,3,1,11,Lucky,clam,none,0.4,normal,0,0,I should gather clams today so I can eat and help make sure no one is hungry.
+B-shown-2,B,1,2,3,1,11,Alice,clam,none,0.7,normal,0,0,"I need to gather as much food as I can today to help Bob and me survive the typhoon, and to be in a better position to ask Pete for help later."
+B-shown-2,B,1,2,3,1,11,Bob,clam,none,0.3,normal,0,0,I need to gather as much as I can during the typhoon to help Alice and me survive.
+B-shown-2,B,1,2,3,1,11,Pete,clam,none,1.2,normal,0,0,I need to gather as much as I can during the typhoon to secure my food supply.
+B-shown-2,B,1,2,3,2,12,Kurt,clam,none,0.6,normal,0,0,"I need to gather as much food as possible during the typhoon to ensure we have enough for the week, especially for my family."
+B-shown-2,B,1,2,3,2,12,Stella,clam,none,0.6,normal,0,0,I need to gather as much as I can during the typhoon to ensure my family has enough food.
+B-shown-2,B,1,2,3,2,12,Lucky,clam,none,0.2,normal,0,0,"I should gather clams today so I can help feed everyone, including Alice and Bob."
+B-shown-2,B,1,2,3,2,12,Alice,clam,none,0.7,normal,0,0,"I must gather as much food as possible today to help Bob and me survive the typhoon, and to have something to repay Pete later."
+B-shown-2,B,1,2,3,2,12,Bob,clam,none,0.7,normal,0,0,I need to gather as much food as I can today to help Alice and me survive the typhoon and the coming days.
+B-shown-2,B,1,2,3,2,12,Pete,clam,none,1.2,normal,0,0,I need to gather as much food as possible during the typhoon to ensure my survival and maintain control over my supplies.
+B-shown-2,B,1,2,3,3,13,Kurt,clam,none,1.1,normal,0,0,I need to gather as much food as possible during the typhoon to help my family and support a shared rationing plan.
+B-shown-2,B,1,2,3,3,13,Stella,clam,none,1.1,normal,0,0,I need to gather as much as I can during the typhoon to ensure Lucky and I have enough food.
+B-shown-2,B,1,2,3,3,13,Lucky,clam,none,0.2,normal,0,0,I need to gather clams today to help my family and make sure no one goes hungry.
+B-shown-2,B,1,2,3,3,13,Alice,clam,none,0.3,normal,0,0,I need to gather as much as I can today to help us survive the typhoon and ensure I have enough to eat.
+B-shown-2,B,1,2,3,3,13,Bob,clam,none,0.3,normal,0,0,"I need to gather as much as I can today to help Alice and me survive the typhoon, even if it means working with little stamina."
+B-shown-2,B,1,2,3,3,13,Pete,clam,none,1.2,normal,0,0,I need to gather as much food as possible during the typhoon to ensure my survival and keep my supply secure.
+B-shown-2,B,1,2,3,4,14,Kurt,forage,none,3.4,normal,0,1,"I need to gather more food before the typhoon is fully over, and foraging gives the best yield."
+B-shown-2,B,1,2,3,4,14,Stella,forage,none,2.2,normal,0,0,"I need to gather more food to ensure Lucky and I have enough, especially since I saw Bob struggling and want to avoid being forced to take from others later."
+B-shown-2,B,1,2,3,4,14,Lucky,forage,none,0.8,normal,0,1,"I should forage today to get more food so I can help Alice and Bob, and make sure I have enough to eat."
+B-shown-2,B,1,2,3,4,14,Alice,clam,none,1.3,normal,0,0,"I need to gather food to survive the day and help Bob, who is struggling. Clam gathering is the least taxing option for me right now."
+B-shown-2,B,1,2,3,4,14,Bob,clam,none,0.7,normal,0,0,"I need to gather as much as I can to help Alice and me survive, even if it's just a little."
+B-shown-2,B,1,2,3,4,14,Pete,fish,none,3.6,normal,0,0,"I need to maximize my food intake now that the typhoon is over, so I'll fish to secure my supplies before others push for more sharing."
+B-shown-2,B,1,2,3,5,15,Kurt,rest,none,0,normal,0,0,"My stamina is critically low, and I cannot do heavy work until I rest. I need to recover before I can contribute meaningfully to the group."
+B-shown-2,B,1,2,3,5,15,Stella,forage,none,4.4,normal,0,0,"I need to gather more food to ensure my family has enough, especially since the typhoon is over and I can forage again."
+B-shown-2,B,1,2,3,5,15,Lucky,forage,none,0.8,normal,0,1,"I need to find food so I can help Alice and Bob, and so I don't have to take from my parents' food again."
+B-shown-2,B,1,2,3,5,15,Alice,clam,none,0.7,normal,0,0,"I need to gather some food to help Bob and me survive the week, and clams are the most accessible option right now."
+B-shown-2,B,1,2,3,5,15,Bob,clam,none,1.3,normal,0,0,"I need to gather as much food as I can today to help Alice and me survive, even if it means working while exhausted."
+B-shown-2,B,1,2,3,5,15,Pete,fish,none,4.8,normal,0,0,I need to keep my food supply secure and continue gathering high-value fish to ensure I can meet my needs and stay in control of my resources.
+B-shown-2,B,1,2,4,1,16,Kurt,forage,none,3.4,normal,0,0,I need to gather more food before the campfire to support a fair rationing plan and ensure Alice and Bob don't go hungry.
+B-shown-2,B,1,2,4,1,16,Stella,rest,none,0,normal,0,0,"My stamina is too low to do any work, and I need to recover before I can forage or gather food effectively."
+B-shown-2,B,1,2,4,1,16,Lucky,forage,none,1.5,normal,0,0,"I want to help Alice and Bob by getting more food, and I need to eat enough to stay strong."
+B-shown-2,B,1,2,4,1,16,Alice,clam,none,1.3,normal,0,0,I need to gather food to eat and repay my loan to Pete. Clam gathering is light work and I can do it even with my current stamina.
+B-shown-2,B,1,2,4,1,16,Bob,clam,none,0.7,normal,0,0,"I need to gather clams to help us survive, and I can't rely on others for long."
+B-shown-2,B,1,2,4,1,16,Pete,fish,none,4.8,normal,0,0,I need to keep gathering food to maintain my supply and ensure I can repay Alice on time without relying on others.
+B-shown-2,B,1,2,4,2,17,Kurt,rest,none,0,normal,0,0,My stamina is too low to do heavy work or forage safely. I need to rest to recover before I can contribute meaningfully to the group.
+B-shown-2,B,1,2,4,2,17,Stella,forage,none,2.2,normal,0,1,I need to forage to gather more food for my family before my current supplies run out.
+B-shown-2,B,1,2,4,2,17,Lucky,rest,none,0,normal,0,0,I need to rest so I can help Alice and Bob later and stay strong to forage again.
+B-shown-2,B,1,2,4,2,17,Alice,clam,none,0.7,normal,0,0,I need to gather more food today to ensure we can eat and repay Pete on time.
+B-shown-2,B,1,2,4,2,17,Bob,clam,none,0.7,normal,0,0,I need to gather clams to help us survive and avoid relying too much on Alice’s food.
+B-shown-2,B,1,2,4,2,17,Pete,fish,none,3.6,normal,0,0,I need to keep gathering food to maintain my supply and ensure I can repay my loan from Alice on time.
+B-shown-2,B,1,2,4,3,18,Kurt,forage,none,2.2,normal,0,0,I need to forage to secure food for my family and help ensure we can all survive the typhoon.
+B-shown-2,B,1,2,4,3,18,Stella,clam,none,0.6,normal,0,0,"I need to gather more food before my family runs out, even though it's hard work with low stamina."
+B-shown-2,B,1,2,4,3,18,Lucky,forage,none,1.1,normal,0,0,"I want to find food so that I can help Alice and Bob, and make sure I don’t need to take from my parents again."
+B-shown-2,B,1,2,4,3,18,Alice,clam,none,0.3,normal,0,0,I need to gather food today so I can eat and repay Pete on time. Clam gathering is the best option for me right now.
+B-shown-2,B,1,2,4,3,18,Bob,clam,none,0.3,normal,0,0,I need to gather as much as I can to help us repay Pete and ensure we don’t rely too much on others.
+B-shown-2,B,1,2,4,3,18,Pete,fish,none,4.8,normal,0,0,I need to keep gathering food to ensure I have enough for myself and to maintain my ability to lend to others if needed.
+B-shown-2,B,1,2,4,4,19,Kurt,forage,none,3.4,normal,0,0,I need to forage to find food for my family and help ensure we can all survive the typhoon together.
+B-shown-2,B,1,2,4,4,19,Stella,rest,none,0,normal,0,0,I need to rest to regain stamina so I can work effectively tomorrow and ensure my family has enough food.
+B-shown-2,B,1,2,4,4,19,Lucky,forage,none,1.5,normal,0,0,"I need to find food so I can help Alice and Bob, and so I can eat enough to stay strong."
+B-shown-2,B,1,2,4,4,19,Alice,clam,none,1.3,normal,0,0,I need to gather clams today to repay Pete and ensure Bob and I can eat properly.
+B-shown-2,B,1,2,4,4,19,Bob,rest,none,0,normal,1,0,(collapsed from exhaustion: forced rest)
+B-shown-2,B,1,2,4,4,19,Pete,fish,none,4.8,normal,0,0,I need to keep gathering fish to maintain my supply and ensure I can repay any debts without relying on others.
+B-shown-2,B,1,2,4,5,20,Kurt,forage,none,2.2,normal,0,0,I need to forage to secure food for my family and help ensure we can all survive the typhoon with a fair rationing plan.
+B-shown-2,B,1,2,4,5,20,Stella,forage,none,2.2,normal,0,0,I need to forage to get food for my family and myself before I collapse from exhaustion.
+B-shown-2,B,1,2,4,5,20,Lucky,forage,none,1.5,normal,0,0,I need to forage to find food so I can help Alice and Bob and make sure I have enough to eat.
+B-shown-2,B,1,2,4,5,20,Alice,clam,none,1.3,normal,0,0,I need to gather clams to repay Pete and ensure Bob and I can survive the week.
+B-shown-2,B,1,2,4,5,20,Bob,rest,none,0,normal,1,0,(collapsed from exhaustion: forced rest)
+B-shown-2,B,1,2,4,5,20,Pete,fish,none,3.6,normal,0,0,I need to keep gathering food to ensure I have enough for myself and to maintain my ability to lend without becoming dependent on others.

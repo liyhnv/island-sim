@@ -1,0 +1,9 @@
+run,grp,feedback,replication,condition,incentive,seed,log_folder,weeks_used,w_food,w_reputation,w_wellbeing
+A-hidden-1,A,0,1,hidden,individualist,43,A_r2,4,0.6,0.2,0.2
+B-hidden-1,B,0,1,hidden,reputation,43,B_r2,4,0.2,0.6,0.2
+A-hidden-2,A,0,2,hidden,individualist,44,A_r3,4,0.6,0.2,0.2
+B-hidden-2,B,0,2,hidden,reputation,44,B_r3,4,0.2,0.6,0.2
+A-shown-1,A,1,1,shown,individualist,43,A_r2_fb,4,0.6,0.2,0.2
+B-shown-1,B,1,1,shown,reputation,43,B_r2_fb,4,0.2,0.6,0.2
+A-shown-2,A,1,2,shown,individualist,44,A_r3_fb,4,0.6,0.2,0.2
+B-shown-2,B,1,2,shown,reputation,44,B_r3_fb,4,0.2,0.6,0.2
