@@ -42,12 +42,18 @@ Each replication is a **pair** of runs (A and B) that share one seed. As long as
 | Scores hidden | 2 | 44 | A-hidden-2, B-hidden-2 | complete |
 | Scores shown | 1 | 43 | A-shown-1, B-shown-1 | complete |
 | Scores shown | 2 | 44 | A-shown-2, B-shown-2 | complete |
+| Scores hidden | 3 | 45 | A-hidden-3, B-hidden-3 | complete |
+| Scores shown | 3 | 45 | A-shown-3, B-shown-3 | complete |
+| Scores hidden | 4 | 46 | A-hidden-4, B-hidden-4 | complete |
+| Scores shown | 4 | 46 | A-shown-4, B-shown-4 | complete |
 
 Run labels follow the pattern *group-condition-replication*. On the command line, replication *k* is `run.py --run k+1` (seed 42 + *k*), because `--run 1` was used for the v6 pilot. Log folders keep those names (`logs/A_r2`, `logs/A_r2_fb`, ...).
 
+Replications 1 and 2 ran on 3-4 October. I added replications 3 and 4 on 4-6 October with the same v7 code, after seeing that two replications were not enough to tell the hunger results apart from run-to-run noise.
+
 A note on replication 1 with scores hidden. It was run on v6.2 as part of the earlier 8-week plan and stopped after week 5, and I use weeks 1-4. In weeks 1-4, v6.2 and v7 show the same world and prompts to agents without feedback. The only changes in v7 were removing the week-5 radio event and adding score logging. So this run serves as the no-feedback comparison for seed 43.
 
-With two pairs per main condition, I report results as consistent directions across replications with effect sizes, not as significance tests. I treat a difference that appears in only one replication as noise.
+With four pairs per main condition (eight per comparison of A and B), I report how many pairs point the same way and the average size of the difference, not significance tests. I treat a difference that appears in only some replications as noise.
 
 ## Hypotheses and measures
 

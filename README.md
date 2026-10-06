@@ -9,15 +9,17 @@ I want to know whether that one sentence changes sharing, lending, inequality an
 
 This repository is the second phase of a project that started with a modified [AI Town](https://github.com/a16z-infra/ai-town) (see the companion repository **[ai-town-island-research](https://github.com/liyhnv/ai_town_island_research)**, including [why the island scenario replaced AI Town's default personas](https://github.com/liyhnv/ai_town_island_research/blob/main/docs/01-baseline-problem.md#why-this-scenario-and-not-the-default-personas) in the first place). The turn-based design here borrows its time structure and reward design from **Agentopia: Long-Term Life Simulation and Learning in Agent Societies** ([arXiv:2606.07513](https://arxiv.org/abs/2606.07513)).
 
-> **Status (2026-10-04):** all eight main runs are complete (2 groups x 2 feedback conditions x 2 replications) and analysed. Results: [`docs/09-results.md`](docs/09-results.md). Interactive dashboard: [Tableau Public](https://public.tableau.com/app/profile/yihan.li4388/viz/IslandSurvivalIncentives/IslandSurvivalOverview).
+> **Status (2026-10-06):** all sixteen main runs are complete (2 groups x 2 feedback conditions x 4 replications) and analysed. Results: [`docs/09-results.md`](docs/09-results.md). Interactive dashboard: [Tableau Public](https://public.tableau.com/app/profile/yihan.li4388/viz/IslandSurvivalIncentives/IslandSurvivalOverview).
 
 ## Results in brief
 
-- **Score feedback mattered more than the rule alone.** When scores were shown, the weakest members (a child and an elderly couple) starved less under the reputation rule in both replications (10 vs 15 and 9 vs 16 starving days). When scores were hidden, the direction was mixed.
-- **A persona that conflicts with the rule changed its behaviour but kept its voice.** The self-reliant, food-rich agent never gave food under the individualist rule (0 of 4 runs) but did under the reputation rule (3 of 4), and more so when he saw his score. The reasons he gave stayed in persona.
-- **Small, consistent difference in inequality.** The Gini was lower in B in all four pairs, by 0.02-0.07. There was no difference in cross-family liking, and there were too few loans (5 in 8 runs) to test bargaining power.
+- **The reputation rule changed who gave food, not how much.** B agents gave about twice as much food to other households (5.5 vs 2.7 units per run, more in 6 of 8 pairs). The amounts were small, so the weakest members (a child and an elderly couple) went hungry just as often in A and B (16.4 vs 16.5 starving days per run), and inequality was the same (Gini 0.570 vs 0.575).
+- **A persona that conflicts with the rule changed its behaviour but kept its voice.** The self-reliant, food-rich agent gave food in 7 of 8 B runs and 2 of 8 A runs (34.5 vs 3.2 units in total). He still gave only a few units while holding 17-24 at the end of every run, and his stated reasons stayed in persona.
+- **Seeing one's score made no consistent difference.** After two replications it looked as if score feedback made the reputation rule protect the weakest. Replications 3 and 4 went the other way, so I dropped that claim.
+- There was no difference in cross-family liking, and there were too few loans (13 in 16 runs) to test bargaining power.
+- **What I take from it:** a goal written in words changed how agents talked and made small gestures, but the written persona capped how far behaviour moved. To judge an LLM agent, look at its actions, not its messages. More in [`docs/10-discussion.md`](docs/10-discussion.md).
 
-There are only two replications per cell, so these are consistent directions, not significance tests.
+With four replications per cell, these are consistent directions, not significance tests.
 
 ![Dashboard](results/figures/dashboard_scores_shown.png)
 
@@ -31,7 +33,7 @@ There are only two replications per cell, so these are consistent directions, no
 | Economy | 5 food types with different spoilage, per-action stamina costs, households that share food, gifts, barter, loans with interest and public default, cooperative fishing with a negotiated split |
 | Shock | Typhoon in week 3 (days 1-3: only clam gathering possible, forecast at the start of the week). Weeks 1-2 are the baseline and week 4 is the recovery |
 | Manipulations | (1) Scoring rule in the prompt: A = 0.6 economic / 0.2 social / 0.2 subjective; B = 0.2 / 0.6 / 0.2. (2) Score feedback: off, or each agent sees its own season score (total, rank, three parts) after every weekly review, never individual ratings |
-| Design | 2 x 2: scoring rule (A/B) x score feedback (hidden/shown), 2 replications each with paired seeds (43, 44). Runs are labelled e.g. `B-shown-2` |
+| Design | 2 x 2: scoring rule (A/B) x score feedback (hidden/shown), 4 replications each with paired seeds (43-46). Runs are labelled e.g. `B-shown-2` |
 | Logs | Every plan, message, action, trade, loan, gift, rating, persona update and model error, as JSON Lines |
 | Who decides what | The LLM only decides and talks. All outcomes (yields, injuries, spoilage, repayment) are computed by fixed rules from `config.yaml` and a seeded random generator |
 
@@ -98,6 +100,7 @@ python3 run.py --group B --run 2 --feedback --resume   # continue after a stop (
 python3 view_log.py A_r2 3                    # readable report of week 3
 python3 analysis/check_run.py logs/A_r2 logs/B_r2      # integrity checks
 python3 analysis/analyze.py logs/A_r2 logs/B_r2 --weeks 4   # outcome measures
+python3 analysis/export_tables.py --logs ../island_sim/logs   # all main runs -> data/tables/*.csv and island.db
 python3 calibrate.py
 ```
 

@@ -99,7 +99,7 @@ These are design decisions, not bug fixes. I made them after reading weeks 1-4 o
 | The life reward was only going to be computed after the run | The season score is computed after every weekly review and logged in `scores.jsonl` in every run, with or without feedback |
 | A first version scaled each part relative to the other agents (min-max), which turned tiny differences into large swings | Fixed 0-100 scales. Food is 50 + 5 x change in own food. Reputation is scaled so that an average agent scores 50. Well-being comes from fullness, stamina and belonging |
 
-This run (now labelled A/B-hidden-1) was stopped after week 5. Its weeks 1-4 are the no-feedback comparison for seed 43 (see [`04-experiment-design.md`](04-experiment-design.md)). The main runs with feedback (replications 2 and 3) use v7.
+This run (now labelled A/B-hidden-1) was stopped after week 5. Its weeks 1-4 are the no-feedback comparison for seed 43 (see [`04-experiment-design.md`](04-experiment-design.md)). All other main runs use v7: scores shown for replications 1 to 4, and scores hidden for replications 2 to 4. Replications 3 and 4 were added after the first eight runs, with no code changes.
 
 ---
 

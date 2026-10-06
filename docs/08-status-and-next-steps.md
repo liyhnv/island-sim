@@ -1,4 +1,4 @@
-# Status and Next Steps (as of 2026-10-04)
+# Status and Next Steps (as of 2026-10-06)
 
 ## Runs
 
@@ -12,17 +12,22 @@
 | A/B-shown-1 (`A_r2_fb`, `B_r2_fb`) | v7 | 43 | complete | main, scores shown |
 | A/B-hidden-2 (`A_r3`, `B_r3`) | v7 | 44 | complete | main, scores hidden |
 | A/B-shown-2 (`A_r3_fb`, `B_r3_fb`) | v7 | 44 | complete | main, scores shown |
+| A/B-hidden-3 (`A_r4`, `B_r4`) | v7 | 45 | complete | main, scores hidden |
+| A/B-shown-3 (`A_r4_fb`, `B_r4_fb`) | v7 | 45 | complete | main, scores shown |
+| A/B-hidden-4 (`A_r5`, `B_r5`) | v7 | 46 | complete | main, scores hidden |
+| A/B-shown-4 (`A_r5_fb`, `B_r5_fb`) | v7 | 46 | complete | main, scores shown |
 
-All eight main runs passed every rule check in [`06-validation.md`](06-validation.md). Fallback counts per run are in [`09-results.md`](09-results.md).
+All sixteen main runs passed every rule check in [`06-validation.md`](06-validation.md). Fallback counts per run are in [`09-results.md`](09-results.md).
 
 ## Next steps
 
 1. Read the passages flagged by the keyword proxies and code the stated reasons for every gift, loan offer and refusal. The text measures in `09-results.md` are keyword-based.
-2. Run a third replication per cell, to check whether the feedback effect on hunger holds.
-3. Publish the raw logs with a data dictionary.
-4. Test ways of making talk costly (action before words, reminders of past promises, formal pledges). See [`10-discussion.md`](10-discussion.md).
+2. Publish the raw logs with a data dictionary.
+3. Test ways of making talk costly (action before words, reminders of past promises, formal pledges). See [`10-discussion.md`](10-discussion.md).
 
 ## Possible extensions
+
+- Give the elderly couple a goal-type persona line ("make sure Alice does not go hungry this week") or show spoilage as a cost in the budget, to see whether hunger then responds to the scoring rule. In the current runs it follows the couple's own work and luck.
 
 - Repeat one replication pair with a larger or different model, to test how much of the observed behaviour depends on the model.
 - An 8-week, two-season version with a rescue announcement, to test the end-game hypothesis (H3) once the typhoon's after-effects can be separated from it.

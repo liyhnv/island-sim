@@ -1,8 +1,8 @@
 """
 Turn the raw run logs (JSON Lines) into clean, tidy tables for SQL and Tableau.
 
-  python3 analysis/export_tables.py ../island_sim/logs/A_r2:4 ../island_sim/logs/B_r2:4 \
-      ../island_sim/logs/A_r2_fb ../island_sim/logs/B_r2_fb --out data/tables
+  python3 analysis/export_tables.py --logs ../island_sim/logs        # every finished main run
+  python3 analysis/export_tables.py ../island_sim/logs/A_r2:4 ../island_sim/logs/A_r2_fb   # or list runs
 
 A run folder may end in ":N" to keep only weeks 1..N (used for the no-feedback run of
 replication 2, which ran longer than 4 weeks). Folder names tell the condition:
@@ -242,10 +242,29 @@ def recompute_scores(L, base, wts, R_by_week, weeks):
     return rows
 
 
+def discover(logs_dir):
+    """All finished main runs in a logs folder: A_rN / B_rN with or without _fb, N >= 2.
+    The first main replication without feedback (A_r2, B_r2) ran longer, so only weeks 1-4 are kept."""
+    specs = []
+    for name in sorted(os.listdir(logs_dir)):
+        m = re.fullmatch(r"[AB]_r(\d+)(_fb)?", name)
+        if not m or int(m.group(1)) < 2:
+            continue
+        path = os.path.join(logs_dir, name)
+        if not os.path.exists(os.path.join(path, "personas.jsonl")):
+            print(f"skipping {name}: not finished")
+            continue
+        specs.append(path + (":4" if m.group(1) == "2" and not m.group(2) else ""))
+    return specs
+
+
 def main():
     args = sys.argv[1:]
     out = args[args.index("--out") + 1] if "--out" in args else os.path.join(ROOT, "data", "tables")
-    specs = [a for i, a in enumerate(args) if not a.startswith("--") and (i == 0 or args[i - 1] != "--out")]
+    if "--logs" in args:
+        specs = discover(args[args.index("--logs") + 1])
+    else:
+        specs = [a for i, a in enumerate(args) if not a.startswith("--") and (i == 0 or args[i - 1] not in ("--out", "--logs"))]
     os.makedirs(out, exist_ok=True)
     T = defaultdict(list)
     for c in NAMES:
